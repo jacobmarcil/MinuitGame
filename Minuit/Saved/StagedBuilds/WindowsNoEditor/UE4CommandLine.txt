@@ -1,1 +1,0 @@
-../../../Minuit/Minuit.uproject  /Game/StarterContent/Maps/M_Master -Messaging -SessionId=F947EC7040BF876FE9E4DC8C59798A0A -SessionOwner=jacob000 -SessionName='Play On Device' -iterative
