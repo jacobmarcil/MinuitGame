@@ -1,4 +1,4 @@
-﻿Log file open, 10/01/15 14:51:16
+﻿Log file open, 10/05/15 15:34:55
 LogInit:Display: Running engine for game: Minuit
 LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
@@ -9,557 +9,738 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.7
 LogInit: Command line:  
 LogInit: Base directory: E:/Program Files/Unreal Engine/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.10.01-18.51.16:904][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.10.01-18.51.16:956][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.10.01-18.51.17:078][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.10.01-18.51.17:295][  0]LogInit: Object subsystem initialized
-[2015.10.01-18.51.17:426][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.10.01-18.51.17:426][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.10.01-18.51.17:426][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.10.01-18.51.17:426][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.10.01-18.51.17:426][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.10.01-18.51.17:426][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.10.01-18.51.17:466][  0]LogInit: Selected Device Profile: [Windows]
-[2015.10.01-18.51.17:467][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.10.01-18.51.17:569][  0]LogInit: Computer: ETT_
-[2015.10.01-18.51.17:569][  0]LogInit: User: ETt
-[2015.10.01-18.51.17:569][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.10.01-18.51.17:569][  0]LogInit: High frequency timer resolution =3.318417 MHz
-[2015.10.01-18.51.17:569][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
-[2015.10.01-18.51.17:570][  0]LogMemory: Platform Memory Stats for Windows
-[2015.10.01-18.51.17:570][  0]LogMemory: Process Physical Memory: 48.31 MB used, 48.31 MB peak
-[2015.10.01-18.51.17:570][  0]LogMemory: Process Virtual Memory: 27.92 MB used, 27.92 MB peak
-[2015.10.01-18.51.17:570][  0]LogMemory: Physical Memory: 2480.72 MB used, 8130.77 MB total
-[2015.10.01-18.51.17:570][  0]LogMemory: Virtual Memory: 282.00 MB used, 8388608.00 MB total
-[2015.10.01-18.51.17:655][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
-[2015.10.01-18.51.17:655][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
-[2015.10.01-18.51.17:655][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.10.01-18.51.17:660][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.10.01-18.51.17:668][  0]LogD3D11RHI: Async texture creation enabled
-[2015.10.01-18.51.18:914][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
-[2015.10.01-18.51.19:107][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+[2015.10.05-19.34.55:824][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.10.05-19.34.55:892][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.10.05-19.34.55:999][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.05-19.34.56:164][  0]LogInit: Object subsystem initialized
+[2015.10.05-19.34.56:237][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.10.05-19.34.56:237][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.05-19.34.56:237][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.10.05-19.34.56:237][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.05-19.34.56:237][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.10.05-19.34.56:237][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.05-19.34.56:279][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.05-19.34.56:279][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.05-19.34.56:432][  0]LogInit: Computer: ETT_
+[2015.10.05-19.34.56:432][  0]LogInit: User: ETt
+[2015.10.05-19.34.56:432][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.05-19.34.56:432][  0]LogInit: High frequency timer resolution =3.318427 MHz
+[2015.10.05-19.34.56:432][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.10.05-19.34.56:432][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.05-19.34.56:432][  0]LogMemory: Process Physical Memory: 48.28 MB used, 48.28 MB peak
+[2015.10.05-19.34.56:432][  0]LogMemory: Process Virtual Memory: 27.78 MB used, 27.78 MB peak
+[2015.10.05-19.34.56:432][  0]LogMemory: Physical Memory: 4392.42 MB used, 8130.77 MB total
+[2015.10.05-19.34.56:432][  0]LogMemory: Virtual Memory: 281.88 MB used, 8388608.00 MB total
+[2015.10.05-19.34.56:507][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2015.10.05-19.34.56:507][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.10.05-19.34.56:507][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.05-19.34.56:512][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.05-19.34.56:521][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.05-19.34.57:727][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.10.05-19.34.57:869][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
 Resource: (E:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
 Resource: (E:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
-[2015.10.01-18.51.19:143][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+[2015.10.05-19.34.57:869][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Resource: (E:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
 Resource: (E:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
-[2015.10.01-18.51.19:245][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.10.01-18.51.23:471][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.10.01-18.51.24:423][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.10.01-18.51.24:530][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.10.01-18.51.24:658][  0]LogDerivedDataCache: Loaded boot cache 0.13s 39MB C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.10.01-18.51.24:658][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.10.01-18.51.24:658][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../documents/3d/minuit/MinuitGame/Minuit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.10.01-18.51.24:658][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.10.01-18.51.24:821][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.10.01-18.51.24:832][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ETt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.10.01-18.51.33:063][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.10.01-18.51.33:063][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.10.01-18.51.36:098][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.10.01-18.51.36:419][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.10.01-18.51.49:906][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.10.01-18.51.50:606][  0]SourceControl: Info Source control is disabled
-[2015.10.01-18.51.50:612][  0]SourceControl: Info Source control is disabled
-[2015.10.01-18.51.50:612][  0]SourceControl: Info Source control is disabled
-[2015.10.01-18.51.50:612][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.10.01-18.51.50:613][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.10.01-18.51.50:623][  0]SourceControl: Info Source control is disabled
-[2015.10.01-18.51.51:570][  0]LogObj: 24232 objects as part of root set at end of initial load.
-[2015.10.01-18.51.51:570][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
-[2015.10.01-18.51.52:083][  0]LogEngine: Initializing Engine...
-[2015.10.01-18.51.55:687][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.10.01-18.51.55:713][  0]LogInit: FAudioDevice initialized.
-[2015.10.01-18.51.56:099][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.10.01-18.51.56:166][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.10.01-18.51.56:171][  0]LogInit: Texture streaming: Enabled
-[2015.10.01-18.51.56:667][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.10.01-18.51.56:668][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.10.01-18.51.56:668][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.10.01-18.51.56:679][  0]LogAnalytics: SetUserId 2d8f9b434cd97107b008209c3b4c51aa|e67cdf50177141fe8e020345bd104ee2|091128b7-7c0a-4bff-8890-6bc6add436c4
-[2015.10.01-18.51.56:703][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.10.01-18.51.56:831][  0]LogInit: Transaction tracking system initialized
-[2015.10.01-18.51.58:233][  0]BlueprintLog: New page: Editor Load
-[2015.10.01-18.51.58:410][  0]LogAssetRegistry: FAssetRegistry took 0.0730 seconds to start up
-[2015.10.01-18.51.58:410][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.10.01-18.52.01:211][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.10.01-18.52.01:532][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.10.01-18.52.03:947][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.10.01-18.52.03:947][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.10.01-18.52.04:148][  0]LogConsoleResponse:Display: 
-[2015.10.01-18.52.07:353][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.10.01-18.52.09:831][  0]SourceControl: Info Source control is disabled
-[2015.10.01-18.52.09:938][  0]Cmd: MAP LOAD FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.10.01-18.52.09:947][  0]LightingResults: New page: Lighting Build
-[2015.10.01-18.52.10:246][  0]MapCheck: New page: Map Check
-[2015.10.01-18.52.10:246][  0]LightingResults: New page: Lighting Build
-[2015.10.01-18.52.10:438][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013F52980
-[2015.10.01-18.52.19:834][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Grass.M_Grass needed to have new flag set bUsedWithInstancedStaticMeshes !
-[2015.10.01-18.52.19:836][  0]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
-[2015.10.01-18.52.19:922][  0]LogMaterial: 0.000325 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-18.52.19:923][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Plante1.M_Plante1 needed to have new flag set bUsedWithInstancedStaticMeshes !
-[2015.10.01-18.52.19:925][  0]LogMaterial: Missing cached shader map for material M_Plante1, compiling. 
-[2015.10.01-18.52.19:940][  0]LogMaterial: 0.000278 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-18.52.20:147][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.01-18.52.20:994][  0]LogAIModule: Creating AISystem for world M_Master
-[2015.10.01-18.52.21:019][  0]Cmd: MAP CHECKDEP
-[2015.10.01-18.52.21:044][  0]MapCheck: New page: M_Master - Oct 1, 2015, 10:52:21 AM
-[2015.10.01-18.52.21:175][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 155.462ms to complete.
-[2015.10.01-18.52.21:175][  0]LogFileHelpers: Loading map 'M_Master' took 11.296
-[2015.10.01-18.52.22:909][  0]LogCollectionManager: Loaded 0 collections in 0.001563 seconds
-[2015.10.01-18.52.22:936][  0]LogContentBrowser: Native class hierarchy populated in 0.0255 seconds. Added 1696 classes and 261 folders.
-[2015.10.01-18.52.23:092][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
-[2015.10.01-18.52.23:552][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.10.01-18.52.23:807][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.10.01-18.52.24:276][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.10.01-18.52.24:498][  0]LogLoad: Full Startup: 75.38 seconds (BP compile: 0.33 seconds)
-[2015.10.01-18.52.24:946][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
-[2015.10.01-18.52.25:626][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
-[2015.10.01-18.52.26:113][  0]LogRenderer:Warning: Reallocating scene render targets to support 1152x528 (Frame:3).
-[2015.10.01-18.52.26:663][  1]Cmd: UpdateLandscapeEditorData -warnings
-[2015.10.01-18.52.26:752][  1]Cmd: UpdateLandscapeEditorData
-[2015.10.01-18.52.28:647][  4]LogAssetRegistry: Asset discovery search completed in 30.3098 seconds
-[2015.10.01-19.05.54:696][246]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
-[2015.10.01-19.06.03:708][609]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../documents/3d/2015/Minuit/Textures/T_Window_D.tga)
-[2015.10.01-19.06.03:864][609]0.000028 seconds to analyze Texture2D /Game/FirstPersonBP/Textures/T_Window_D.T_Window_D
-
-[2015.10.01-19.06.03:876][609]LogTexture:Display: Building textures: T_Window_D (AutoDXT)
-[2015.10.01-19.06.04:282][609]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../documents/3d/2015/Minuit/Textures/T_Window_N.tga)
-[2015.10.01-19.06.04:294][609]0.000030 seconds to analyze Texture2D /Game/FirstPersonBP/Textures/T_Window_N.T_Window_N
-
-[2015.10.01-19.06.04:303][609]LogTexture:Display: Building textures: T_Window_N (BC5)
-[2015.10.01-19.06.04:401][609]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../documents/3d/2015/Minuit/Textures/T_Window_R.tga)
-[2015.10.01-19.06.04:503][609]0.000026 seconds to analyze Texture2D /Game/FirstPersonBP/Textures/T_Window_R.T_Window_R
-
-[2015.10.01-19.06.04:504][609]LogTexture:Display: Building textures: T_Window_R (AutoDXT)
-[2015.10.01-19.06.04:721][609]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../documents/3d/2015/Minuit/Textures/T_Window_S.tga)
-[2015.10.01-19.06.04:733][609]0.000038 seconds to analyze Texture2D /Game/FirstPersonBP/Textures/T_Window_S.T_Window_S
-
-[2015.10.01-19.06.04:734][609]LogTexture:Display: Building textures: T_Window_S (AutoDXT)
-[2015.10.01-19.06.04:930][609]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.10.01-19.06.04:930][609]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
-[2015.10.01-19.06.04:930][609]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
-[2015.10.01-19.06.04:930][609]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
-[2015.10.01-19.06.04:931][609]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
-[2015.10.01-19.06.08:967][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/T_Window_D" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Window_D.uasset" SILENT=true
-[2015.10.01-19.06.11:059][  1]LogSavePackage: Save=2090.267334ms
-[2015.10.01-19.06.11:059][  1]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_Window_D3817BEF24C3A84F671F472AC08A58343.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Window_D.uasset'
-[2015.10.01-19.06.11:076][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/T_Window_N" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Window_N.uasset" SILENT=true
-[2015.10.01-19.06.12:015][  1]LogSavePackage: Save=938.310364ms
-[2015.10.01-19.06.12:015][  1]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_Window_N63E4631D41703BAF582C13AA46400285.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Window_N.uasset'
-[2015.10.01-19.06.12:030][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/T_Window_R" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Window_R.uasset" SILENT=true
-[2015.10.01-19.06.12:483][  1]LogSavePackage: Save=451.659637ms
-[2015.10.01-19.06.12:483][  1]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_Window_R4080925D46204631599353BE1CCED20A.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Window_R.uasset'
-[2015.10.01-19.06.12:498][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/T_Window_S" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Window_S.uasset" SILENT=true
-[2015.10.01-19.06.12:950][  1]LogSavePackage: Save=451.230804ms
-[2015.10.01-19.06.12:950][  1]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_Window_SC598C984405E38508F44FD8CE6C53F0E.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Window_S.uasset'
-[2015.10.01-19.06.33:900][426]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
-[2015.10.01-19.06.38:196][823]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
-[2015.10.01-19.06.44:806][571]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.06.44:857][571]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.10.01-19.06.45:024][571]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.10.01-19.06.45:024][571]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2015.10.01-19.06.45:024][571]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.10.01-19.06.45:024][571]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2015.10.01-19.06.45:027][571]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.06.45:031][571]LogMaterial: 0.000152 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.06.45:964][615]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.10.01-19.06.45:964][615]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.10.01-19.06.45:964][615]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.10.01-19.06.59:275][961]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2015.10.01-19.07.21:115][887]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
-[2015.10.01-19.07.25:203][260]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.07.25:207][260]LogMaterial: 0.000252 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.07.25:207][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.10.01-19.07.25:232][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.10.01-19.07.25:242][260]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.07.25:246][260]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.07.25:247][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2015.10.01-19.07.25:303][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.10.01-19.07.25:305][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2015.10.01-19.07.25:313][260]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.07.25:317][260]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.07.25:318][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2015.10.01-19.07.25:345][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.10.01-19.07.25:347][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2015.10.01-19.07.25:348][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2015.10.01-19.07.25:357][260]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.07.25:361][260]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.07.25:362][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
-[2015.10.01-19.07.25:431][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.10.01-19.07.25:433][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2015.10.01-19.07.25:434][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2015.10.01-19.07.25:436][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
-[2015.10.01-19.07.26:557][352]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.10.01-19.07.26:557][352]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.10.01-19.07.26:557][352]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.10.01-19.07.30:540][707]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.07.30:544][707]LogMaterial: 0.000171 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.07.30:648][707]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.10.01-19.07.31:193][747]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
-[2015.10.01-19.07.31:193][747]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.10.01-19.07.31:193][747]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.10.01-19.07.34:902][ 87]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.07.34:906][ 87]LogMaterial: 0.000150 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.07.34:954][ 87]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2015.10.01-19.07.35:668][144]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2015.10.01-19.07.35:669][144]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.10.01-19.07.35:669][144]MaterialEditorStats: Info Texture samplers: 2/16
-[2015.10.01-19.07.42:692][780]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.07.42:696][780]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.07.42:734][780]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
-[2015.10.01-19.07.43:377][820]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
-[2015.10.01-19.07.43:377][820]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.10.01-19.07.43:377][820]MaterialEditorStats: Info Texture samplers: 3/16
-[2015.10.01-19.07.47:622][213]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.07.47:626][213]LogMaterial: 0.000153 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.07.47:673][213]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
-[2015.10.01-19.07.48:379][271]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
-[2015.10.01-19.07.48:379][271]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.10.01-19.07.48:379][271]MaterialEditorStats: Info Texture samplers: 4/16
-[2015.10.01-19.07.49:070][333]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.07.49:074][333]LogMaterial: 0.000139 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.07.50:021][395]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
-[2015.10.01-19.07.50:021][395]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.10.01-19.07.50:021][395]MaterialEditorStats: Info Texture samplers: 4/16
-[2015.10.01-19.07.53:016][679]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.07.53:020][679]LogMaterial: 0.000135 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.07.53:916][726]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
-[2015.10.01-19.07.53:917][726]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.10.01-19.07.53:917][726]MaterialEditorStats: Info Texture samplers: 4/16
-[2015.10.01-19.07.55:441][865]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.07.55:446][865]LogMaterial: 0.000117 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.07.56:343][926]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
-[2015.10.01-19.07.56:343][926]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.10.01-19.07.56:343][926]MaterialEditorStats: Info Texture samplers: 4/16
-[2015.10.01-19.08.01:430][410]LogMaterialEditor: Applying material M_Window
-[2015.10.01-19.08.02:634][410]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.08.02:649][410]LogMaterial: 0.000134 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.08.02:793][410]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.08.02:805][410]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.08.02:903][410]LogMaterial: 0.092845 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.08.05:290][537]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
-[2015.10.01-19.08.05:291][537]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.10.01-19.08.05:291][537]MaterialEditorStats: Info Texture samplers: 7/16
-[2015.10.01-19.08.06:212][626]LogMaterialEditor: Saving and Compiling material M_Window
-[2015.10.01-19.08.07:452][626]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.08.07:467][626]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.08.07:645][626]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.08.07:659][626]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.08.07:704][626]LogMaterial: 0.039520 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.08.09:323][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Window" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Window.uasset" SILENT=true
-[2015.10.01-19.08.09:549][626]LogSavePackage: Save=224.687561ms
-[2015.10.01-19.08.09:549][626]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Window6C9E185144F32FAA10FFED85DE13D055.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Window.uasset'
-[2015.10.01-19.08.31:977][298]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
-[2015.10.01-19.08.37:113][805]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles'
-[2015.10.01-19.08.37:524][835]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
-[2015.10.01-19.08.56:553][193]LogRenderer:Warning: Reallocating scene render targets to support 1384x688 (Frame:10825).
-[2015.10.01-19.08.56:632][194]LogRenderer:Warning: Reallocating scene render targets to support 1920x1040 (Frame:10827).
-[2015.10.01-19.09.17:661][147]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.09.17:675][147]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.09.17:680][147]LogMaterial: 0.000297 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.09.20:031][346]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 7 instructions
-[2015.10.01-19.09.20:031][346]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 7 instructions
-[2015.10.01-19.09.20:031][346]MaterialEditorStats: Info Vertex shader: 70 instructions
-[2015.10.01-19.09.20:031][346]MaterialEditorStats: Info Texture samplers: 3/16
-[2015.10.01-19.09.36:021][254]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.09.36:025][254]LogMaterial: 0.000173 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.09.37:611][382]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.09.37:616][382]LogMaterial: 0.000264 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.09.37:690][385]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 7 instructions
-[2015.10.01-19.09.37:690][385]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 7 instructions
-[2015.10.01-19.09.37:690][385]MaterialEditorStats: Info Vertex shader: 70 instructions
-[2015.10.01-19.09.37:690][385]MaterialEditorStats: Info Texture samplers: 3/16
-[2015.10.01-19.09.43:663][ 56]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.09.43:668][ 56]LogMaterial: 0.000214 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.09.45:582][238]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 7 instructions
-[2015.10.01-19.09.45:582][238]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 7 instructions
-[2015.10.01-19.09.45:582][238]MaterialEditorStats: Info Vertex shader: 70 instructions
-[2015.10.01-19.09.45:582][238]MaterialEditorStats: Info Texture samplers: 3/16
-[2015.10.01-19.09.46:388][334]LogMaterialEditor: Applying material M_Window
-[2015.10.01-19.09.47:599][334]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.09.47:616][334]LogMaterial: 0.000154 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.09.47:746][334]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.09.47:756][334]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.09.47:810][334]LogMaterial: 0.048364 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.09.52:248][680]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2015.10.01-19.09.52:248][680]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 81 instructions
-[2015.10.01-19.09.52:248][680]MaterialEditorStats: Info Vertex shader: 70 instructions
-[2015.10.01-19.09.52:249][680]MaterialEditorStats: Info Texture samplers: 6/16
-[2015.10.01-19.10.04:200][847]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.10.04:204][847]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.10.05:794][981]LogMaterialEditor: Applying material M_Window
-[2015.10.01-19.10.07:039][981]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.10.07:055][981]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.10.07:209][981]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.10.07:219][981]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.10.07:292][981]LogMaterial: 0.066963 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.10.09:518][ 86]LogMaterialEditor: Saving and Compiling material M_Window
-[2015.10.01-19.10.10:762][ 86]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.10.10:778][ 86]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.10.10:857][ 86]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.10.10:867][ 86]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.10.10:944][ 86]LogMaterial: 0.071857 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.10.15:451][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Window" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Window.uasset" SILENT=true
-[2015.10.01-19.10.15:615][ 86]LogSavePackage: Save=146.499969ms
-[2015.10.01-19.10.15:615][ 86]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Window610292F24FF1270CD2D1D9AE854F765A.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Window.uasset'
-[2015.10.01-19.10.15:640][ 87]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 41 instructions
-[2015.10.01-19.10.15:640][ 87]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 77 instructions
-[2015.10.01-19.10.15:640][ 87]MaterialEditorStats: Info Vertex shader: 70 instructions
-[2015.10.01-19.10.15:640][ 87]MaterialEditorStats: Info Texture samplers: 6/16
-[2015.10.01-19.10.24:687][ 53]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.10.24:699][ 53]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.10.24:703][ 53]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.10.25:348][111]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
-[2015.10.01-19.10.25:349][111]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.10.01-19.10.25:349][111]MaterialEditorStats: Info Texture samplers: 4/16
-[2015.10.01-19.10.26:171][209]LogMaterialEditor: Applying material M_Window
-[2015.10.01-19.10.27:392][209]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.10.27:407][209]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.10.27:524][209]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.10.27:535][209]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.10.27:627][209]LogMaterial: 0.085930 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.10.29:546][385]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
-[2015.10.01-19.10.29:546][385]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.10.01-19.10.29:546][385]MaterialEditorStats: Info Texture samplers: 7/16
-[2015.10.01-19.12.35:865][426]LogMaterialEditor: Saving and Compiling material M_Window
-[2015.10.01-19.12.37:057][426]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.12.37:071][426]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.12.37:186][426]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.12.37:197][426]LogMaterial: Missing cached shader map for material M_Window, compiling. 
-[2015.10.01-19.12.37:248][426]LogMaterial: 0.046196 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.10.01-19.12.39:149][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Window" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Window.uasset" SILENT=true
-[2015.10.01-19.12.39:397][426]LogSavePackage: Save=230.951691ms
-[2015.10.01-19.12.39:397][426]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Window23F54240404EF32E4A723090AF8070B4.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Window.uasset'
-[2015.10.01-19.13.50:408][187]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E846020
-[2015.10.01-19.13.51:741][187]LogSavePackage: Save=1156.645752ms
-[2015.10.01-19.13.51:741][187]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Master10A17766438F8023E3B624BE541A35F7.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap'
-[2015.10.01-19.13.52:043][187]LogFileHelpers: Saving map 'M_Master' took 1.578
-[2015.10.01-19.13.52:198][187]LogSavePackage: Save=11.588357ms
-[2015.10.01-19.13.52:198][187]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Maison9FEF134344574162681FDE87B9BD99AE.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Maison.umap'
-[2015.10.01-19.13.52:226][187]LogFileHelpers: Saving map 'M_Maison' took 0.181
-[2015.10.01-19.14.04:984][549]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.01-19.14.07:790][864]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.01-19.16.40:610][514]LogProperty:Warning: Illegal TEXT reference to a private object in external package (DirectionalLight /Game/StarterContent/Maps/M_Lighting.M_Lighting:PersistentLevel.DirectionalLight_3) from referencer (BP_Sky_Sphere_C /Game/StarterContent/Maps/M_Greybox.M_Greybox:PersistentLevel.SkySphere).  Import failed...
-[2015.10.01-19.16.46:830][234]LogProperty:Warning: Illegal TEXT reference to a private object in external package (DirectionalLight /Game/StarterContent/Maps/M_Lighting.M_Lighting:PersistentLevel.DirectionalLight_3) from referencer (BP_Sky_Sphere_C /Game/StarterContent/Maps/M_Greybox.M_Greybox:PersistentLevel.SkySphere).  Import failed...
-[2015.10.01-19.17.09:165][416]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.01-19.17.12:874][840]LogProperty:Warning: Illegal TEXT reference to a private object in external package (DirectionalLight /Game/StarterContent/Maps/M_Lighting.M_Lighting:PersistentLevel.DirectionalLight_3) from referencer (BP_Sky_Sphere_C /Game/StarterContent/Maps/M_Greybox.M_Greybox:PersistentLevel.SkySphere).  Import failed...
-[2015.10.01-19.19.10:802][654]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2015.10.01-19.20.12:912][634]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0017 seconds. Added 1 classes and 3 folders.
-[2015.10.01-19.20.27:359][763]LogEditorViewport: Clicking on Actor (LMB): ExponentialHeightFog (ExponentialHeightFog)
-[2015.10.01-19.21.10:008][973]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2015.10.01-19.21.13:610][326]LogSavePackage: Save=14.816100ms
-[2015.10.01-19.21.13:610][326]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Greybox3C2841CD4558825DA6CF3095BDB79BAE.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Greybox.umap'
-[2015.10.01-19.21.13:613][326]LogFileHelpers: Saving map 'M_Greybox' took 0.140
-[2015.10.01-19.21.13:751][326]LogSavePackage: Save=9.019059ms
-[2015.10.01-19.21.13:751][326]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_LightingED0212564654BAB9AF8DD08091FE3102.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Lighting.umap'
-[2015.10.01-19.21.13:780][326]LogFileHelpers: Saving map 'M_Lighting' took 0.165
-[2015.10.01-19.21.25:266][334]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
-[2015.10.01-19.21.35:941][498]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
-[2015.10.01-19.21.41:968][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Meshes/Maison/SM_Porte" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_Porte.uasset" SILENT=true
-[2015.10.01-19.21.42:254][ 27]LogSavePackage: Save=247.797073ms
-[2015.10.01-19.21.42:255][ 27]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_Porte63E34C9A4120DF8D651310A2A4A837FC.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_Porte.uasset'
-[2015.10.01-19.22.22:267][503]Cmd: DELETE
-[2015.10.01-19.22.22:267][503]Cmd: ACTOR DELETE
-[2015.10.01-19.22.22:432][503]LogEditorActor: Deleted Actor: Brush
-[2015.10.01-19.22.22:441][503]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E7EB6A0
-[2015.10.01-19.22.22:453][503]LogEditorActor: Deleted 1 Actors (0.025 secs)
-[2015.10.01-19.22.24:018][687]Cmd: TRANSACTION UNDO
-[2015.10.01-19.22.24:018][687]LogEditorTransaction: Undo Delete Actors
-[2015.10.01-19.22.28:218][998]Cmd: DELETE
-[2015.10.01-19.22.28:218][998]Cmd: ACTOR DELETE
-[2015.10.01-19.22.28:222][998]LogEditorActor: Deleted Actor: Brush
-[2015.10.01-19.22.28:235][998]LogEditorActor: Deleted 1 Actors (0.017 secs)
-[2015.10.01-19.25.15:081][793]LogSavePackage: Save=1149.939575ms
-[2015.10.01-19.25.15:081][793]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Master72F33449449AE9F4E1F1CFA6C15FC078.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap'
-[2015.10.01-19.25.15:136][793]LogFileHelpers: Saving map 'M_Master' took 1.350
-[2015.10.01-19.25.37:296][376]Cmd: QUIT_EDITOR
-[2015.10.01-19.25.37:542][376]LogExit: Preparing to exit.
-[2015.10.01-19.25.38:356][376]LogExit: Editor shut down
-[2015.10.01-19.25.38:356][376]LogExit: Transaction tracking system shut down
-[2015.10.01-19.25.38:357][376]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E328860
-[2015.10.01-19.25.38:362][376]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000238EC540
-[2015.10.01-19.25.38:362][376]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023AA93A0
-[2015.10.01-19.25.38:362][376]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025667600
-[2015.10.01-19.25.38:642][376]LogExit: Object subsystem successfully closed.
-[2015.10.01-19.25.38:759][376]LogModuleManager: Shutting down and abandoning module LauncherServices (181)
-[2015.10.01-19.25.38:759][376]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (180)
-[2015.10.01-19.25.38:759][376]LogModuleManager: Shutting down and abandoning module WorldBrowser (179)
-[2015.10.01-19.25.38:760][376]LogModuleManager: Shutting down and abandoning module MaterialEditor (178)
-[2015.10.01-19.25.38:760][376]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
-[2015.10.01-19.25.38:760][376]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
-[2015.10.01-19.25.38:760][376]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
-[2015.10.01-19.25.38:760][376]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
-[2015.10.01-19.25.38:760][376]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
-[2015.10.01-19.25.38:768][376]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
-[2015.10.01-19.25.38:768][376]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
-[2015.10.01-19.25.38:768][376]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
-[2015.10.01-19.25.38:785][376]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
-[2015.10.01-19.25.38:785][376]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
-[2015.10.01-19.25.38:785][376]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
-[2015.10.01-19.25.38:785][376]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
-[2015.10.01-19.25.38:785][376]LogModuleManager: Shutting down and abandoning module BspMode (165)
-[2015.10.01-19.25.38:785][376]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
-[2015.10.01-19.25.38:785][376]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
-[2015.10.01-19.25.38:785][376]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
-[2015.10.01-19.25.38:785][376]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
-[2015.10.01-19.25.38:785][376]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
-[2015.10.01-19.25.38:785][376]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
-[2015.10.01-19.25.38:785][376]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
-[2015.10.01-19.25.38:791][376]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
-[2015.10.01-19.25.38:791][376]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
-[2015.10.01-19.25.38:791][376]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
-[2015.10.01-19.25.38:791][376]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
-[2015.10.01-19.25.38:791][376]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
-[2015.10.01-19.25.38:791][376]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
-[2015.10.01-19.25.38:791][376]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
-[2015.10.01-19.25.38:791][376]LogModuleManager: Shutting down and abandoning module XmlParser (150)
-[2015.10.01-19.25.38:791][376]LogModuleManager: Shutting down and abandoning module Blutility (149)
-[2015.10.01-19.25.38:791][376]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
-[2015.10.01-19.25.38:791][376]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
-[2015.10.01-19.25.38:791][376]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
-[2015.10.01-19.25.39:228][376]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
-[2015.10.01-19.25.39:228][376]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
-[2015.10.01-19.25.39:228][376]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
-[2015.10.01-19.25.39:228][376]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
-[2015.10.01-19.25.39:228][376]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
-[2015.10.01-19.25.39:242][376]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
-[2015.10.01-19.25.39:242][376]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
-[2015.10.01-19.25.39:250][376]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
-[2015.10.01-19.25.39:250][376]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
-[2015.10.01-19.25.39:250][376]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
-[2015.10.01-19.25.39:262][376]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
-[2015.10.01-19.25.39:262][376]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
-[2015.10.01-19.25.39:262][376]LogModuleManager: Shutting down and abandoning module AutomationController (133)
-[2015.10.01-19.25.39:262][376]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
-[2015.10.01-19.25.39:275][376]LogModuleManager: Shutting down and abandoning module Layers (131)
-[2015.10.01-19.25.39:296][376]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
-[2015.10.01-19.25.39:296][376]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
-[2015.10.01-19.25.39:296][376]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
-[2015.10.01-19.25.39:296][376]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
-[2015.10.01-19.25.39:325][376]LogModuleManager: Shutting down and abandoning module Persona (126)
-[2015.10.01-19.25.39:339][376]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
-[2015.10.01-19.25.39:350][376]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
-[2015.10.01-19.25.39:351][376]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.10.01-19.25.39:351][376]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.10.01-19.25.39:351][376]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.10.01-19.25.39:351][376]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.10.01-19.25.39:351][376]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.10.01-19.25.39:368][376]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.10.01-19.25.39:375][376]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.10.01-19.25.39:375][376]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.10.01-19.25.39:387][376]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.10.01-19.25.39:387][376]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.10.01-19.25.39:387][376]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.10.01-19.25.39:387][376]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.10.01-19.25.39:387][376]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.10.01-19.25.39:387][376]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.10.01-19.25.39:387][376]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.10.01-19.25.39:387][376]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
-[2015.10.01-19.25.39:387][376]LogModuleManager: Shutting down and abandoning module AIModule (107)
-[2015.10.01-19.25.39:387][376]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
-[2015.10.01-19.25.39:487][376]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
-[2015.10.01-19.25.39:502][376]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.10.01-19.25.39:502][376]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.10.01-19.25.39:502][376]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.10.01-19.25.39:502][376]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.10.01-19.25.39:502][376]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.10.01-19.25.39:521][376]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.10.01-19.25.39:532][376]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.10.01-19.25.39:532][376]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.10.01-19.25.39:532][376]LogModuleManager: Shutting down and abandoning module MainFrame (96)
-[2015.10.01-19.25.39:532][376]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
-[2015.10.01-19.25.39:532][376]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
-[2015.10.01-19.25.39:532][376]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
-[2015.10.01-19.25.39:532][376]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.10.01-19.25.39:532][376]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
-[2015.10.01-19.25.39:532][376]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
-[2015.10.01-19.25.39:532][376]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
-[2015.10.01-19.25.39:532][376]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
-[2015.10.01-19.25.39:543][376]LogModuleManager: Shutting down and abandoning module SourceControl (87)
-[2015.10.01-19.25.39:543][376]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
-[2015.10.01-19.25.39:543][376]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
-[2015.10.01-19.25.39:543][376]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
-[2015.10.01-19.25.39:543][376]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
-[2015.10.01-19.25.39:543][376]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.10.01-19.25.39:544][376]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.10.01-19.25.39:544][376]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
-[2015.10.01-19.25.39:549][376]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
-[2015.10.01-19.25.39:649][376]LogModuleManager: Shutting down and abandoning module Paper2D (78)
-[2015.10.01-19.25.39:649][376]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
-[2015.10.01-19.25.39:651][376]LogModuleManager: Shutting down and abandoning module Media (76)
-[2015.10.01-19.25.39:651][376]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
-[2015.10.01-19.25.39:652][376]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2015.10.01-19.25.39:652][376]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
-[2015.10.01-19.25.39:652][376]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
-[2015.10.01-19.25.39:673][376]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
-[2015.10.01-19.25.39:673][376]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
-[2015.10.01-19.25.39:691][376]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
-[2015.10.01-19.25.39:691][376]LogModuleManager: Shutting down and abandoning module MessageLog (68)
-[2015.10.01-19.25.39:691][376]LogModuleManager: Shutting down and abandoning module Sequencer (67)
-[2015.10.01-19.25.39:709][376]LogModuleManager: Shutting down and abandoning module AssetTools (66)
-[2015.10.01-19.25.39:726][376]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
-[2015.10.01-19.25.39:741][376]LogModuleManager: Shutting down and abandoning module UMG (64)
-[2015.10.01-19.25.39:755][376]LogModuleManager: Shutting down and abandoning module Slate (63)
-[2015.10.01-19.25.39:755][376]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
-[2015.10.01-19.25.39:758][376]LogModuleManager: Shutting down and abandoning module SessionServices (61)
-[2015.10.01-19.25.39:758][376]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
-[2015.10.01-19.25.39:758][376]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
-[2015.10.01-19.25.39:758][376]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
-[2015.10.01-19.25.39:758][376]LogModuleManager: Shutting down and abandoning module Networking (56)
-[2015.10.01-19.25.39:758][376]LogModuleManager: Shutting down and abandoning module Core (55)
-[2015.10.01-19.25.39:758][376]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
-[2015.10.01-19.25.39:758][376]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
-[2015.10.01-19.25.39:758][376]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
-[2015.10.01-19.25.39:769][376]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
-[2015.10.01-19.25.39:829][376]LogDerivedDataCache: Shutdown
-[2015.10.01-19.25.39:829][376]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
-[2015.10.01-19.25.39:843][376]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
-[2015.10.01-19.25.39:843][376]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module Messaging (34)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2015.10.01-19.25.39:851][376]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2015.10.01-19.25.39:852][376]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2015.10.01-19.25.39:852][376]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2015.10.01-19.25.39:852][376]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2015.10.01-19.25.39:852][376]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2015.10.01-19.25.39:852][376]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2015.10.01-19.25.39:852][376]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.10.01-19.25.39:852][376]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.10.01-19.25.39:852][376]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.10.01-19.25.39:852][376]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.10.01-19.25.39:852][376]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.10.01-19.25.39:852][376]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.10.01-19.25.39:852][376]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.10.01-19.25.39:852][376]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.10.01-19.25.39:852][376]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.10.01-19.25.39:852][376]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.10.01-19.25.39:853][376]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.10.01-19.25.39:853][376]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.10.01-19.25.39:853][376]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.10.01-19.25.39:853][376]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.10.01-19.25.39:853][376]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.10.01-19.25.39:853][376]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.10.01-19.25.39:863][376]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.10.01-19.25.39:863][376]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.10.01-19.25.39:863][376]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.10.01-19.25.39:877][376]LogExit: Exiting.
-[2015.10.01-19.25.39:891][376]Log file closed, 10/01/15 15:25:39
+[2015.10.05-19.34.57:974][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.05-19.35.02:528][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.05-19.35.03:376][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.05-19.35.03:484][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.05-19.35.03:627][  0]LogDerivedDataCache: Loaded boot cache 0.14s 39MB C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.10.05-19.35.03:627][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.10.05-19.35.03:627][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../documents/3d/minuit/MinuitGame/Minuit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.05-19.35.03:627][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.05-19.35.03:797][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.05-19.35.03:809][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ETt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.05-19.35.09:644][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.05-19.35.09:644][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.05-19.35.12:395][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.05-19.35.12:717][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.10.05-19.35.25:818][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.05-19.35.26:524][  0]SourceControl: Info Source control is disabled
+[2015.10.05-19.35.26:532][  0]SourceControl: Info Source control is disabled
+[2015.10.05-19.35.26:532][  0]SourceControl: Info Source control is disabled
+[2015.10.05-19.35.26:532][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.10.05-19.35.26:532][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.10.05-19.35.26:543][  0]SourceControl: Info Source control is disabled
+[2015.10.05-19.35.27:419][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.10.05-19.35.27:419][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2015.10.05-19.35.27:935][  0]LogEngine: Initializing Engine...
+[2015.10.05-19.35.30:459][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.05-19.35.30:484][  0]LogInit: FAudioDevice initialized.
+[2015.10.05-19.35.30:895][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.05-19.35.30:957][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.10.05-19.35.30:960][  0]LogInit: Texture streaming: Enabled
+[2015.10.05-19.35.31:505][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.05-19.35.31:505][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.10.05-19.35.31:505][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.10.05-19.35.31:506][  0]LogAnalytics: SetUserId 2d8f9b434cd97107b008209c3b4c51aa|e67cdf50177141fe8e020345bd104ee2|091128b7-7c0a-4bff-8890-6bc6add436c4
+[2015.10.05-19.35.31:524][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.10.05-19.35.31:710][  0]LogInit: Transaction tracking system initialized
+[2015.10.05-19.35.34:478][  0]BlueprintLog: New page: Editor Load
+[2015.10.05-19.35.34:962][  0]LogAssetRegistry: FAssetRegistry took 0.1507 seconds to start up
+[2015.10.05-19.35.34:963][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.10.05-19.35.38:948][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.05-19.35.39:331][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.05-19.35.42:101][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.10.05-19.35.42:145][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.10.05-19.35.42:404][  0]LogConsoleResponse:Display: 
+[2015.10.05-19.35.46:423][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.05-19.35.48:985][  0]SourceControl: Info Source control is disabled
+[2015.10.05-19.35.49:076][  0]Cmd: MAP LOAD FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.05-19.35.49:180][  0]LightingResults: New page: Lighting Build
+[2015.10.05-19.35.49:484][  0]MapCheck: New page: Map Check
+[2015.10.05-19.35.49:484][  0]LightingResults: New page: Lighting Build
+[2015.10.05-19.35.49:784][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011E62980
+[2015.10.05-19.35.58:464][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Grass.M_Grass needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2015.10.05-19.35.58:466][  0]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2015.10.05-19.35.58:572][  0]LogMaterial: 0.000283 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.05-19.35.58:574][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Plante1.M_Plante1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2015.10.05-19.35.58:576][  0]LogMaterial: Missing cached shader map for material M_Plante1, compiling. 
+[2015.10.05-19.35.58:594][  0]LogMaterial: 0.000262 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.05-19.35.58:743][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.05-19.36.00:206][  0]LogAIModule: Creating AISystem for world M_Master
+[2015.10.05-19.36.00:224][  0]Cmd: MAP CHECKDEP
+[2015.10.05-19.36.00:240][  0]MapCheck: New page: M_Master - Oct 5, 2015, 11:36:00 AM
+[2015.10.05-19.36.00:398][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 174.054ms to complete.
+[2015.10.05-19.36.00:398][  0]LogFileHelpers: Loading map 'M_Master' took 11.364
+[2015.10.05-19.36.02:357][  0]LogCollectionManager: Loaded 0 collections in 0.001682 seconds
+[2015.10.05-19.36.02:381][  0]LogContentBrowser: Native class hierarchy populated in 0.0238 seconds. Added 1696 classes and 261 folders.
+[2015.10.05-19.36.02:597][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2015.10.05-19.36.08:547][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.05-19.36.08:754][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.10.05-19.36.08:873][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.05-19.36.09:036][  0]LogLoad: Full Startup: 81.33 seconds (BP compile: 0.39 seconds)
+[2015.10.05-19.36.09:867][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.10.05-19.36.11:624][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.10.05-19.36.12:235][  0]LogRenderer:Warning: Reallocating scene render targets to support 1152x528 (Frame:3).
+[2015.10.05-19.36.12:757][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.10.05-19.36.12:873][  1]Cmd: UpdateLandscapeEditorData
+[2015.10.05-19.36.14:236][  5]LogAssetRegistry: Asset discovery search completed in 39.4240 seconds
+[2015.10.05-19.36.48:314][558]LogFactory: FactoryCreateBinary: StaticMesh with SpeedTreeImportFactory (0 0 ../../../../../SpeedTree for Unreal Engine 4 Subscription v7.1.2/samples/trees/Test.srt)
+[2015.10.05-19.36.53:748][558]LogTexture:Display: Building textures: ConiferBark_Tex (AutoDXT)
+[2015.10.05-19.36.54:662][558]LogTexture:Display: Building textures: ConiferBark_Normal_Tex (BC5)
+[2015.10.05-19.36.54:809][558]LogMaterial: Missing cached shader map for material Test_Branches_Mat, compiling. 
+[2015.10.05-19.36.54:901][558]LogMaterial: Missing cached shader map for material Test_Branches_2_Mat, compiling. 
+[2015.10.05-19.36.55:017][558]LogTexture:Display: Building textures: Test_Atlas_Tex (AutoDXT)
+[2015.10.05-19.36.55:515][558]LogTexture:Display: Building textures: Test_Atlas_Normal_Tex (BC5)
+[2015.10.05-19.36.55:669][558]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions01/SpeedTree/SpeedTreeColorVariation.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.05-19.36.55:699][558]LogMaterial: Missing cached shader map for material Test_Leaves_Mat, compiling. 
+[2015.10.05-19.36.55:801][558]LogMaterial: Missing cached shader map for material Test_Fronds_Mat, compiling. 
+[2015.10.05-19.36.55:872][558]LogStaticMesh: Building static mesh Test...
+[2015.10.05-19.36.56:000][558]LogStaticMesh: Built static mesh [127.915428ms] /Game/StarterContent/Materials/Test.Test
+[2015.10.05-19.36.56:088][558]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.10.05-19.36.56:088][558]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.10.05-19.37.05:664][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Forest'
+[2015.10.05-19.37.11:915][541]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.10.05-19.37.41:688][762]LogActorFactory: Actor Factory created Test
+[2015.10.05-19.37.41:697][762]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.05-19.37.41:697][762]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.05-19.37.42:540][825]LogActorFactory: Actor Factory created Test
+[2015.10.05-19.37.42:806][825]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.05-19.37.42:806][825]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.05-19.37.49:264][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
+[2015.10.05-19.37.54:977][904]LogRenderer:Warning: Reallocating scene render targets to support 1352x656 (Frame:5486).
+[2015.10.05-19.37.55:055][905]LogRenderer:Warning: Reallocating scene render targets to support 1920x1040 (Frame:5489).
+[2015.10.05-19.38.01:851][495]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.10.05-19.38.02:401][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Test)
+[2015.10.05-19.38.04:947][798]Cmd: DELETE
+[2015.10.05-19.38.04:947][798]Cmd: ACTOR DELETE
+[2015.10.05-19.38.04:976][798]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.05-19.38.05:043][798]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2015.10.05-19.38.20:846][809]LogMaterial: Missing cached shader map for material Test_Leaves_Mat, compiling. 
+[2015.10.05-19.38.20:846][809]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Test_Leaves_Mat.Test_Leaves_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.05-19.38.20:846][809]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.05-19.38.20:856][809]LogMaterial: Missing cached shader map for material Test_Leaves_Mat, compiling. 
+[2015.10.05-19.38.20:857][809]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Test_Leaves_Mat.Test_Leaves_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.05-19.38.20:857][809]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.05-19.38.20:860][809]LogMaterial: Missing cached shader map for material Test_Fronds_Mat, compiling. 
+[2015.10.05-19.38.20:860][809]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Test_Fronds_Mat.Test_Fronds_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.05-19.38.20:861][809]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.05-19.38.20:863][809]LogMaterial: Missing cached shader map for material Test_Fronds_Mat, compiling. 
+[2015.10.05-19.38.20:863][809]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/Test_Fronds_Mat.Test_Fronds_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.05-19.38.20:863][809]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.05-19.38.24:139][127]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Forest'
+[2015.10.05-19.38.27:525][469]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Forest'
+[2015.10.05-19.38.35:487][414]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Forest/Speedtree'
+[2015.10.05-19.38.43:040][841]LogFactory: FactoryCreateBinary: StaticMesh with SpeedTreeImportFactory (0 0 ../../../../../SpeedTree for Unreal Engine 4 Subscription v7.1.2/samples/trees/Test.srt)
+[2015.10.05-19.38.48:725][841]LogTexture:Display: Building textures: ConiferBark_Tex (AutoDXT)
+[2015.10.05-19.38.49:657][841]LogTexture:Display: Building textures: ConiferBark_Normal_Tex (BC5)
+[2015.10.05-19.38.49:803][841]LogMaterial: Missing cached shader map for material Test_Branches_Mat, compiling. 
+[2015.10.05-19.38.49:937][841]LogMaterial: Missing cached shader map for material Test_Branches_2_Mat, compiling. 
+[2015.10.05-19.38.50:000][841]LogTexture:Display: Building textures: Test_Atlas_Tex (AutoDXT)
+[2015.10.05-19.38.50:557][841]LogTexture:Display: Building textures: Test_Atlas_Normal_Tex (BC5)
+[2015.10.05-19.38.50:742][841]LogMaterial: Missing cached shader map for material Test_Leaves_Mat, compiling. 
+[2015.10.05-19.38.50:872][841]LogMaterial: Missing cached shader map for material Test_Fronds_Mat, compiling. 
+[2015.10.05-19.38.50:970][841]LogStaticMesh: Building static mesh Test...
+[2015.10.05-19.38.51:235][841]LogStaticMesh: Built static mesh [265.075592ms] /Game/FirstPersonBP/Meshes/Forest/Speedtree/Test.Test
+[2015.10.05-19.38.51:351][841]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.10.05-19.38.51:352][841]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Forest/Speedtree'
+[2015.10.05-19.38.53:364][873]LogActorFactory: Actor Factory created Test
+[2015.10.05-19.38.53:366][873]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.05-19.38.53:366][873]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.05-19.38.56:055][957]LogActorFactory: Actor Factory created Test
+[2015.10.05-19.38.56:091][957]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.05-19.38.56:091][957]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.05-19.38.59:316][ 74]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.10.05-19.39.02:421][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Test)
+[2015.10.05-19.39.03:415][264]Cmd: DELETE
+[2015.10.05-19.39.03:415][264]Cmd: ACTOR DELETE
+[2015.10.05-19.39.03:419][264]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.05-19.39.03:439][264]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2015.10.05-19.39.09:317][764]LogSavePackage: Save=521.144531ms
+[2015.10.05-19.39.09:317][764]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/ConiferBark_Normal_TexB0BE957C42D1D332AA7747A757DE930F.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/Speedtree/ConiferBark_Normal_Tex.uasset'
+[2015.10.05-19.39.09:944][764]LogSavePackage: Save=615.458740ms
+[2015.10.05-19.39.09:944][764]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/ConiferBark_TexB1B04AE64824667295BEEBA0BABE7D81.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/Speedtree/ConiferBark_Tex.uasset'
+[2015.10.05-19.39.10:131][764]LogSavePackage: Save=167.803299ms
+[2015.10.05-19.39.10:131][764]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/Test51C472694E88DB7CD4F6BFB7D22BA5DA.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/Speedtree/Test.uasset'
+[2015.10.05-19.39.10:648][764]LogSavePackage: Save=496.082642ms
+[2015.10.05-19.39.10:648][764]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/Test_Atlas_Normal_Tex7F26324144AA66993DB898A4E7CE0149.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/Speedtree/Test_Atlas_Normal_Tex.uasset'
+[2015.10.05-19.39.11:295][764]LogSavePackage: Save=626.542908ms
+[2015.10.05-19.39.11:295][764]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/Test_Atlas_Tex480F39AB4367F4CE0BD74CB29C2C614E.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/Speedtree/Test_Atlas_Tex.uasset'
+[2015.10.05-19.39.11:445][764]LogSavePackage: Save=101.390808ms
+[2015.10.05-19.39.11:445][764]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/Test_Branches_2_Mat169B307A4C27D50BD748CC9CB2ED295C.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/Speedtree/Test_Branches_2_Mat.uasset'
+[2015.10.05-19.39.11:566][764]LogSavePackage: Save=99.664688ms
+[2015.10.05-19.39.11:566][764]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/Test_Branches_Mat2234EC8C410D79273EFFD1905EA3BC6B.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/Speedtree/Test_Branches_Mat.uasset'
+[2015.10.05-19.39.11:796][764]LogSavePackage: Save=207.531464ms
+[2015.10.05-19.39.11:796][764]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/Test_Fronds_Mat2CCEDC8D42408E300BCFF3906F48DF56.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/Speedtree/Test_Fronds_Mat.uasset'
+[2015.10.05-19.39.12:142][764]LogSavePackage: Save=324.316925ms
+[2015.10.05-19.39.12:142][764]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/Test_Leaves_Mat338DF190411516EC6EBFDDBE78CCF289.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/Speedtree/Test_Leaves_Mat.uasset'
+[2015.10.05-19.39.42:492][620]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.05-19.39.42:492][620]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.39.42:497][620]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 7 elements in 0.0s.
+[2015.10.05-19.39.42:497][620]LogStaticMesh:Display: Copied 7 transforms in 0.000s.
+[2015.10.05-19.39.42:497][620]LogStaticMesh:Display: Built a foliage hierarchy with 7 of 7 elements in 0.0s.
+[2015.10.05-19.39.42:498][620]LogMaterial:Warning: Material /Game/FirstPersonBP/Meshes/Forest/Speedtree/Test_Branches_Mat.Test_Branches_Mat needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2015.10.05-19.39.42:499][620]LogMaterial: Missing cached shader map for material Test_Branches_Mat, compiling. 
+[2015.10.05-19.39.42:514][620]LogMaterial: 0.000300 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.05-19.39.42:514][620]LogMaterial:Warning: Material /Game/FirstPersonBP/Meshes/Forest/Speedtree/Test_Branches_2_Mat.Test_Branches_2_Mat needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2015.10.05-19.39.42:516][620]LogMaterial: Missing cached shader map for material Test_Branches_2_Mat, compiling. 
+[2015.10.05-19.39.42:531][620]LogMaterial: 0.000208 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.05-19.39.42:531][620]LogMaterial:Warning: Material /Game/FirstPersonBP/Meshes/Forest/Speedtree/Test_Leaves_Mat.Test_Leaves_Mat needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2015.10.05-19.39.42:533][620]LogMaterial: Missing cached shader map for material Test_Leaves_Mat, compiling. 
+[2015.10.05-19.39.42:550][620]LogMaterial: 0.000599 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.05-19.39.42:550][620]LogMaterial:Warning: Material /Game/FirstPersonBP/Meshes/Forest/Speedtree/Test_Fronds_Mat.Test_Fronds_Mat needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2015.10.05-19.39.42:553][620]LogMaterial: Missing cached shader map for material Test_Fronds_Mat, compiling. 
+[2015.10.05-19.39.42:569][620]LogMaterial: 0.000488 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.05-19.39.42:590][621]LogStaticMesh:Display: Copied 8 transforms in 0.000s.
+[2015.10.05-19.39.42:648][622]LogStaticMesh:Display: Built a foliage hierarchy with 8 of 8 elements in 0.1s.
+[2015.10.05-19.39.42:658][622]LogStaticMesh:Display: Copied 9 transforms in 0.000s.
+[2015.10.05-19.39.42:670][623]LogStaticMesh:Display: Built a foliage hierarchy with 9 of 10 elements in 0.0s.
+[2015.10.05-19.39.42:670][623]LogStaticMesh:Display: Copied 10 transforms in 0.000s.
+[2015.10.05-19.39.42:670][623]LogStaticMesh:Display: Built a foliage hierarchy with 10 of 10 elements in 0.0s.
+[2015.10.05-19.39.42:672][623]LogStaticMesh:Display: Copied 11 transforms in 0.000s.
+[2015.10.05-19.39.42:684][624]LogStaticMesh:Display: Built a foliage hierarchy with 11 of 13 elements in 0.0s.
+[2015.10.05-19.39.42:684][624]LogStaticMesh:Display: Copied 13 transforms in 0.000s.
+[2015.10.05-19.39.42:685][624]LogStaticMesh:Display: Built a foliage hierarchy with 13 of 13 elements in 0.0s.
+[2015.10.05-19.39.42:686][624]LogStaticMesh:Display: Copied 14 transforms in 0.000s.
+[2015.10.05-19.39.42:694][625]LogStaticMesh:Display: Built a foliage hierarchy with 14 of 14 elements in 0.0s.
+[2015.10.05-19.39.43:015][644]LogStaticMesh:Display: Copied 15 transforms in 0.000s.
+[2015.10.05-19.39.43:023][645]LogStaticMesh:Display: Built a foliage hierarchy with 15 of 18 elements in 0.0s.
+[2015.10.05-19.39.43:023][645]LogStaticMesh:Display: Copied 18 transforms in 0.000s.
+[2015.10.05-19.39.43:024][645]LogStaticMesh:Display: Built a foliage hierarchy with 18 of 18 elements in 0.0s.
+[2015.10.05-19.39.43:086][648]LogStaticMesh:Display: Copied 19 transforms in 0.000s.
+[2015.10.05-19.39.43:094][649]LogStaticMesh:Display: Built a foliage hierarchy with 19 of 21 elements in 0.0s.
+[2015.10.05-19.39.43:094][649]LogStaticMesh:Display: Copied 21 transforms in 0.000s.
+[2015.10.05-19.39.43:095][649]LogStaticMesh:Display: Built a foliage hierarchy with 21 of 21 elements in 0.0s.
+[2015.10.05-19.39.43:259][660]LogStaticMesh:Display: Copied 22 transforms in 0.000s.
+[2015.10.05-19.39.43:266][661]LogStaticMesh:Display: Built a foliage hierarchy with 22 of 22 elements in 0.0s.
+[2015.10.05-19.39.43:364][669]LogStaticMesh:Display: Copied 23 transforms in 0.000s.
+[2015.10.05-19.39.43:371][670]LogStaticMesh:Display: Built a foliage hierarchy with 23 of 24 elements in 0.0s.
+[2015.10.05-19.39.43:371][670]LogStaticMesh:Display: Copied 24 transforms in 0.000s.
+[2015.10.05-19.39.43:372][670]LogStaticMesh:Display: Built a foliage hierarchy with 24 of 24 elements in 0.0s.
+[2015.10.05-19.39.43:399][673]LogStaticMesh:Display: Copied 25 transforms in 0.000s.
+[2015.10.05-19.39.43:406][674]LogStaticMesh:Display: Built a foliage hierarchy with 25 of 25 elements in 0.0s.
+[2015.10.05-19.39.44:932][723]LogStaticMesh:Display: Copied 24 transforms in 0.000s.
+[2015.10.05-19.39.44:937][723]LogStaticMesh:Display: Discarded foliage hierarchy of 24 elements build due to concurrent removal (0.0s)
+[2015.10.05-19.39.44:937][723]LogStaticMesh:Display: Copied 23 transforms in 0.000s.
+[2015.10.05-19.39.44:937][723]LogStaticMesh:Display: Built a foliage hierarchy with 23 of 23 elements in 0.0s.
+[2015.10.05-19.39.45:077][728]LogStaticMesh:Display: Copied 22 transforms in 0.000s.
+[2015.10.05-19.39.45:086][729]LogStaticMesh:Display: Discarded foliage hierarchy of 22 elements build due to concurrent removal (0.0s)
+[2015.10.05-19.39.45:086][729]LogStaticMesh:Display: Copied 17 transforms in 0.000s.
+[2015.10.05-19.39.45:087][729]LogStaticMesh:Display: Built a foliage hierarchy with 17 of 17 elements in 0.0s.
+[2015.10.05-19.39.45:088][729]LogStaticMesh:Display: Copied 16 transforms in 0.000s.
+[2015.10.05-19.39.45:096][730]LogStaticMesh:Display: Built a foliage hierarchy with 16 of 16 elements in 0.0s.
+[2015.10.05-19.39.45:097][730]LogStaticMesh:Display: Copied 15 transforms in 0.000s.
+[2015.10.05-19.39.45:106][731]LogStaticMesh:Display: Built a foliage hierarchy with 15 of 15 elements in 0.0s.
+[2015.10.05-19.39.45:107][731]LogStaticMesh:Display: Copied 14 transforms in 0.000s.
+[2015.10.05-19.39.45:116][732]LogStaticMesh:Display: Built a foliage hierarchy with 14 of 14 elements in 0.0s.
+[2015.10.05-19.39.45:286][739]LogStaticMesh:Display: Copied 13 transforms in 0.000s.
+[2015.10.05-19.39.45:294][740]LogStaticMesh:Display: Discarded foliage hierarchy of 13 elements build due to concurrent removal (0.0s)
+[2015.10.05-19.39.45:294][740]LogStaticMesh:Display: Copied 11 transforms in 0.000s.
+[2015.10.05-19.39.45:294][740]LogStaticMesh:Display: Built a foliage hierarchy with 11 of 11 elements in 0.0s.
+[2015.10.05-19.39.45:351][746]LogStaticMesh:Display: Copied 10 transforms in 0.000s.
+[2015.10.05-19.39.45:359][747]LogStaticMesh:Display: Built a foliage hierarchy with 10 of 10 elements in 0.0s.
+[2015.10.05-19.39.45:589][761]LogStaticMesh:Display: Copied 9 transforms in 0.000s.
+[2015.10.05-19.39.45:597][762]LogStaticMesh:Display: Built a foliage hierarchy with 9 of 9 elements in 0.0s.
+[2015.10.05-19.39.45:608][763]LogStaticMesh:Display: Copied 8 transforms in 0.000s.
+[2015.10.05-19.39.45:615][764]LogStaticMesh:Display: Built a foliage hierarchy with 8 of 8 elements in 0.0s.
+[2015.10.05-19.39.45:617][764]LogStaticMesh:Display: Copied 7 transforms in 0.000s.
+[2015.10.05-19.39.45:624][765]LogStaticMesh:Display: Built a foliage hierarchy with 7 of 7 elements in 0.0s.
+[2015.10.05-19.39.45:626][765]LogStaticMesh:Display: Copied 6 transforms in 0.000s.
+[2015.10.05-19.39.45:634][766]LogStaticMesh:Display: Built a foliage hierarchy with 6 of 6 elements in 0.0s.
+[2015.10.05-19.39.45:636][766]LogStaticMesh:Display: Copied 5 transforms in 0.000s.
+[2015.10.05-19.39.45:643][767]LogStaticMesh:Display: Discarded foliage hierarchy of 5 elements build due to concurrent removal (0.0s)
+[2015.10.05-19.39.45:643][767]LogStaticMesh:Display: Copied 4 transforms in 0.000s.
+[2015.10.05-19.39.45:644][767]LogStaticMesh:Display: Built a foliage hierarchy with 4 of 4 elements in 0.0s.
+[2015.10.05-19.39.45:645][767]LogStaticMesh:Display: Copied 3 transforms in 0.000s.
+[2015.10.05-19.39.45:653][768]LogStaticMesh:Display: Discarded foliage hierarchy of 3 elements build due to concurrent removal (0.0s)
+[2015.10.05-19.39.45:653][768]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.39.45:655][768]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 2 elements in 0.0s.
+[2015.10.05-19.39.45:667][769]LogStaticMesh:Display: Copied 1 transforms in 0.000s.
+[2015.10.05-19.39.45:674][770]LogStaticMesh:Display: Built a foliage hierarchy with 1 of 1 elements in 0.0s.
+[2015.10.05-19.40.19:628][419]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.40.19:635][419]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 24 elements in 0.0s.
+[2015.10.05-19.40.19:635][419]LogStaticMesh:Display: Copied 24 transforms in 0.000s.
+[2015.10.05-19.40.19:635][419]LogStaticMesh:Display: Built a foliage hierarchy with 24 of 24 elements in 0.0s.
+[2015.10.05-19.40.19:636][419]LogStaticMesh:Display: Copied 25 transforms in 0.000s.
+[2015.10.05-19.40.19:643][420]LogStaticMesh:Display: Built a foliage hierarchy with 25 of 39 elements in 0.0s.
+[2015.10.05-19.40.19:643][420]LogStaticMesh:Display: Copied 39 transforms in 0.000s.
+[2015.10.05-19.40.19:643][420]LogStaticMesh:Display: Built a foliage hierarchy with 39 of 39 elements in 0.0s.
+[2015.10.05-19.40.21:250][590]Cmd: TRANSACTION UNDO
+[2015.10.05-19.40.21:250][590]LogEditorTransaction: Undo Foliage Editing
+[2015.10.05-19.40.21:281][590]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.05-19.40.21:281][590]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.40.21:281][590]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.40.21:282][590]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.40.21:282][590]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.40.21:282][590]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.40.21:282][590]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.40.21:282][590]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.40.21:282][590]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.40.21:417][590]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.05-19.40.21:417][590]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 429 elements in 0.1s.
+[2015.10.05-19.40.21:417][590]LogStaticMesh:Display: Copied 429 transforms in 0.000s.
+[2015.10.05-19.40.21:417][590]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 41 elements in 0.1s.
+[2015.10.05-19.40.21:417][590]LogStaticMesh:Display: Copied 41 transforms in 0.000s.
+[2015.10.05-19.40.21:417][590]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 54 elements in 0.1s.
+[2015.10.05-19.40.21:417][590]LogStaticMesh:Display: Copied 54 transforms in 0.000s.
+[2015.10.05-19.40.21:417][590]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 202 elements in 0.1s.
+[2015.10.05-19.40.21:417][590]LogStaticMesh:Display: Copied 202 transforms in 0.000s.
+[2015.10.05-19.40.21:417][590]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 132 elements in 0.1s.
+[2015.10.05-19.40.21:417][590]LogStaticMesh:Display: Copied 132 transforms in 0.000s.
+[2015.10.05-19.40.21:417][590]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 704 elements in 0.1s.
+[2015.10.05-19.40.21:417][590]LogStaticMesh:Display: Copied 704 transforms in 0.000s.
+[2015.10.05-19.40.21:417][590]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 684 elements in 0.1s.
+[2015.10.05-19.40.21:417][590]LogStaticMesh:Display: Copied 684 transforms in 0.000s.
+[2015.10.05-19.40.21:417][590]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 696 elements in 0.1s.
+[2015.10.05-19.40.21:417][590]LogStaticMesh:Display: Copied 696 transforms in 0.000s.
+[2015.10.05-19.40.21:418][590]LogStaticMesh:Display: Built a foliage hierarchy with 41 of 41 elements in 0.0s.
+[2015.10.05-19.40.21:418][590]LogStaticMesh:Display: Built a foliage hierarchy with 54 of 54 elements in 0.0s.
+[2015.10.05-19.40.21:418][590]LogStaticMesh:Display: Built a foliage hierarchy with 202 of 202 elements in 0.0s.
+[2015.10.05-19.40.21:418][590]LogStaticMesh:Display: Built a foliage hierarchy with 429 of 429 elements in 0.0s.
+[2015.10.05-19.40.21:418][590]LogStaticMesh:Display: Built a foliage hierarchy with 132 of 132 elements in 0.0s.
+[2015.10.05-19.40.21:419][590]LogStaticMesh:Display: Built a foliage hierarchy with 704 of 704 elements in 0.0s.
+[2015.10.05-19.40.21:419][590]LogStaticMesh:Display: Built a foliage hierarchy with 684 of 684 elements in 0.0s.
+[2015.10.05-19.40.21:419][590]LogStaticMesh:Display: Built a foliage hierarchy with 696 of 696 elements in 0.0s.
+[2015.10.05-19.40.47:792][532]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.40.47:797][532]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 30 elements in 0.0s.
+[2015.10.05-19.40.47:797][532]LogStaticMesh:Display: Copied 30 transforms in 0.000s.
+[2015.10.05-19.40.47:797][532]LogStaticMesh:Display: Built a foliage hierarchy with 30 of 30 elements in 0.0s.
+[2015.10.05-19.40.47:813][534]LogStaticMesh:Display: Copied 31 transforms in 0.000s.
+[2015.10.05-19.40.47:821][535]LogStaticMesh:Display: Built a foliage hierarchy with 31 of 34 elements in 0.0s.
+[2015.10.05-19.40.47:821][535]LogStaticMesh:Display: Copied 34 transforms in 0.000s.
+[2015.10.05-19.40.47:821][535]LogStaticMesh:Display: Built a foliage hierarchy with 34 of 34 elements in 0.0s.
+[2015.10.05-19.40.50:172][789]LogStaticMesh:Display: Copied 33 transforms in 0.000s.
+[2015.10.05-19.40.50:179][789]LogStaticMesh:Display: Discarded foliage hierarchy of 33 elements build due to concurrent removal (0.0s)
+[2015.10.05-19.40.55:001][308]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.40.55:007][308]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 20 elements in 0.0s.
+[2015.10.05-19.40.55:007][308]LogStaticMesh:Display: Copied 20 transforms in 0.000s.
+[2015.10.05-19.40.55:007][308]LogStaticMesh:Display: Built a foliage hierarchy with 20 of 20 elements in 0.0s.
+[2015.10.05-19.40.56:577][489]LogStaticMesh:Display: Copied 19 transforms in 0.000s.
+[2015.10.05-19.40.56:582][489]LogStaticMesh:Display: Discarded foliage hierarchy of 19 elements build due to concurrent removal (0.0s)
+[2015.10.05-19.40.56:582][489]LogStaticMesh:Display: Copied 1 transforms in 0.000s.
+[2015.10.05-19.40.56:582][489]LogStaticMesh:Display: Built a foliage hierarchy with 1 of 1 elements in 0.0s.
+[2015.10.05-19.41.03:837][294]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.41.03:844][294]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 5 elements in 0.0s.
+[2015.10.05-19.41.03:844][294]LogStaticMesh:Display: Copied 5 transforms in 0.000s.
+[2015.10.05-19.41.03:844][294]LogStaticMesh:Display: Built a foliage hierarchy with 5 of 5 elements in 0.0s.
+[2015.10.05-19.41.03:894][300]LogStaticMesh:Display: Copied 6 transforms in 0.000s.
+[2015.10.05-19.41.03:901][301]LogStaticMesh:Display: Built a foliage hierarchy with 6 of 8 elements in 0.0s.
+[2015.10.05-19.41.03:901][301]LogStaticMesh:Display: Copied 8 transforms in 0.000s.
+[2015.10.05-19.41.03:901][301]LogStaticMesh:Display: Built a foliage hierarchy with 8 of 8 elements in 0.0s.
+[2015.10.05-19.41.05:254][461]Cmd: TRANSACTION UNDO
+[2015.10.05-19.41.05:254][461]LogEditorTransaction: Undo Foliage Editing
+[2015.10.05-19.41.05:257][461]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.05-19.41.05:258][461]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.41.05:258][461]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.41.05:258][461]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.41.05:258][461]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.41.05:258][461]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.41.05:258][461]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.41.05:258][461]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.41.05:258][461]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.41.05:383][461]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 429 elements in 0.1s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Copied 429 transforms in 0.000s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 41 elements in 0.1s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Copied 41 transforms in 0.000s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 54 elements in 0.1s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Copied 54 transforms in 0.000s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 202 elements in 0.1s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Copied 202 transforms in 0.000s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 132 elements in 0.1s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Copied 132 transforms in 0.000s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 704 elements in 0.1s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Copied 704 transforms in 0.000s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 684 elements in 0.1s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Copied 684 transforms in 0.000s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 696 elements in 0.1s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Copied 696 transforms in 0.000s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Built a foliage hierarchy with 41 of 41 elements in 0.0s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Built a foliage hierarchy with 54 of 54 elements in 0.0s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Built a foliage hierarchy with 429 of 429 elements in 0.0s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Built a foliage hierarchy with 202 of 202 elements in 0.0s.
+[2015.10.05-19.41.05:384][461]LogStaticMesh:Display: Built a foliage hierarchy with 132 of 132 elements in 0.0s.
+[2015.10.05-19.41.05:385][461]LogStaticMesh:Display: Built a foliage hierarchy with 704 of 704 elements in 0.0s.
+[2015.10.05-19.41.05:385][461]LogStaticMesh:Display: Built a foliage hierarchy with 684 of 684 elements in 0.0s.
+[2015.10.05-19.41.05:385][461]LogStaticMesh:Display: Built a foliage hierarchy with 696 of 696 elements in 0.0s.
+[2015.10.05-19.41.08:516][764]LogStaticMesh:Display: Copied 2 transforms in 0.000s.
+[2015.10.05-19.41.08:523][765]LogStaticMesh:Display: Built a foliage hierarchy with 2 of 2 elements in 0.0s.
+[2015.10.05-19.41.08:641][779]LogStaticMesh:Display: Copied 3 transforms in 0.000s.
+[2015.10.05-19.41.08:648][780]LogStaticMesh:Display: Built a foliage hierarchy with 3 of 3 elements in 0.0s.
+[2015.10.05-19.41.09:284][855]LogStaticMesh:Display: Copied 4 transforms in 0.000s.
+[2015.10.05-19.41.09:292][856]LogStaticMesh:Display: Built a foliage hierarchy with 4 of 4 elements in 0.0s.
+[2015.10.05-19.41.09:468][877]LogStaticMesh:Display: Copied 5 transforms in 0.000s.
+[2015.10.05-19.41.09:476][878]LogStaticMesh:Display: Built a foliage hierarchy with 5 of 5 elements in 0.0s.
+[2015.10.05-19.41.09:798][916]LogStaticMesh:Display: Copied 6 transforms in 0.000s.
+[2015.10.05-19.41.09:805][917]LogStaticMesh:Display: Built a foliage hierarchy with 6 of 6 elements in 0.0s.
+[2015.10.05-19.41.09:815][918]LogStaticMesh:Display: Copied 7 transforms in 0.000s.
+[2015.10.05-19.41.09:822][919]LogStaticMesh:Display: Built a foliage hierarchy with 7 of 7 elements in 0.0s.
+[2015.10.05-19.41.09:840][921]LogStaticMesh:Display: Copied 8 transforms in 0.000s.
+[2015.10.05-19.41.09:847][922]LogStaticMesh:Display: Built a foliage hierarchy with 8 of 8 elements in 0.0s.
+[2015.10.05-19.41.09:890][927]LogStaticMesh:Display: Copied 9 transforms in 0.000s.
+[2015.10.05-19.41.09:898][928]LogStaticMesh:Display: Built a foliage hierarchy with 9 of 9 elements in 0.0s.
+[2015.10.05-19.41.10:622][ 11]LogStaticMesh:Display: Copied 10 transforms in 0.000s.
+[2015.10.05-19.41.10:630][ 12]LogStaticMesh:Display: Built a foliage hierarchy with 10 of 10 elements in 0.0s.
+[2015.10.05-19.41.13:849][355]LogStaticMesh:Display: Copied 9 transforms in 0.000s.
+[2015.10.05-19.41.13:868][356]LogStaticMesh:Display: Built a foliage hierarchy with 9 of 9 elements in 0.0s.
+[2015.10.05-19.41.13:869][356]LogStaticMesh:Display: Copied 8 transforms in 0.000s.
+[2015.10.05-19.41.13:889][357]LogStaticMesh:Display: Built a foliage hierarchy with 8 of 8 elements in 0.0s.
+[2015.10.05-19.41.15:388][493]LogStaticMesh:Display: Copied 9 transforms in 0.000s.
+[2015.10.05-19.41.15:394][493]LogStaticMesh:Display: Built a foliage hierarchy with 9 of 9 elements in 0.0s.
+[2015.10.05-19.41.15:502][498]LogStaticMesh:Display: Copied 10 transforms in 0.000s.
+[2015.10.05-19.41.15:522][499]LogStaticMesh:Display: Built a foliage hierarchy with 10 of 10 elements in 0.0s.
+[2015.10.05-19.41.15:589][502]LogStaticMesh:Display: Copied 11 transforms in 0.000s.
+[2015.10.05-19.41.15:609][503]LogStaticMesh:Display: Built a foliage hierarchy with 11 of 11 elements in 0.0s.
+[2015.10.05-19.41.15:610][503]LogStaticMesh:Display: Copied 12 transforms in 0.000s.
+[2015.10.05-19.41.15:630][504]LogStaticMesh:Display: Built a foliage hierarchy with 12 of 12 elements in 0.0s.
+[2015.10.05-19.41.15:678][506]LogStaticMesh:Display: Copied 13 transforms in 0.000s.
+[2015.10.05-19.41.15:700][507]LogStaticMesh:Display: Built a foliage hierarchy with 13 of 13 elements in 0.0s.
+[2015.10.05-19.41.15:702][507]LogStaticMesh:Display: Copied 14 transforms in 0.000s.
+[2015.10.05-19.41.15:720][508]LogStaticMesh:Display: Built a foliage hierarchy with 14 of 14 elements in 0.0s.
+[2015.10.05-19.41.15:722][508]LogStaticMesh:Display: Copied 15 transforms in 0.000s.
+[2015.10.05-19.41.15:742][509]LogStaticMesh:Display: Built a foliage hierarchy with 15 of 15 elements in 0.0s.
+[2015.10.05-19.41.16:062][525]LogStaticMesh:Display: Copied 16 transforms in 0.000s.
+[2015.10.05-19.41.16:081][526]LogStaticMesh:Display: Built a foliage hierarchy with 16 of 16 elements in 0.0s.
+[2015.10.05-19.41.16:277][549]LogStaticMesh:Display: Copied 17 transforms in 0.000s.
+[2015.10.05-19.41.16:285][550]LogStaticMesh:Display: Built a foliage hierarchy with 17 of 17 elements in 0.0s.
+[2015.10.05-19.41.16:362][559]LogStaticMesh:Display: Copied 18 transforms in 0.000s.
+[2015.10.05-19.41.16:369][560]LogStaticMesh:Display: Built a foliage hierarchy with 18 of 19 elements in 0.0s.
+[2015.10.05-19.41.16:369][560]LogStaticMesh:Display: Copied 19 transforms in 0.000s.
+[2015.10.05-19.41.16:370][560]LogStaticMesh:Display: Built a foliage hierarchy with 19 of 19 elements in 0.0s.
+[2015.10.05-19.41.16:549][581]LogStaticMesh:Display: Copied 20 transforms in 0.000s.
+[2015.10.05-19.41.16:557][582]LogStaticMesh:Display: Built a foliage hierarchy with 20 of 20 elements in 0.0s.
+[2015.10.05-19.41.16:608][588]LogStaticMesh:Display: Copied 21 transforms in 0.000s.
+[2015.10.05-19.41.16:615][589]LogStaticMesh:Display: Built a foliage hierarchy with 21 of 21 elements in 0.0s.
+[2015.10.05-19.41.16:633][591]LogStaticMesh:Display: Copied 22 transforms in 0.000s.
+[2015.10.05-19.41.16:641][592]LogStaticMesh:Display: Built a foliage hierarchy with 22 of 22 elements in 0.0s.
+[2015.10.05-19.41.16:675][596]LogStaticMesh:Display: Copied 23 transforms in 0.000s.
+[2015.10.05-19.41.16:683][597]LogStaticMesh:Display: Built a foliage hierarchy with 23 of 23 elements in 0.0s.
+[2015.10.05-19.41.16:734][603]LogStaticMesh:Display: Copied 24 transforms in 0.000s.
+[2015.10.05-19.41.16:743][604]LogStaticMesh:Display: Built a foliage hierarchy with 24 of 24 elements in 0.0s.
+[2015.10.05-19.41.16:820][613]LogStaticMesh:Display: Copied 25 transforms in 0.000s.
+[2015.10.05-19.41.16:828][614]LogStaticMesh:Display: Built a foliage hierarchy with 25 of 25 elements in 0.0s.
+[2015.10.05-19.41.16:963][630]LogStaticMesh:Display: Copied 26 transforms in 0.000s.
+[2015.10.05-19.41.16:970][631]LogStaticMesh:Display: Built a foliage hierarchy with 26 of 26 elements in 0.0s.
+[2015.10.05-19.41.17:030][638]LogStaticMesh:Display: Copied 27 transforms in 0.000s.
+[2015.10.05-19.41.17:037][639]LogStaticMesh:Display: Built a foliage hierarchy with 27 of 27 elements in 0.0s.
+[2015.10.05-19.41.19:322][879]LogStaticMesh:Display: Copied 28 transforms in 0.000s.
+[2015.10.05-19.41.19:342][880]LogStaticMesh:Display: Built a foliage hierarchy with 28 of 28 elements in 0.0s.
+[2015.10.05-19.41.19:526][889]LogStaticMesh:Display: Copied 29 transforms in 0.000s.
+[2015.10.05-19.41.19:548][890]LogStaticMesh:Display: Built a foliage hierarchy with 29 of 29 elements in 0.0s.
+[2015.10.05-19.41.19:575][893]LogStaticMesh:Display: Copied 30 transforms in 0.000s.
+[2015.10.05-19.41.19:582][894]LogStaticMesh:Display: Built a foliage hierarchy with 30 of 31 elements in 0.0s.
+[2015.10.05-19.41.19:582][894]LogStaticMesh:Display: Copied 31 transforms in 0.000s.
+[2015.10.05-19.41.19:583][894]LogStaticMesh:Display: Built a foliage hierarchy with 31 of 31 elements in 0.0s.
+[2015.10.05-19.41.19:726][911]LogStaticMesh:Display: Copied 32 transforms in 0.000s.
+[2015.10.05-19.41.19:733][912]LogStaticMesh:Display: Built a foliage hierarchy with 32 of 33 elements in 0.0s.
+[2015.10.05-19.41.19:733][912]LogStaticMesh:Display: Copied 33 transforms in 0.000s.
+[2015.10.05-19.41.19:733][912]LogStaticMesh:Display: Built a foliage hierarchy with 33 of 33 elements in 0.0s.
+[2015.10.05-19.41.23:348][327]LogStaticMesh:Display: Copied 34 transforms in 0.000s.
+[2015.10.05-19.41.23:353][327]LogStaticMesh:Display: Built a foliage hierarchy with 34 of 35 elements in 0.0s.
+[2015.10.05-19.41.23:353][327]LogStaticMesh:Display: Copied 35 transforms in 0.000s.
+[2015.10.05-19.41.23:353][327]LogStaticMesh:Display: Built a foliage hierarchy with 35 of 35 elements in 0.0s.
+[2015.10.05-19.41.23:658][342]LogStaticMesh:Display: Copied 36 transforms in 0.000s.
+[2015.10.05-19.41.23:677][343]LogStaticMesh:Display: Built a foliage hierarchy with 36 of 36 elements in 0.0s.
+[2015.10.05-19.41.24:026][360]LogStaticMesh:Display: Copied 37 transforms in 0.000s.
+[2015.10.05-19.41.24:046][361]LogStaticMesh:Display: Built a foliage hierarchy with 37 of 39 elements in 0.0s.
+[2015.10.05-19.41.24:046][361]LogStaticMesh:Display: Copied 39 transforms in 0.000s.
+[2015.10.05-19.41.24:047][361]LogStaticMesh:Display: Built a foliage hierarchy with 39 of 39 elements in 0.0s.
+[2015.10.05-19.41.24:409][394]LogStaticMesh:Display: Copied 40 transforms in 0.000s.
+[2015.10.05-19.41.24:416][395]LogStaticMesh:Display: Built a foliage hierarchy with 40 of 40 elements in 0.0s.
+[2015.10.05-19.41.24:425][396]LogStaticMesh:Display: Copied 41 transforms in 0.000s.
+[2015.10.05-19.41.24:433][397]LogStaticMesh:Display: Built a foliage hierarchy with 41 of 42 elements in 0.0s.
+[2015.10.05-19.41.24:433][397]LogStaticMesh:Display: Copied 42 transforms in 0.000s.
+[2015.10.05-19.41.24:434][397]LogStaticMesh:Display: Built a foliage hierarchy with 42 of 42 elements in 0.0s.
+[2015.10.05-19.41.24:468][401]LogStaticMesh:Display: Copied 43 transforms in 0.000s.
+[2015.10.05-19.41.24:475][402]LogStaticMesh:Display: Built a foliage hierarchy with 43 of 43 elements in 0.0s.
+[2015.10.05-19.41.24:560][412]LogStaticMesh:Display: Copied 44 transforms in 0.000s.
+[2015.10.05-19.41.24:567][413]LogStaticMesh:Display: Built a foliage hierarchy with 44 of 44 elements in 0.0s.
+[2015.10.05-19.41.24:602][417]LogStaticMesh:Display: Copied 45 transforms in 0.000s.
+[2015.10.05-19.41.24:610][418]LogStaticMesh:Display: Built a foliage hierarchy with 45 of 45 elements in 0.0s.
+[2015.10.05-19.41.24:645][422]LogStaticMesh:Display: Copied 46 transforms in 0.000s.
+[2015.10.05-19.41.24:652][423]LogStaticMesh:Display: Built a foliage hierarchy with 46 of 46 elements in 0.0s.
+[2015.10.05-19.41.24:779][438]LogStaticMesh:Display: Copied 47 transforms in 0.000s.
+[2015.10.05-19.41.24:787][439]LogStaticMesh:Display: Built a foliage hierarchy with 47 of 47 elements in 0.0s.
+[2015.10.05-19.41.27:057][630]LogStaticMesh:Display: Copied 48 transforms in 0.000s.
+[2015.10.05-19.41.27:065][631]LogStaticMesh:Display: Built a foliage hierarchy with 48 of 49 elements in 0.0s.
+[2015.10.05-19.41.27:065][631]LogStaticMesh:Display: Copied 49 transforms in 0.000s.
+[2015.10.05-19.41.27:065][631]LogStaticMesh:Display: Built a foliage hierarchy with 49 of 49 elements in 0.0s.
+[2015.10.05-19.41.27:082][633]LogStaticMesh:Display: Copied 50 transforms in 0.000s.
+[2015.10.05-19.41.27:090][634]LogStaticMesh:Display: Built a foliage hierarchy with 50 of 50 elements in 0.0s.
+[2015.10.05-19.41.27:250][653]LogStaticMesh:Display: Copied 51 transforms in 0.000s.
+[2015.10.05-19.41.27:257][654]LogStaticMesh:Display: Built a foliage hierarchy with 51 of 52 elements in 0.0s.
+[2015.10.05-19.41.27:257][654]LogStaticMesh:Display: Copied 52 transforms in 0.000s.
+[2015.10.05-19.41.27:257][654]LogStaticMesh:Display: Built a foliage hierarchy with 52 of 52 elements in 0.0s.
+[2015.10.05-19.41.27:501][683]LogStaticMesh:Display: Copied 53 transforms in 0.000s.
+[2015.10.05-19.41.27:509][684]LogStaticMesh:Display: Built a foliage hierarchy with 53 of 53 elements in 0.0s.
+[2015.10.05-19.41.27:518][685]LogStaticMesh:Display: Copied 54 transforms in 0.000s.
+[2015.10.05-19.41.27:526][686]LogStaticMesh:Display: Built a foliage hierarchy with 54 of 55 elements in 0.0s.
+[2015.10.05-19.41.27:526][686]LogStaticMesh:Display: Copied 55 transforms in 0.000s.
+[2015.10.05-19.41.27:526][686]LogStaticMesh:Display: Built a foliage hierarchy with 55 of 55 elements in 0.0s.
+[2015.10.05-19.41.29:573][893]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.05-19.41.29:573][893]PIE: New page: PIE session: M_Master (Oct 5, 2015, 11:41:29 AM)
+[2015.10.05-19.41.29:637][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063889s)
+[2015.10.05-19.41.29:638][893]LogPlayLevel: PIE: World Init took: (0.000477s)
+[2015.10.05-19.41.29:638][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/M_Master.M_Master to /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master (0.064539s)
+[2015.10.05-19.41.30:096][893]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.10.05-19.41.30:098][893]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.10.05-19.41.30:106][893]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.10.05-19.41.30:110][893]LogBlueprint:Warning: [compiler] Warning [0402.40] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 44 ms]
+[2015.10.05-19.41.30:110][893]LogBlueprint:Warning: [compiler] Warning [0402.40] Compile of FirstPersonCharacter successful, but with 4 Warning(s) [in 0 ms]
+[2015.10.05-19.41.30:110][893]LogBlueprint:Warning: [compiler] Warning [0402.40] Compile of FirstPersonCharacter successful, but with 5 Warning(s) [in 0 ms]
+[2015.10.05-19.41.30:110][893]LogBlueprint:Warning: [compiler] Warning [0402.40] Compile of FirstPersonCharacter successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.05-19.41.30:140][893]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.10.05-19.41.30:142][893]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.10.05-19.41.30:150][893]LogBlueprint:Warning: [compiler] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.10.05-19.41.30:153][893]LogBlueprint:Warning: [compiler] Warning [0402.44] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 42 ms]
+[2015.10.05-19.41.30:153][893]LogBlueprint:Warning: [compiler] Warning [0402.44] Compile of FirstPersonCharacter successful, but with 4 Warning(s) [in 0 ms]
+[2015.10.05-19.41.30:294][893]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.05-19.41.30:337][893]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Forest_Bas.M_Forest_Bas to /Game/StarterContent/Maps/UEDPIE_0_M_Forest_Bas.M_Forest_Bas. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.10.05-19.41.30:340][893]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Greybox.M_Greybox to /Game/StarterContent/Maps/UEDPIE_0_M_Greybox.M_Greybox. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.10.05-19.41.30:342][893]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Maison.M_Maison to /Game/StarterContent/Maps/UEDPIE_0_M_Maison.M_Maison. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.10.05-19.41.30:344][893]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Lighting.M_Lighting to /Game/StarterContent/Maps/UEDPIE_0_M_Lighting.M_Lighting. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.10.05-19.41.30:345][893]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Forest_Haut.M_Forest_Haut to /Game/StarterContent/Maps/UEDPIE_0_M_Forest_Haut.M_Forest_Haut. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.10.05-19.41.30:427][893]LogAIModule: Creating AISystem for world M_Master
+[2015.10.05-19.41.30:641][893]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.05-19.41.30:641][893]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master up for play (max tick rate 0) at 2015.10.05-15.41.30
+[2015.10.05-19.41.30:659][893]LogWorld: Bringing up level for play took: 0.232078
+[2015.10.05-19.41.30:770][893]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_M_Master 2.136
+[2015.10.05-19.41.32:565][ 68]Cmd: LevelEditor.ToggleImmersive
+[2015.10.05-19.41.55:845][876]Cmd: LevelEditor.ToggleImmersive
+[2015.10.05-19.41.56:535][929]Cmd: LevelEditor.ToggleImmersive
+[2015.10.05-19.42.39:714][950]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037F7EE80
+[2015.10.05-19.44.18:704][302]LogSavePackage: Save=1223.682129ms
+[2015.10.05-19.44.18:704][302]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_MasterFE22238042A0048F2E81D5A4CF386534.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap'
+[2015.10.05-19.44.18:881][302]LogFileHelpers: Saving map 'M_Master' took 1.557
+[2015.10.05-19.44.18:908][302]LogSavePackage: Save=4.702529ms
+[2015.10.05-19.44.18:908][302]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/Test_Leaves_Mat1C8603D149DCBD004EAA09833EE776A9.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/Speedtree/Test_Leaves_Mat.uasset'
+[2015.10.05-19.44.19:536][302]LogSavePackage: Save=615.608826ms
+[2015.10.05-19.44.19:536][302]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/ConiferBark_Tex8A6622EF4607758EFFBDA2AA433AED70.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/ConiferBark_Tex.uasset'
+[2015.10.05-19.44.20:099][302]LogSavePackage: Save=553.137695ms
+[2015.10.05-19.44.20:099][302]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/ConiferBark_Normal_Tex0C46B0554CA7883BA3BD6292AA358FC3.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/ConiferBark_Normal_Tex.uasset'
+[2015.10.05-19.44.20:129][302]LogSavePackage: Save=3.650826ms
+[2015.10.05-19.44.20:129][302]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/Test_Branches_2_Mat95815C774B16D9337CBA8A90C66D8914.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/Speedtree/Test_Branches_2_Mat.uasset'
+[2015.10.05-19.44.20:194][302]LogSavePackage: Save=39.729065ms
+[2015.10.05-19.44.20:194][302]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/Test_Branches_Mat9D72FC5A4AB509CFCB52F2BB37E30529.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/Speedtree/Test_Branches_Mat.uasset'
+[2015.10.05-19.44.20:226][302]LogSavePackage: Save=3.980500ms
+[2015.10.05-19.44.20:226][302]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/Test_Fronds_Mat543BA70A47A6AEF8C57872871B0FD661.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/Speedtree/Test_Fronds_Mat.uasset'
+[2015.10.05-19.44.29:701][157]Cmd: QUIT_EDITOR
+[2015.10.05-19.44.29:992][157]LogExit: Preparing to exit.
+[2015.10.05-19.44.31:145][157]LogExit: Editor shut down
+[2015.10.05-19.44.31:145][157]LogExit: Transaction tracking system shut down
+[2015.10.05-19.44.31:146][157]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000137C5DA0
+[2015.10.05-19.44.31:150][157]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000233C2700
+[2015.10.05-19.44.31:151][157]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022253380
+[2015.10.05-19.44.31:151][157]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000259A34C0
+[2015.10.05-19.44.31:403][157]LogExit: Object subsystem successfully closed.
+[2015.10.05-19.44.31:525][157]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.10.05-19.44.31:525][157]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.10.05-19.44.31:525][157]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.10.05-19.44.31:525][157]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.10.05-19.44.31:525][157]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.10.05-19.44.31:540][157]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.10.05-19.44.31:540][157]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.10.05-19.44.31:540][157]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.10.05-19.44.31:557][157]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.10.05-19.44.31:557][157]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.10.05-19.44.31:557][157]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.10.05-19.44.31:557][157]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.10.05-19.44.31:557][157]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.10.05-19.44.31:557][157]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.10.05-19.44.31:557][157]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.10.05-19.44.31:557][157]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.10.05-19.44.31:557][157]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.10.05-19.44.31:557][157]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.10.05-19.44.31:557][157]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.10.05-19.44.31:557][157]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.10.05-19.44.31:563][157]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.10.05-19.44.31:570][157]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.10.05-19.44.31:570][157]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.10.05-19.44.31:570][157]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.10.05-19.44.31:570][157]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.10.05-19.44.31:570][157]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.10.05-19.44.31:570][157]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.10.05-19.44.31:570][157]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.10.05-19.44.31:570][157]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.10.05-19.44.31:570][157]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.10.05-19.44.31:570][157]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.10.05-19.44.31:570][157]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.10.05-19.44.31:616][157]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.10.05-19.44.31:616][157]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.10.05-19.44.31:616][157]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.10.05-19.44.31:616][157]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.10.05-19.44.31:616][157]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.10.05-19.44.31:616][157]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.10.05-19.44.31:616][157]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.10.05-19.44.31:622][157]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.10.05-19.44.31:622][157]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.10.05-19.44.31:622][157]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.10.05-19.44.31:634][157]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.10.05-19.44.31:634][157]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.10.05-19.44.31:635][157]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.10.05-19.44.31:635][157]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.10.05-19.44.31:647][157]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.10.05-19.44.31:668][157]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.10.05-19.44.31:668][157]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.10.05-19.44.31:668][157]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.10.05-19.44.31:668][157]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.10.05-19.44.31:780][157]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.10.05-19.44.31:795][157]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.10.05-19.44.31:806][157]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.10.05-19.44.31:807][157]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.10.05-19.44.31:807][157]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.10.05-19.44.31:841][157]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.10.05-19.44.31:841][157]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.10.05-19.44.31:841][157]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.10.05-19.44.31:857][157]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.10.05-19.44.31:864][157]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.10.05-19.44.31:864][157]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.10.05-19.44.31:875][157]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.10.05-19.44.31:875][157]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.10.05-19.44.31:876][157]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.10.05-19.44.31:876][157]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.10.05-19.44.31:876][157]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.10.05-19.44.31:876][157]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.10.05-19.44.31:876][157]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.10.05-19.44.31:876][157]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.10.05-19.44.31:876][157]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.10.05-19.44.31:876][157]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.10.05-19.44.32:077][157]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.10.05-19.44.32:091][157]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.10.05-19.44.32:091][157]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.10.05-19.44.32:091][157]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.10.05-19.44.32:091][157]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.10.05-19.44.32:091][157]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.10.05-19.44.32:110][157]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.10.05-19.44.32:121][157]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.10.05-19.44.32:121][157]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.10.05-19.44.32:121][157]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.10.05-19.44.32:121][157]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.10.05-19.44.32:121][157]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.10.05-19.44.32:121][157]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.10.05-19.44.32:121][157]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.05-19.44.32:121][157]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.10.05-19.44.32:121][157]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.10.05-19.44.32:121][157]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.10.05-19.44.32:121][157]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.10.05-19.44.32:132][157]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.10.05-19.44.32:132][157]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.10.05-19.44.32:132][157]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.10.05-19.44.32:132][157]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.10.05-19.44.32:132][157]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.10.05-19.44.32:132][157]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.10.05-19.44.32:133][157]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.10.05-19.44.32:133][157]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.10.05-19.44.32:137][157]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.10.05-19.44.32:237][157]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.10.05-19.44.32:237][157]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.10.05-19.44.32:240][157]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.10.05-19.44.32:240][157]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.10.05-19.44.32:240][157]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.10.05-19.44.32:240][157]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.10.05-19.44.32:240][157]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.10.05-19.44.32:250][157]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.10.05-19.44.32:250][157]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.10.05-19.44.32:272][157]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.10.05-19.44.32:272][157]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.10.05-19.44.32:272][157]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.10.05-19.44.32:290][157]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.10.05-19.44.32:307][157]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.10.05-19.44.32:322][157]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.10.05-19.44.32:335][157]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.10.05-19.44.32:335][157]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.10.05-19.44.32:338][157]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.10.05-19.44.32:339][157]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.10.05-19.44.32:339][157]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.10.05-19.44.32:339][157]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.10.05-19.44.32:339][157]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.10.05-19.44.32:339][157]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.10.05-19.44.32:339][157]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.10.05-19.44.32:339][157]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.10.05-19.44.32:339][157]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.10.05-19.44.32:339][157]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.10.05-19.44.32:395][157]LogDerivedDataCache: Shutdown
+[2015.10.05-19.44.32:395][157]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.10.05-19.44.32:407][157]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.10.05-19.44.32:407][157]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.10.05-19.44.32:415][157]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.10.05-19.44.32:416][157]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.10.05-19.44.32:416][157]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.10.05-19.44.32:416][157]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.10.05-19.44.32:416][157]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.10.05-19.44.32:416][157]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.10.05-19.44.32:416][157]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.10.05-19.44.32:416][157]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.10.05-19.44.32:417][157]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.10.05-19.44.32:417][157]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.10.05-19.44.32:417][157]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.05-19.44.32:417][157]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.05-19.44.32:417][157]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.05-19.44.32:417][157]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.05-19.44.32:417][157]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.05-19.44.32:417][157]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.05-19.44.32:417][157]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.05-19.44.32:423][157]LogExit: Exiting.
+[2015.10.05-19.44.32:439][157]Log file closed, 10/05/15 15:44:32
