@@ -1,0 +1,1151 @@
+﻿Log file open, 10/28/15 14:47:15
+LogInit:Display: Running engine for game: Minuit
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: E:/Program Files/Unreal Engine/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.10.28-18.47.15:517][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.10.28-18.47.15:584][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.10.28-18.47.15:698][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.28-18.47.15:872][  0]LogInit: Object subsystem initialized
+[2015.10.28-18.47.15:945][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.10.28-18.47.15:945][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.28-18.47.15:945][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.10.28-18.47.15:945][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.28-18.47.15:945][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.10.28-18.47.15:945][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.28-18.47.15:987][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.28-18.47.15:987][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.28-18.47.16:073][  0]LogInit: Computer: ETT_
+[2015.10.28-18.47.16:073][  0]LogInit: User: ETt
+[2015.10.28-18.47.16:073][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.28-18.47.16:073][  0]LogInit: High frequency timer resolution =3.318417 MHz
+[2015.10.28-18.47.16:073][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.10.28-18.47.16:073][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.28-18.47.16:073][  0]LogMemory: Process Physical Memory: 47.98 MB used, 47.98 MB peak
+[2015.10.28-18.47.16:073][  0]LogMemory: Process Virtual Memory: 29.79 MB used, 29.79 MB peak
+[2015.10.28-18.47.16:073][  0]LogMemory: Physical Memory: 3700.90 MB used, 8130.77 MB total
+[2015.10.28-18.47.16:073][  0]LogMemory: Virtual Memory: 283.06 MB used, 8388608.00 MB total
+[2015.10.28-18.47.16:153][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2015.10.28-18.47.16:153][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.10.28-18.47.16:153][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.28-18.47.16:159][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.28-18.47.16:168][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.28-18.47.17:110][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.10.28-18.47.17:252][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (E:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (E:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.10.28-18.47.17:252][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (E:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (E:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.10.28-18.47.17:349][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.28-18.47.21:355][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.28-18.47.22:220][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.28-18.47.22:317][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.28-18.47.22:444][  0]LogDerivedDataCache: Loaded boot cache 0.13s 39MB C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.10.28-18.47.22:444][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.10.28-18.47.22:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../documents/3d/minuit/MinuitGame/Minuit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.28-18.47.22:444][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.28-18.47.22:592][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.28-18.47.22:604][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ETt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.28-18.47.28:179][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.28-18.47.28:179][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.28-18.47.30:937][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.28-18.47.31:272][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.10.28-18.47.45:189][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.28-18.47.45:982][  0]SourceControl: Info Source control is disabled
+[2015.10.28-18.47.45:991][  0]SourceControl: Info Source control is disabled
+[2015.10.28-18.47.45:991][  0]SourceControl: Info Source control is disabled
+[2015.10.28-18.47.45:991][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.10.28-18.47.45:991][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.10.28-18.47.46:003][  0]SourceControl: Info Source control is disabled
+[2015.10.28-18.47.46:975][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.10.28-18.47.46:975][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.10.28-18.47.47:503][  0]LogEngine: Initializing Engine...
+[2015.10.28-18.47.50:009][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.28-18.47.50:033][  0]LogInit: FAudioDevice initialized.
+[2015.10.28-18.47.50:445][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.28-18.47.50:508][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.10.28-18.47.50:511][  0]LogInit: Texture streaming: Enabled
+[2015.10.28-18.47.51:080][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.28-18.47.51:080][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.10.28-18.47.51:080][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.10.28-18.47.51:080][  0]LogAnalytics: SetUserId 2d8f9b434cd97107b008209c3b4c51aa|e67cdf50177141fe8e020345bd104ee2|091128b7-7c0a-4bff-8890-6bc6add436c4
+[2015.10.28-18.47.51:115][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.10.28-18.47.51:218][  0]LogInit: Transaction tracking system initialized
+[2015.10.28-18.47.53:369][  0]BlueprintLog: New page: Editor Load
+[2015.10.28-18.47.53:662][  0]LogAssetRegistry: FAssetRegistry took 0.0904 seconds to start up
+[2015.10.28-18.47.53:662][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.10.28-18.47.57:614][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.28-18.47.58:056][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.28-18.48.01:045][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.10.28-18.48.01:046][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.10.28-18.48.01:255][  0]LogConsoleResponse:Display: 
+[2015.10.28-18.48.04:682][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.28-18.48.07:401][  0]SourceControl: Info Source control is disabled
+[2015.10.28-18.48.07:509][  0]Cmd: MAP LOAD FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.28-18.48.07:592][  0]LightingResults: New page: Lighting Build
+[2015.10.28-18.48.07:908][  0]MapCheck: New page: Map Check
+[2015.10.28-18.48.07:908][  0]LightingResults: New page: Lighting Build
+[2015.10.28-18.48.08:315][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013CC2980
+[2015.10.28-18.48.11:954][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions01/SpeedTree/SpeedTreeColorVariation.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.28-18.48.18:172][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Grass.M_Grass needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2015.10.28-18.48.18:174][  0]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2015.10.28-18.48.18:239][  0]LogMaterial: 0.000255 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-18.48.18:242][  0]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-18.48.18:242][  0]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-18.48.18:242][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Plante1.M_Plante1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2015.10.28-18.48.18:244][  0]LogMaterial: Missing cached shader map for material M_Plante1, compiling. 
+[2015.10.28-18.48.18:260][  0]LogMaterial: 0.000414 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-18.48.18:262][  0]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-18.48.18:427][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.28-18.48.19:573][  0]LogAIModule: Creating AISystem for world M_Master
+[2015.10.28-18.48.19:599][  0]Cmd: MAP CHECKDEP
+[2015.10.28-18.48.19:616][  0]MapCheck: New page: M_Master - Oct 28, 2015, 10:48:19 AM
+[2015.10.28-18.48.19:766][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 166.896ms to complete.
+[2015.10.28-18.48.19:766][  0]LogFileHelpers: Loading map 'M_Master' took 12.307
+[2015.10.28-18.48.21:573][  0]LogCollectionManager: Loaded 0 collections in 0.001586 seconds
+[2015.10.28-18.48.21:598][  0]LogContentBrowser: Native class hierarchy populated in 0.0241 seconds. Added 1696 classes and 261 folders.
+[2015.10.28-18.48.21:848][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2015.10.28-18.48.23:246][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.28-18.48.24:021][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.10.28-18.48.24:223][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.28-18.48.24:550][  0]LogLoad: Full Startup: 76.48 seconds (BP compile: 0.34 seconds)
+[2015.10.28-18.48.24:733][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
+[2015.10.28-18.48.26:364][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.10.28-18.48.27:163][  0]LogRenderer:Warning: Reallocating scene render targets to support 1184x560 (Frame:3).
+[2015.10.28-18.48.27:228][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.10.28-18.48.27:350][  1]Cmd: UpdateLandscapeEditorData
+[2015.10.28-18.48.27:789][  4]LogAssetRegistry: Asset discovery search completed in 34.2171 seconds
+[2015.10.28-18.48.32:694][361]LogEditorFactories: Performing atomic reimport of [E:/documents/3d/2015/Minuit/3d/export/SM_Maison.FBX]
+[2015.10.28-18.48.32:809][361]LogFbx: Loading FBX Scene from E:/documents/3d/2015/Minuit/3d/export/SM_Maison.FBX
+[2015.10.28-18.48.32:859][361]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.28-18.48.33:021][361]LogFbx: == Initial material list:
+[2015.10.28-18.48.33:022][361]LogFbx: 0: Material #28
+[2015.10.28-18.48.33:022][361]LogFbx: 1: Material #145
+[2015.10.28-18.48.33:022][361]LogFbx: == After sorting:
+[2015.10.28-18.48.33:022][361]LogFbx: 0: Material #28
+[2015.10.28-18.48.33:022][361]LogFbx: 1: Material #145
+[2015.10.28-18.48.33:022][361]LogFbx: == Mapping table:
+[2015.10.28-18.48.33:022][361]LogFbx:   sort 0 -> 0
+[2015.10.28-18.48.33:022][361]LogFbx:   sort 1 -> 1
+[2015.10.28-18.48.33:076][361]LogStaticMesh: Building static mesh SM_Maison...
+[2015.10.28-18.48.33:201][361]LogStaticMesh: Built static mesh [125.515869ms] /Game/FirstPersonBP/Meshes/Maison/SM_Maison.SM_Maison
+[2015.10.28-18.48.33:227][361]LogStaticMesh:Warning: SM_Maison has degenerate tangent bases which will result in incorrect shading. 
+[2015.10.28-18.48.34:742][361]LogEditorFactories: -- imported successfully
+[2015.10.28-18.49.09:242][932]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
+[2015.10.28-18.49.09:927][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
+[2015.10.28-18.49.36:914][530]Cmd: TRANSACTION UNDO
+[2015.10.28-18.49.36:914][530]LogEditorTransaction: Undo Move Actors
+[2015.10.28-18.51.02:164][954]LogRenderer:Warning: Reallocating scene render targets to support 1184x656 (Frame:12842).
+[2015.10.28-18.51.02:254][955]LogRenderer:Warning: Reallocating scene render targets to support 1320x800 (Frame:12845).
+[2015.10.28-18.51.18:695][ 69]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.10.28-18.52.35:356][ 56]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
+[2015.10.28-18.52.39:843][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Meshes/Maison/SM_Maison" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_Maison.uasset" SILENT=true
+[2015.10.28-18.52.40:084][446]LogSavePackage: Save=218.731400ms
+[2015.10.28-18.52.40:084][446]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_Maison8E1E400745F089E4FABB89B3A5AA27AA.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_Maison.uasset'
+[2015.10.28-18.57.54:479][797]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.10.28-18.58.00:956][181]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.01:008][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.10.28-18.58.01:173][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.10.28-18.58.01:173][181]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.10.28-18.58.01:174][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.10.28-18.58.01:174][181]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.10.28-18.58.01:177][181]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.01:182][181]LogMaterial: 0.000234 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-18.58.01:203][181]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.28-18.58.01:205][181]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.10.28-18.58.01:207][181]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.10.28-18.58.01:208][181]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.28-18.58.02:764][220]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2015.10.28-18.58.02:764][220]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-18.58.02:764][220]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.28-18.58.07:550][544]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.07:555][544]LogMaterial: 0.000188 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-18.58.08:435][597]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2015.10.28-18.58.08:435][597]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-18.58.08:435][597]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.28-18.58.10:986][788]LogMaterialEditor: Applying material M_Window
+[2015.10.28-18.58.12:220][788]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.12:235][788]LogMaterial: 0.000279 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-18.58.12:344][788]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.12:357][788]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.12:383][788]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-18.58.12:383][788]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-18.58.12:383][788]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-18.58.12:418][788]LogMaterial: 0.055532 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-18.58.14:731][906]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.10.28-18.58.14:731][906]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-18.58.14:731][906]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.10.28-18.58.22:571][480]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.22:575][480]LogMaterial: 0.000139 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-18.58.23:440][523]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.10.28-18.58.23:440][523]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-18.58.23:440][523]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.28-18.58.27:809][835]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.27:814][835]LogMaterial: 0.000161 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-18.58.27:907][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
+[2015.10.28-18.58.28:725][893]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.10.28-18.58.28:725][893]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-18.58.28:725][893]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.28-18.58.29:991][974]LogMaterialEditor: Applying material M_Window
+[2015.10.28-18.58.31:245][974]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.31:260][974]LogMaterial: 0.000173 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-18.58.31:403][974]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.31:415][974]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.31:447][974]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-18.58.31:447][974]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-18.58.31:447][974]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-18.58.31:482][974]LogMaterial: 0.059991 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-18.58.33:231][ 42]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2015.10.28-18.58.33:231][ 42]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-18.58.33:231][ 42]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.10.28-18.58.44:976][920]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.44:980][920]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-18.58.45:876][973]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2015.10.28-18.58.45:876][973]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-18.58.45:876][973]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.28-18.58.47:049][ 59]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.47:054][ 59]LogMaterial: 0.000148 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-18.58.47:791][ 95]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2015.10.28-18.58.47:791][ 95]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-18.58.47:791][ 95]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.28-18.58.48:658][158]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.48:662][158]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-18.58.49:647][227]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2015.10.28-18.58.49:647][227]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-18.58.49:647][227]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.28-18.58.49:993][257]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.49:998][257]LogMaterial: 0.000172 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-18.58.50:880][306]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2015.10.28-18.58.50:880][306]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-18.58.50:880][306]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.28-18.58.51:556][358]LogMaterialEditor: Applying material M_Window
+[2015.10.28-18.58.52:800][358]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.52:815][358]LogMaterial: 0.000209 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-18.58.52:933][358]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.52:945][358]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-18.58.52:986][358]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-18.58.52:986][358]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-18.58.52:986][358]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-18.58.53:009][358]LogMaterial: 0.058995 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-18.58.55:643][534]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.10.28-18.58.55:644][534]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-18.58.55:644][534]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.10.28-18.59.25:345][856]LogRenderer:Warning: Reallocating scene render targets to support 1496x800 (Frame:37511).
+[2015.10.28-18.59.25:407][857]LogRenderer:Warning: Reallocating scene render targets to support 1920x1040 (Frame:37513).
+[2015.10.28-19.00.41:200][ 80]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-19.00.41:205][ 80]LogMaterial: 0.000167 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.00.42:653][145]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2015.10.28-19.00.42:653][145]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-19.00.42:653][145]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.28-19.00.44:895][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Porte)
+[2015.10.28-19.04.51:057][904]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.04.51:107][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.10.28-19.04.51:153][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.10.28-19.04.51:153][904]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.10.28-19.04.51:153][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.10.28-19.04.51:153][904]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.10.28-19.04.51:170][904]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.04.51:175][904]LogMaterial: 0.000386 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.04.51:201][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.28-19.04.51:202][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_37, compiling. 
+[2015.10.28-19.04.51:204][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_38, compiling. 
+[2015.10.28-19.04.51:206][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_39, compiling. 
+[2015.10.28-19.04.51:208][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_40, compiling. 
+[2015.10.28-19.04.51:209][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_41, compiling. 
+[2015.10.28-19.04.51:211][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_42, compiling. 
+[2015.10.28-19.04.51:213][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_43, compiling. 
+[2015.10.28-19.04.51:215][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_8, compiling. 
+[2015.10.28-19.04.51:216][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_9, compiling. 
+[2015.10.28-19.04.51:219][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_51, compiling. 
+[2015.10.28-19.04.51:221][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_66, compiling. 
+[2015.10.28-19.04.51:222][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_67, compiling. 
+[2015.10.28-19.04.51:224][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_68, compiling. 
+[2015.10.28-19.04.51:226][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_69, compiling. 
+[2015.10.28-19.04.51:228][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_59, compiling. 
+[2015.10.28-19.04.51:229][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_60, compiling. 
+[2015.10.28-19.04.53:472][980]MaterialEditorStats: Info Base pass shader with static lighting: 145 instructions
+[2015.10.28-19.04.53:472][980]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 114 instructions
+[2015.10.28-19.04.53:472][980]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-19.04.53:472][980]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.10.28-19.04.54:642][ 43]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.04.54:712][ 43]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.04.54:720][ 43]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.04.57:090][142]LogMaterialEditor: Applying material M_Water_Lake2
+[2015.10.28-19.04.58:317][142]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.04.58:345][142]LogMaterial: 0.000154 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.04.58:480][142]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.04.58:514][142]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.04.58:578][142]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-19.04.58:578][142]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-19.04.58:578][142]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-19.04.58:589][142]LogMaterial: 0.064274 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.05.04:102][406]MaterialEditorStats: Info Base pass shader with static lighting: 169 instructions
+[2015.10.28-19.05.04:102][406]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 138 instructions
+[2015.10.28-19.05.04:102][406]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-19.05.04:102][406]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.10.28-19.05.15:517][986]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.05.15:542][986]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.05.15:551][986]LogMaterial: 0.000833 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.05.17:192][ 40]MaterialEditorStats: Info Base pass shader with static lighting: 149 instructions
+[2015.10.28-19.05.17:192][ 40]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 118 instructions
+[2015.10.28-19.05.17:192][ 40]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-19.05.17:192][ 40]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.28-19.05.22:899][425]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.05.22:928][425]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.05.22:935][425]LogMaterial: 0.001110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.05.25:661][528]MaterialEditorStats: Info Base pass shader with static lighting: 138 instructions
+[2015.10.28-19.05.25:661][528]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 55 instructions
+[2015.10.28-19.05.25:661][528]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 91 instructions
+[2015.10.28-19.05.25:661][528]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.10.28-19.05.25:661][528]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.10.28-19.05.27:597][643]LogMaterialEditor: Applying material M_Water_Lake2
+[2015.10.28-19.05.28:831][643]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.05.28:850][643]LogMaterial: 0.000271 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.05.29:000][643]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.05.29:020][643]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.05.29:075][643]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-19.05.29:075][643]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-19.05.29:075][643]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-19.05.29:089][643]LogMaterial: 0.061597 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.05.35:176][901]MaterialEditorStats: Info Base pass shader with static lighting: 156 instructions
+[2015.10.28-19.05.35:176][901]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.10.28-19.05.35:176][901]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 108 instructions
+[2015.10.28-19.05.35:176][901]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.10.28-19.05.35:176][901]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.10.28-19.06.19:744][226]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.06.19:745][226]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Water_Lake2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.28-19.06.19:745][226]LogMaterial:Warning: 	Dynamically lit translucency is not supported for BLEND_Modulate materials.
+[2015.10.28-19.06.19:745][226]LogMaterial:Warning: 	Separate translucency with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
+[2015.10.28-19.06.19:760][226]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.06.19:761][226]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Water_Lake2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.28-19.06.19:761][226]LogMaterial:Warning: 	Dynamically lit translucency is not supported for BLEND_Modulate materials.
+[2015.10.28-19.06.19:761][226]LogMaterial:Warning: 	Separate translucency with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
+[2015.10.28-19.06.19:761][226]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.06.19:764][226]MaterialEditorStats:Error: Error [SM5] Dynamically lit translucency is not supported for BLEND_Modulate materials.
+[2015.10.28-19.06.19:764][226]MaterialEditorStats:Error: Error [SM5] Separate translucency with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
+[2015.10.28-19.06.22:280][419]LogMaterialEditor: Applying material M_Water_Lake2
+[2015.10.28-19.06.28:840][666]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.06.28:861][666]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.06.28:867][666]LogMaterial: 0.000234 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.06.31:918][864]LogMaterialEditor: Applying material M_Water_Lake2
+[2015.10.28-19.06.33:135][864]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.06.33:155][864]LogMaterial: 0.000187 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.06.33:297][864]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.06.33:317][864]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.06.33:350][864]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-19.06.33:350][864]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-19.06.33:350][864]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-19.06.33:383][864]LogMaterial: 0.056785 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.06.40:072][223]MaterialEditorStats: Info Base pass shader with static lighting: 156 instructions
+[2015.10.28-19.06.40:072][223]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.10.28-19.06.40:072][223]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 108 instructions
+[2015.10.28-19.06.40:072][223]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.10.28-19.06.40:072][223]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.10.28-19.07.06:983][316]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.07.06:988][316]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (4 / 4)
+[2015.10.28-19.07.06:988][316]LogMaterial: 0.000185 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.07.08:479][402]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.07.08:485][402]LogMaterial: 0.000112 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.07.09:946][479]LogMaterialEditor: Saving and Compiling material M_Water_Lake2
+[2015.10.28-19.07.11:170][479]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.07.11:190][479]LogMaterial: 0.001206 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.07.11:321][479]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.07.11:342][479]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.07.11:364][479]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-19.07.11:364][479]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-19.07.11:364][479]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-19.07.11:399][479]LogMaterial: 0.049504 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.07.16:142][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Water_Lake2" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Water_Lake2.uasset" SILENT=true
+[2015.10.28-19.07.16:514][479]LogSavePackage: Save=353.570984ms
+[2015.10.28-19.07.16:514][479]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Water_Lake270B186974428EAF5D75DBD9519CC0255.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Water_Lake2.uasset'
+[2015.10.28-19.07.16:566][479]MaterialEditorStats: Info Base pass shader with static lighting: 152 instructions
+[2015.10.28-19.07.16:567][479]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.10.28-19.07.16:567][479]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 104 instructions
+[2015.10.28-19.07.16:567][479]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.10.28-19.07.16:567][479]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.10.28-19.07.22:733][917]Cmd: TRANSACTION UNDO
+[2015.10.28-19.07.22:733][917]LogEditorTransaction: Undo Material Editor: Delete
+[2015.10.28-19.07.22:748][917]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.07.22:801][917]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-19.07.22:826][917]LogMaterial: 0.000210 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.07.22:829][917]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.07.22:835][917]LogMaterial: 0.000179 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.07.23:132][919]Cmd: TRANSACTION UNDO
+[2015.10.28-19.07.23:132][919]LogEditorTransaction: Undo Material Editor: Delete
+[2015.10.28-19.07.23:184][919]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.07.23:266][919]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-19.07.23:270][919]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.07.23:273][919]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.07.23:279][919]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.07.23:335][919]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.28-19.07.24:393][953]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2015.10.28-19.07.24:393][953]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-19.07.24:393][953]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.28-19.07.26:206][ 22]MaterialEditorStats: Info Base pass shader with static lighting: 138 instructions
+[2015.10.28-19.07.26:206][ 22]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 55 instructions
+[2015.10.28-19.07.26:206][ 22]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 91 instructions
+[2015.10.28-19.07.26:206][ 22]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.10.28-19.07.26:206][ 22]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.10.28-19.07.28:526][170]LogMaterialEditor: Applying material M_Water_Lake2
+[2015.10.28-19.07.29:767][170]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.07.29:787][170]LogMaterial: 0.000176 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.07.29:992][170]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.07.30:013][170]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.07.30:037][170]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-19.07.30:037][170]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-19.07.30:037][170]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-19.07.30:079][170]LogMaterial: 0.058148 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.07.38:693][571]MaterialEditorStats: Info Base pass shader with static lighting: 156 instructions
+[2015.10.28-19.07.38:694][571]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.10.28-19.07.38:694][571]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 108 instructions
+[2015.10.28-19.07.38:694][571]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.10.28-19.07.38:694][571]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.10.28-19.07.57:858][932]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.07.57:864][932]LogMaterial: 0.000165 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.08.00:198][ 60]LogMaterialEditor: Applying material M_Water_Lake2
+[2015.10.28-19.08.01:462][ 60]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.08.01:482][ 60]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.08.01:704][ 60]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.08.01:724][ 60]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.08.01:802][ 60]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-19.08.01:802][ 60]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-19.08.01:802][ 60]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-19.08.01:819][ 60]LogMaterial: 0.087412 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.08.09:603][449]MaterialEditorStats: Info Base pass shader with static lighting: 152 instructions
+[2015.10.28-19.08.09:603][449]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.10.28-19.08.09:604][449]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 104 instructions
+[2015.10.28-19.08.09:604][449]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.10.28-19.08.09:604][449]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.10.28-19.08.14:424][805]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.08.14:430][805]LogMaterial: 0.000176 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.08.14:502][805]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.28-19.08.16:872][923]MaterialEditorStats: Info Base pass shader with static lighting: 138 instructions
+[2015.10.28-19.08.16:872][923]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 55 instructions
+[2015.10.28-19.08.16:872][923]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 91 instructions
+[2015.10.28-19.08.16:872][923]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.10.28-19.08.16:872][923]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.10.28-19.08.17:506][973]LogMaterialEditor: Applying material M_Water_Lake2
+[2015.10.28-19.08.18:744][973]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.08.18:764][973]LogMaterial: 0.000144 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.08.18:978][973]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.08.19:001][973]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.08.19:041][973]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-19.08.19:041][973]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-19.08.19:041][973]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-19.08.19:082][973]LogMaterial: 0.072363 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.08.28:533][600]MaterialEditorStats: Info Base pass shader with static lighting: 156 instructions
+[2015.10.28-19.08.28:534][600]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.10.28-19.08.28:534][600]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 108 instructions
+[2015.10.28-19.08.28:534][600]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.10.28-19.08.28:534][600]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.10.28-19.09.22:421][322]LogMaterialEditor: Saving and Compiling material M_Water_Lake2
+[2015.10.28-19.09.23:629][322]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.09.23:648][322]LogMaterial: 0.000178 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.09.23:826][322]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.09.23:846][322]LogMaterial: Missing cached shader map for material M_Water_Lake2, compiling. 
+[2015.10.28-19.09.23:867][322]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-19.09.23:867][322]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-19.09.23:867][322]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-19.09.23:904][322]LogMaterial: 0.050524 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.09.28:773][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Water_Lake2" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Water_Lake2.uasset" SILENT=true
+[2015.10.28-19.09.29:105][322]LogSavePackage: Save=313.203247ms
+[2015.10.28-19.09.29:105][322]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Water_Lake25173419E449EF7E23AEF7B9C6C18B3B0.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Water_Lake2.uasset'
+[2015.10.28-19.09.33:380][545]LogMaterialEditor: Saving and Compiling material M_Window
+[2015.10.28-19.09.34:593][545]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-19.09.34:608][545]LogMaterial: 0.000130 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.09.34:727][545]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-19.09.34:739][545]LogMaterial: Missing cached shader map for material M_Window, compiling. 
+[2015.10.28-19.09.34:795][545]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-19.09.34:795][545]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-19.09.34:795][545]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-19.09.34:803][545]LogMaterial: 0.058128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.09.36:229][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Window" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Window.uasset" SILENT=true
+[2015.10.28-19.09.36:488][545]LogSavePackage: Save=239.591049ms
+[2015.10.28-19.09.36:489][545]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_WindowB9002A324AF6CE24A5C481A07E7CBD6E.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Window.uasset'
+[2015.10.28-19.09.36:511][545]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.10.28-19.09.36:511][545]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-19.09.36:511][545]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.10.28-19.38.52:512][966]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.10.28-19.39.11:431][931]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../documents/3d/2015/Minuit/Textures/T_Wood_D.tga)
+[2015.10.28-19.39.11:566][931]0.000039 seconds to analyze Texture2D /Game/FirstPersonBP/Textures/T_Wood_D.T_Wood_D
+
+[2015.10.28-19.39.11:581][931]LogTexture:Display: Building textures: T_Wood_D (AutoDXT)
+[2015.10.28-19.39.14:431][931]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../documents/3d/2015/Minuit/Textures/T_Wood_H.tga)
+[2015.10.28-19.39.14:590][931]0.000037 seconds to analyze Texture2D /Game/FirstPersonBP/Textures/T_Wood_H.T_Wood_H
+
+[2015.10.28-19.39.14:597][931]LogTexture:Display: Building textures: T_Wood_H (AutoDXT)
+[2015.10.28-19.39.15:275][931]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../documents/3d/2015/Minuit/Textures/T_Wood_N.tga)
+[2015.10.28-19.39.15:522][931]0.000062 seconds to analyze Texture2D /Game/FirstPersonBP/Textures/T_Wood_N.T_Wood_N
+
+[2015.10.28-19.39.15:572][931]LogTexture:Display: Building textures: T_Wood_N (BC5)
+[2015.10.28-19.39.16:078][931]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../documents/3d/2015/Minuit/Textures/T_Wood_R.tga)
+[2015.10.28-19.39.16:450][931]0.000039 seconds to analyze Texture2D /Game/FirstPersonBP/Textures/T_Wood_R.T_Wood_R
+
+[2015.10.28-19.39.16:458][931]LogTexture:Display: Building textures: T_Wood_R (AutoDXT)
+[2015.10.28-19.39.18:224][931]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.10.28-19.39.18:224][931]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.10.28-19.39.18:246][931]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.10.28-19.39.18:246][931]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.10.28-19.39.18:246][931]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.10.28-19.39.27:526][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/T_Wood_D" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Wood_D.uasset" SILENT=true
+[2015.10.28-19.39.40:312][605]LogSavePackage: Save=12784.461914ms
+[2015.10.28-19.39.40:312][605]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_Wood_D381CFA994B7C877D87B06BB50717E4A8.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Wood_D.uasset'
+[2015.10.28-19.39.40:363][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/T_Wood_H" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Wood_H.uasset" SILENT=true
+[2015.10.28-19.39.51:369][605]LogSavePackage: Save=11004.949219ms
+[2015.10.28-19.39.51:369][605]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_Wood_H42305C0C4E03F0B7D57B58A28D3D222B.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Wood_H.uasset'
+[2015.10.28-19.39.51:386][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/T_Wood_N" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Wood_N.uasset" SILENT=true
+[2015.10.28-19.40.04:005][605]LogSavePackage: Save=12616.851563ms
+[2015.10.28-19.40.04:005][605]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_Wood_NA86A1DA444454B006A641F80E3F5279B.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Wood_N.uasset'
+[2015.10.28-19.40.04:020][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/T_Wood_R" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Wood_R.uasset" SILENT=true
+[2015.10.28-19.40.13:345][605]LogSavePackage: Save=9323.228516ms
+[2015.10.28-19.40.13:345][605]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_Wood_R480D502947D04462F1CB75A96D3599F6.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Wood_R.uasset'
+[2015.10.28-19.40.15:177][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
+[2015.10.28-19.40.18:073][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
+[2015.10.28-19.40.19:352][121]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Blueprints'
+[2015.10.28-19.40.20:543][215]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Maps'
+[2015.10.28-19.40.21:180][271]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.10.28-19.40.27:475][814]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.10.28-19.40.33:558][234]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.40.33:583][234]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.10.28-19.40.33:629][234]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.10.28-19.40.33:629][234]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.10.28-19.40.33:629][234]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.10.28-19.40.33:629][234]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.10.28-19.40.33:631][234]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.40.33:636][234]LogMaterial: 0.000182 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.40.36:439][484]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.10.28-19.40.36:439][484]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.28-19.40.36:439][484]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.28-19.40.41:258][781]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.10.28-19.40.46:055][118]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.40.46:060][118]LogMaterial: 0.000337 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.40.46:061][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.28-19.40.46:092][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.28-19.40.46:161][118]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.40.46:166][118]LogMaterial: 0.000207 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.40.46:167][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.28-19.40.46:203][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.28-19.40.46:205][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.28-19.40.46:214][118]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.40.46:218][118]LogMaterial: 0.000277 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.40.46:219][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.10.28-19.40.46:243][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.28-19.40.46:245][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.28-19.40.46:246][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.10.28-19.40.46:256][118]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.40.46:260][118]LogMaterial: 0.000177 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.40.46:261][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.10.28-19.40.46:333][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.28-19.40.46:334][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.28-19.40.46:336][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.10.28-19.40.46:339][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.10.28-19.40.46:987][151]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.10.28-19.40.46:987][151]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.28-19.40.46:987][151]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.28-19.40.49:696][339]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.40.49:700][339]LogMaterial: 0.000165 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.40.49:752][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.28-19.40.50:625][394]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.10.28-19.40.50:625][394]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-19.40.50:625][394]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.28-19.40.51:289][448]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.40.51:294][448]LogMaterial: 0.000143 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.40.51:957][483]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.10.28-19.40.51:957][483]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-19.40.51:957][483]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.28-19.40.53:019][568]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.40.53:023][568]LogMaterial: 0.000172 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.40.53:723][610]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.10.28-19.40.53:723][610]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-19.40.53:723][610]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.28-19.41.00:464][138]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.41.00:468][138]LogMaterial: 0.000159 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.41.00:500][138]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.10.28-19.41.01:182][170]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2015.10.28-19.41.01:182][170]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-19.41.01:182][170]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.10.28-19.41.08:446][652]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.41.08:450][652]LogMaterial: 0.000160 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.41.08:472][652]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.10.28-19.41.09:214][689]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.41.09:214][689]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-19.41.09:214][689]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.42.24:254][668]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.42.24:287][668]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.42.24:296][668]LogMaterial: 0.000166 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.42.27:181][817]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.42.27:181][817]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.42.27:181][817]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.42.48:342][670]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.42.48:351][670]LogMaterial: 0.000316 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.42.51:240][869]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.42.51:250][869]LogMaterial: 0.000147 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.42.51:296][870]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.42.51:296][870]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.42.51:296][870]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.42.54:575][ 89]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.42.54:584][ 89]LogMaterial: 0.000192 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.42.56:901][247]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.42.56:901][247]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.42.56:901][247]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.42.59:094][422]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.42.59:104][422]LogMaterial: 0.000239 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.42.59:865][470]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.42.59:875][470]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.42.59:911][470]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.28-19.43.02:128][598]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.43.02:128][598]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.43.02:128][598]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.43.10:698][773]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.43.10:707][773]LogMaterial: 0.000150 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.43.13:272][901]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.43.13:272][901]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.43.13:272][901]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.43.19:478][350]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.43.19:487][350]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.43.22:499][511]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.43.22:499][511]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.43.22:499][511]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.43.31:535][135]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.43.31:545][135]LogMaterial: 0.000195 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.43.34:069][256]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.43.34:069][256]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.43.34:069][256]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.43.41:797][869]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.43.41:807][869]LogMaterial: 0.000175 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.43.44:272][996]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.43.44:272][996]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.43.44:272][996]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.43.47:797][262]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.43.47:807][262]LogMaterial: 0.000157 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.43.50:375][387]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.43.50:375][387]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.43.50:375][387]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.44.02:419][214]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.44.02:428][214]LogMaterial: 0.000255 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.44.02:518][214]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.10.28-19.44.04:967][336]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.44.04:967][336]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.44.04:967][336]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.44.14:630][ 44]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.44.14:640][ 44]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.44.17:760][219]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.44.17:760][219]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.44.17:760][219]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.44.27:956][958]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.44.27:966][958]LogMaterial: 0.000127 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.44.28:031][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.28-19.44.30:341][ 75]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.44.30:341][ 75]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.44.30:341][ 75]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.44.36:549][571]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.44.36:559][571]LogMaterial: 0.000201 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.44.39:109][684]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.44.39:109][684]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.44.39:109][684]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.44.39:893][743]LogMaterialEditor: Saving and Compiling material M_Wood
+[2015.10.28-19.44.41:408][743]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.44.41:448][743]LogMaterial: 0.000152 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.44.41:642][743]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.44.41:677][743]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.44.41:707][743]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-19.44.41:707][743]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-19.44.41:707][743]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-19.44.41:809][743]LogMaterial: 0.118133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.44.46:385][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Wood" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Wood.uasset" SILENT=true
+[2015.10.28-19.44.46:500][743]LogSavePackage: Save=113.486641ms
+[2015.10.28-19.44.46:500][743]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_WoodA68C529741BFBA92F911318773567A36.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Wood.uasset'
+[2015.10.28-19.44.46:515][743]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2015.10.28-19.44.46:515][743]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.44.46:515][743]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.28-19.44.48:153][867]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.10.28-19.44.49:071][911]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2015.10.28-19.44.50:917][966]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.10.28-19.45.21:315][452]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.45.21:324][452]LogMaterial: 0.000155 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.45.21:354][452]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.10.28-19.45.24:202][556]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.45.24:202][556]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.45.24:202][556]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.45.25:680][614]LogMaterialEditor: Applying material M_Wood
+[2015.10.28-19.45.26:889][614]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.45.26:928][614]LogMaterial: 0.000225 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.45.27:088][614]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.45.27:153][614]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.45.27:179][614]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-19.45.27:179][614]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-19.45.27:179][614]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-19.45.27:239][614]LogMaterial: 0.073497 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.45.31:769][769]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2015.10.28-19.45.31:769][769]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.45.31:769][769]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.28-19.45.51:832][636]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling. 
+[2015.10.28-19.45.56:395][798]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.45.56:405][798]LogMaterial: 0.000144 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.45.56:427][798]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling. 
+[2015.10.28-19.45.58:414][868]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.45.58:414][868]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.45.58:414][868]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.45.59:955][924]LogMaterialEditor: Applying material M_Wood
+[2015.10.28-19.46.01:163][924]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.46.01:201][924]LogMaterial: 0.000200 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.46.01:312][924]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.46.01:344][924]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.46.01:371][924]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-19.46.01:372][924]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-19.46.01:373][924]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-19.46.01:423][924]LogMaterial: 0.065388 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.46.07:245][164]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2015.10.28-19.46.07:245][164]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.46.07:245][164]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.28-19.46.32:333][564]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.10.28-19.46.32:353][564]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.46.32:362][564]LogMaterial: 0.000255 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.46.35:499][706]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.46.35:499][706]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.46.35:499][706]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.46.37:350][821]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.46.37:360][821]LogMaterial: 0.000208 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.46.39:296][906]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.46.39:306][906]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.46.39:345][906]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.10.28-19.46.41:507][  4]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.46.41:517][  4]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.46.43:915][116]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.46.43:915][116]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.46.43:915][116]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.47.36:685][670]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.47.36:694][670]LogMaterial: 0.000305 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.47.39:663][796]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.47.39:663][796]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.47.39:663][796]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.47.45:919][120]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.47.45:941][120]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Wood for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.28-19.47.45:941][120]LogMaterial:Warning: 	Function Blend_ColorBurn: Missing function input 'Base'
+[2015.10.28-19.47.45:941][120]LogMaterial:Warning: 	Function Blend_ColorBurn: Missing function input 'Blend'
+[2015.10.28-19.47.45:941][120]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.47.45:943][120]MaterialEditorStats:Error: Error [SM5] Function Blend_ColorBurn: Missing function input 'Base'
+[2015.10.28-19.47.45:943][120]MaterialEditorStats:Error: Error [SM5] Function Blend_ColorBurn: Missing function input 'Blend'
+[2015.10.28-19.47.49:366][304]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.47.49:367][304]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Wood for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.28-19.47.49:367][304]LogMaterial:Warning: 	Function Blend_ColorBurn: Missing function input 'Blend'
+[2015.10.28-19.47.49:367][304]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.47.49:390][304]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.10.28-19.47.49:392][304]MaterialEditorStats:Error: Error [SM5] Function Blend_ColorBurn: Missing function input 'Blend'
+[2015.10.28-19.47.55:759][606]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.47.55:769][606]LogMaterial: 0.000204 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.47.57:814][719]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2015.10.28-19.47.57:814][719]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.47.57:814][719]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.10.28-19.48.04:943][131]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.48.04:954][131]LogMaterial: 0.000207 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.48.07:110][248]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2015.10.28-19.48.07:110][248]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.48.07:110][248]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.10.28-19.48.08:085][324]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.48.08:095][324]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.48.08:143][324]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.10.28-19.48.10:621][434]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.48.10:621][434]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.48.10:621][434]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.48.12:108][523]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.48.12:118][523]LogMaterial: 0.000251 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.48.14:617][588]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.48.14:617][588]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.48.14:617][588]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.54.47:098][516]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2015.10.28-19.54.52:979][779]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
+[2015.10.28-19.54.54:169][831]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.10.28-19.55.00:186][215]LogEditorFactories: Performing atomic reimport of [E:/documents/3d/2015/Minuit/Textures/T_Wood_H.tga]
+[2015.10.28-19.55.00:186][215]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/documents/3d/2015/Minuit/Textures/T_Wood_H.tga)
+[2015.10.28-19.55.00:267][215]LogTexture:Display: Building textures: T_Wood_H (AutoDXT)
+[2015.10.28-19.55.00:974][215]LogEditorFactories: -- imported successfully
+[2015.10.28-19.55.22:373][773]LogEditorFactories: Performing atomic reimport of [E:/documents/3d/2015/Minuit/Textures/T_Wood_H.tga]
+[2015.10.28-19.55.22:373][773]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/documents/3d/2015/Minuit/Textures/T_Wood_H.tga)
+[2015.10.28-19.55.22:430][773]LogTexture:Display: Building textures: T_Wood_H (AutoDXT)
+[2015.10.28-19.55.23:616][773]LogEditorFactories: -- imported successfully
+[2015.10.28-19.55.25:841][882]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.55.25:851][882]LogMaterial: 0.000259 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.55.25:852][882]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.10.28-19.55.25:882][882]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.28-19.55.25:885][882]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.10.28-19.55.25:887][882]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.10.28-19.55.25:889][882]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling. 
+[2015.10.28-19.55.25:891][882]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.10.28-19.55.27:663][962]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.55.27:673][962]LogMaterial: 0.000229 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.55.27:699][962]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.10.28-19.55.30:541][ 90]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.55.30:541][ 90]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.55.30:541][ 90]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.55.32:985][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/T_Wood_H" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Wood_H.uasset" SILENT=true
+[2015.10.28-19.55.39:713][271]LogSavePackage: Save=6603.302246ms
+[2015.10.28-19.55.39:713][271]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_Wood_H9AF1E9534241D0F956644795733656CD.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Wood_H.uasset'
+[2015.10.28-19.55.47:145][736]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.55.47:155][736]LogMaterial: 0.000199 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.55.47:185][736]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling. 
+[2015.10.28-19.55.49:236][829]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.55.49:236][829]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.55.49:236][829]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.55.50:516][908]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.55.50:526][908]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.55.50:550][908]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling. 
+[2015.10.28-19.55.52:886][ 22]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.55.52:886][ 22]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.55.52:886][ 22]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.55.55:468][154]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.55.55:477][154]LogMaterial: 0.000139 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.55.55:500][154]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling. 
+[2015.10.28-19.55.57:718][253]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-19.55.57:718][253]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.55.57:718][253]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-19.55.59:229][332]LogMaterialEditor: Applying material M_Wood
+[2015.10.28-19.56.00:510][332]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.56.00:550][332]LogMaterial: 0.000447 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.56.00:735][332]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.56.00:767][332]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.56.00:794][332]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-19.56.00:794][332]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-19.56.00:794][332]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-19.56.00:860][332]LogMaterial: 0.080194 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.56.05:947][558]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2015.10.28-19.56.05:947][558]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-19.56.05:947][558]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.28-19.57.16:883][222]LogMaterialEditor: Saving and Compiling material M_Wood
+[2015.10.28-19.57.18:145][222]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.57.18:184][222]LogMaterial: 0.000315 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.57.18:386][222]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.57.18:418][222]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-19.57.18:445][222]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-19.57.18:445][222]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-19.57.18:445][222]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-19.57.18:479][222]LogMaterial: 0.048355 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-19.57.22:640][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Wood" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Wood.uasset" SILENT=true
+[2015.10.28-19.57.22:771][222]LogSavePackage: Save=111.912697ms
+[2015.10.28-19.57.22:771][222]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Wood5FB8B24D442F4447CC70E9808821CF91.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Wood.uasset'
+[2015.10.28-19.58.07:555][816]LogEditorFactories: Performing atomic reimport of [E:/documents/3d/2015/Minuit/Textures/T_Wood_H.tga]
+[2015.10.28-19.58.07:555][816]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 E:/documents/3d/2015/Minuit/Textures/T_Wood_H.tga)
+[2015.10.28-19.58.07:609][816]LogTexture:Display: Building textures: T_Wood_H (AutoDXT)
+[2015.10.28-19.58.08:613][816]LogEditorFactories: -- imported successfully
+[2015.10.28-19.58.13:449][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/T_Wood_H" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Wood_H.uasset" SILENT=true
+[2015.10.28-19.58.19:476][250]LogSavePackage: Save=6008.567871ms
+[2015.10.28-19.58.19:476][250]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_Wood_H3612CDC54F549438FD4A4189EDCEFA1E.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Wood_H.uasset'
+[2015.10.28-20.18.15:600][614]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
+[2015.10.28-20.18.18:658][870]LogEditorFactories: Performing atomic reimport of [E:/documents/3d/2015/Minuit/3d/export/SM_Maison.FBX]
+[2015.10.28-20.18.18:664][870]LogFbx: Loading FBX Scene from E:/documents/3d/2015/Minuit/3d/export/SM_Maison.FBX
+[2015.10.28-20.18.18:677][870]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.28-20.18.18:688][870]LogFbx: == Initial material list:
+[2015.10.28-20.18.18:688][870]LogFbx: 0: Material #28
+[2015.10.28-20.18.18:688][870]LogFbx: 1: Material #145
+[2015.10.28-20.18.18:688][870]LogFbx: 2: Material #157
+[2015.10.28-20.18.18:688][870]LogFbx: == After sorting:
+[2015.10.28-20.18.18:688][870]LogFbx: 0: Material #28
+[2015.10.28-20.18.18:688][870]LogFbx: 1: Material #145
+[2015.10.28-20.18.18:688][870]LogFbx: 2: Material #157
+[2015.10.28-20.18.18:688][870]LogFbx: == Mapping table:
+[2015.10.28-20.18.18:688][870]LogFbx:   sort 0 -> 0
+[2015.10.28-20.18.18:688][870]LogFbx:   sort 1 -> 1
+[2015.10.28-20.18.18:688][870]LogFbx:   sort 2 -> 2
+[2015.10.28-20.18.18:753][870]LogStaticMesh: Building static mesh SM_Maison...
+[2015.10.28-20.18.18:814][870]LogStaticMesh: Built static mesh [62.170307ms] /Game/FirstPersonBP/Meshes/Maison/SM_Maison.SM_Maison
+[2015.10.28-20.18.18:841][870]LogStaticMesh:Warning: SM_Maison has degenerate tangent bases which will result in incorrect shading. 
+[2015.10.28-20.18.20:352][870]LogEditorFactories: -- imported successfully
+[2015.10.28-20.18.24:955][ 85]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Maps'
+[2015.10.28-20.18.25:774][138]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.10.28-20.19.01:361][341]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.10.28-20.19.01:382][341]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.10.28-20.19.01:440][341]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.10.28-20.19.01:440][341]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.10.28-20.19.01:441][341]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.10.28-20.19.01:441][341]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.10.28-20.19.01:445][341]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.10.28-20.19.01:455][341]LogMaterial: 0.000218 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-20.19.01:481][341]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.28-20.19.01:483][341]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.10.28-20.19.01:485][341]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.10.28-20.19.01:486][341]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling. 
+[2015.10.28-20.19.01:488][341]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.10.28-20.19.04:512][499]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-20.19.04:512][499]MaterialEditorStats: Info Vertex shader: 28 instructions
+[2015.10.28-20.19.04:512][499]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-20.19.08:661][803]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.10.28-20.19.08:669][803]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.10.28-20.19.08:674][803]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-20.19.09:764][856]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.10.28-20.19.09:764][856]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-20.19.09:764][856]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.28-20.19.10:313][897]LogMaterialEditor: Applying material M_Wood
+[2015.10.28-20.19.11:550][897]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.10.28-20.19.11:566][897]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-20.19.11:676][897]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-20.19.11:689][897]LogMaterial: Missing cached shader map for material M_Wood, compiling. 
+[2015.10.28-20.19.11:709][897]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-20.19.11:709][897]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-20.19.11:709][897]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-20.19.11:746][897]LogMaterial: 0.051730 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-20.19.13:763][ 30]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2015.10.28-20.19.13:763][ 30]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-20.19.13:763][ 30]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.28-20.21.23:707][632]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.28-20.21.23:737][632]PIE: New page: PIE session: M_Master (Oct 28, 2015, 12:21:23 PM)
+[2015.10.28-20.21.23:854][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117301s)
+[2015.10.28-20.21.23:855][632]LogPlayLevel: PIE: World Init took: (0.000432s)
+[2015.10.28-20.21.23:855][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/M_Master.M_Master to /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master (0.117873s)
+[2015.10.28-20.21.24:252][632]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.10.28-20.21.24:269][632]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.10.28-20.21.24:279][632]LogBlueprint:Warning: [compiler] Warning [5656.16] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 68 ms]
+[2015.10.28-20.21.24:279][632]LogBlueprint:Warning: [compiler] Warning [5656.16] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.28-20.21.24:279][632]LogBlueprint:Warning: [compiler] Warning [5656.16] Compile of FirstPersonCharacter successful, but with 4 Warning(s) [in 0 ms]
+[2015.10.28-20.21.24:279][632]LogBlueprint:Warning: [compiler] Warning [5656.16] Compile of FirstPersonCharacter successful, but with 5 Warning(s) [in 0 ms]
+[2015.10.28-20.21.24:325][632]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.10.28-20.21.24:326][632]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.10.28-20.21.24:336][632]LogBlueprint:Warning: [compiler] Warning [5656.22] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 36 ms]
+[2015.10.28-20.21.24:336][632]LogBlueprint:Warning: [compiler] Warning [5656.22] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.28-20.21.24:352][632]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.28-20.21.24:399][632]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Forest_Bas.M_Forest_Bas to /Game/StarterContent/Maps/UEDPIE_0_M_Forest_Bas.M_Forest_Bas. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.10.28-20.21.24:403][632]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Greybox.M_Greybox to /Game/StarterContent/Maps/UEDPIE_0_M_Greybox.M_Greybox. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.10.28-20.21.24:404][632]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Maison.M_Maison to /Game/StarterContent/Maps/UEDPIE_0_M_Maison.M_Maison. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.10.28-20.21.24:405][632]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_M_Maison.M_Maison:PersistentLevel.SM_Maison_3"
+[2015.10.28-20.21.24:406][632]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Lighting.M_Lighting to /Game/StarterContent/Maps/UEDPIE_0_M_Lighting.M_Lighting. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.10.28-20.21.24:406][632]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Forest_Haut.M_Forest_Haut to /Game/StarterContent/Maps/UEDPIE_0_M_Forest_Haut.M_Forest_Haut. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.10.28-20.21.24:637][632]LogAIModule: Creating AISystem for world M_Master
+[2015.10.28-20.21.24:833][632]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-20.21.24:833][632]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-20.21.24:833][632]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-20.21.24:833][632]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master up for play (max tick rate 0) at 2015.10.28-16.21.24
+[2015.10.28-20.21.24:861][632]LogWorld: Bringing up level for play took: 0.222862
+[2015.10.28-20.21.25:049][632]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_M_Master 1.487
+[2015.10.28-20.21.31:363][ 71]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000320742C0
+[2015.10.28-20.21.31:364][ 71]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B1867A0
+[2015.10.28-20.21.31:364][ 71]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A7076A0
+[2015.10.28-20.21.31:365][ 71]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000391447C0
+[2015.10.28-20.21.33:154][172]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.28-20.21.33:155][172]PIE: New page: PIE session: M_Master (Oct 28, 2015, 12:21:33 PM)
+[2015.10.28-20.21.33:219][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064111s)
+[2015.10.28-20.21.33:219][172]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2015.10.28-20.21.33:220][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/M_Master.M_Master to /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master (0.064839s)
+[2015.10.28-20.21.33:252][172]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.28-20.21.33:288][172]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Forest_Bas.M_Forest_Bas to /Game/StarterContent/Maps/UEDPIE_0_M_Forest_Bas.M_Forest_Bas. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.10.28-20.21.33:291][172]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Greybox.M_Greybox to /Game/StarterContent/Maps/UEDPIE_0_M_Greybox.M_Greybox. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.10.28-20.21.33:292][172]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Maison.M_Maison to /Game/StarterContent/Maps/UEDPIE_0_M_Maison.M_Maison. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.10.28-20.21.33:293][172]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/StarterContent/Maps/UEDPIE_0_M_Maison.M_Maison:PersistentLevel.SM_Maison_3"
+[2015.10.28-20.21.33:294][172]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Lighting.M_Lighting to /Game/StarterContent/Maps/UEDPIE_0_M_Lighting.M_Lighting. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.10.28-20.21.33:295][172]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Forest_Haut.M_Forest_Haut to /Game/StarterContent/Maps/UEDPIE_0_M_Forest_Haut.M_Forest_Haut. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.10.28-20.21.33:297][172]LogAIModule: Creating AISystem for world M_Master
+[2015.10.28-20.21.33:491][172]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.10.28-20.21.33:491][172]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.10.28-20.21.33:491][172]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.10.28-20.21.33:491][172]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master up for play (max tick rate 0) at 2015.10.28-16.21.33
+[2015.10.28-20.21.33:495][172]LogWorld: Bringing up level for play took: 0.197683
+[2015.10.28-20.21.33:516][172]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_M_Master -0.047
+[2015.10.28-20.21.36:011][347]Cmd: LevelEditor.ToggleImmersive
+[2015.10.28-20.24.08:762][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AB7B600
+[2015.10.28-20.25.08:267][644]Cmd: SELECT NONE
+[2015.10.28-20.25.15:000][918]LogSavePackage: Save=1306.746216ms
+[2015.10.28-20.25.15:000][918]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_MasterF6C1F8AA48FE5665BC5329BCE43EB5BF.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap'
+[2015.10.28-20.25.15:089][918]LogFileHelpers: Saving map 'M_Master' took 1.789
+[2015.10.28-20.25.15:281][918]LogSavePackage: Save=11.639285ms
+[2015.10.28-20.25.15:281][918]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Maison25B20CE84CF38E0B50170399BD9F7B51.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Maison.umap'
+[2015.10.28-20.25.15:284][918]LogFileHelpers: Saving map 'M_Maison' took 0.193
+[2015.10.28-20.25.15:298][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Meshes/Maison/SM_Maison" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_Maison.uasset" SILENT=true
+[2015.10.28-20.25.15:523][918]LogSavePackage: Save=160.806793ms
+[2015.10.28-20.25.15:523][918]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_Maison4664A1184445C96BE8E9FAB8DA6EB2FA.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_Maison.uasset'
+[2015.10.28-20.25.15:540][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Wood" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Wood.uasset" SILENT=true
+[2015.10.28-20.25.15:672][918]LogSavePackage: Save=112.203201ms
+[2015.10.28-20.25.15:672][918]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Wood746D084C41510EB402B98C9CBE996DF5.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Wood.uasset'
+[2015.10.28-20.25.22:033][341]Cmd: QUIT_EDITOR
+[2015.10.28-20.25.22:443][341]LogExit: Preparing to exit.
+[2015.10.28-20.25.23:475][341]LogExit: Editor shut down
+[2015.10.28-20.25.23:476][341]LogExit: Transaction tracking system shut down
+[2015.10.28-20.25.23:477][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A76A160
+[2015.10.28-20.25.23:481][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000169FF740
+[2015.10.28-20.25.23:481][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021BE7B00
+[2015.10.28-20.25.23:481][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002925DF80
+[2015.10.28-20.25.23:491][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024C99EE0
+[2015.10.28-20.25.24:388][341]LogExit: Object subsystem successfully closed.
+[2015.10.28-20.25.24:821][341]LogModuleManager: Shutting down and abandoning module MaterialEditor (178)
+[2015.10.28-20.25.24:821][341]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.10.28-20.25.24:821][341]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.10.28-20.25.24:821][341]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.10.28-20.25.24:821][341]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.10.28-20.25.24:821][341]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.10.28-20.25.24:835][341]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.10.28-20.25.24:853][341]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.10.28-20.25.24:853][341]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.10.28-20.25.24:854][341]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.10.28-20.25.24:870][341]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.10.28-20.25.24:870][341]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.10.28-20.25.24:870][341]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.10.28-20.25.24:870][341]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.10.28-20.25.24:870][341]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.10.28-20.25.24:870][341]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.10.28-20.25.24:870][341]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.10.28-20.25.24:870][341]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.10.28-20.25.24:870][341]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.10.28-20.25.24:870][341]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.10.28-20.25.24:911][341]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.10.28-20.25.24:925][341]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.10.28-20.25.24:968][341]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.10.28-20.25.24:984][341]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.10.28-20.25.24:984][341]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.10.28-20.25.24:999][341]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.10.28-20.25.25:009][341]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.10.28-20.25.25:010][341]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.10.28-20.25.25:010][341]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.10.28-20.25.25:025][341]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.10.28-20.25.25:025][341]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.10.28-20.25.25:025][341]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.10.28-20.25.25:025][341]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.10.28-20.25.25:904][341]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.10.28-20.25.25:904][341]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.10.28-20.25.25:904][341]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.10.28-20.25.25:915][341]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.10.28-20.25.25:915][341]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.10.28-20.25.25:952][341]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.10.28-20.25.25:952][341]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.10.28-20.25.25:959][341]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.10.28-20.25.25:971][341]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.10.28-20.25.25:975][341]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.10.28-20.25.25:987][341]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.10.28-20.25.25:987][341]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.10.28-20.25.25:999][341]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.10.28-20.25.26:011][341]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.10.28-20.25.26:025][341]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.10.28-20.25.26:054][341]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.10.28-20.25.26:054][341]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.10.28-20.25.26:054][341]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.10.28-20.25.26:064][341]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.10.28-20.25.26:139][341]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.10.28-20.25.26:172][341]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.10.28-20.25.26:193][341]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.10.28-20.25.26:202][341]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.10.28-20.25.26:212][341]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.10.28-20.25.26:212][341]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.10.28-20.25.26:212][341]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.10.28-20.25.26:212][341]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.10.28-20.25.26:226][341]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.10.28-20.25.26:250][341]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.10.28-20.25.26:250][341]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.10.28-20.25.26:262][341]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.10.28-20.25.26:262][341]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.10.28-20.25.26:262][341]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.10.28-20.25.26:273][341]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.10.28-20.25.26:273][341]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.10.28-20.25.26:273][341]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.10.28-20.25.26:273][341]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.10.28-20.25.26:283][341]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.10.28-20.25.26:283][341]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.10.28-20.25.26:300][341]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.10.28-20.25.26:355][341]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.10.28-20.25.26:369][341]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.10.28-20.25.26:369][341]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.10.28-20.25.26:369][341]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.10.28-20.25.26:369][341]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.10.28-20.25.26:379][341]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.10.28-20.25.26:397][341]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.10.28-20.25.26:408][341]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.10.28-20.25.26:408][341]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.10.28-20.25.26:416][341]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.10.28-20.25.26:416][341]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.10.28-20.25.26:430][341]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.10.28-20.25.26:453][341]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.10.28-20.25.26:453][341]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.28-20.25.26:453][341]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.10.28-20.25.26:464][341]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.10.28-20.25.26:464][341]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.10.28-20.25.26:474][341]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.10.28-20.25.26:494][341]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.10.28-20.25.26:503][341]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.10.28-20.25.26:512][341]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.10.28-20.25.26:512][341]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.10.28-20.25.26:512][341]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.10.28-20.25.26:517][341]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.10.28-20.25.26:517][341]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.10.28-20.25.26:542][341]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.10.28-20.25.26:549][341]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.10.28-20.25.26:649][341]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.10.28-20.25.26:675][341]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.10.28-20.25.26:687][341]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.10.28-20.25.26:687][341]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.10.28-20.25.26:688][341]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.10.28-20.25.26:688][341]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.10.28-20.25.26:688][341]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.10.28-20.25.26:707][341]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.10.28-20.25.26:718][341]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.10.28-20.25.26:742][341]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.10.28-20.25.26:742][341]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.10.28-20.25.26:742][341]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.10.28-20.25.26:755][341]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.10.28-20.25.26:784][341]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.10.28-20.25.26:801][341]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.10.28-20.25.26:813][341]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.10.28-20.25.26:813][341]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.10.28-20.25.26:816][341]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.10.28-20.25.26:816][341]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.10.28-20.25.26:816][341]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.10.28-20.25.26:816][341]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.10.28-20.25.26:816][341]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.10.28-20.25.26:816][341]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.10.28-20.25.26:816][341]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.10.28-20.25.26:816][341]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.10.28-20.25.26:816][341]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.10.28-20.25.26:835][341]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.10.28-20.25.26:933][341]LogDerivedDataCache: Shutdown
+[2015.10.28-20.25.26:933][341]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.10.28-20.25.26:960][341]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.10.28-20.25.26:971][341]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.10.28-20.25.26:985][341]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.10.28-20.25.26:985][341]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.10.28-20.25.26:993][341]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.10.28-20.25.27:006][341]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.10.28-20.25.27:006][341]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.10.28-20.25.27:006][341]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.10.28-20.25.27:020][341]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.10.28-20.25.27:020][341]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.10.28-20.25.27:032][341]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.10.28-20.25.27:032][341]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.10.28-20.25.27:032][341]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.10.28-20.25.27:032][341]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.10.28-20.25.27:043][341]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.10.28-20.25.27:053][341]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.10.28-20.25.27:053][341]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.10.28-20.25.27:053][341]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.10.28-20.25.27:053][341]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.10.28-20.25.27:054][341]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.10.28-20.25.27:065][341]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.10.28-20.25.27:065][341]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.10.28-20.25.27:065][341]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.10.28-20.25.27:107][341]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.10.28-20.25.27:107][341]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.10.28-20.25.27:107][341]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.28-20.25.27:107][341]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.28-20.25.27:107][341]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.28-20.25.27:107][341]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.28-20.25.27:113][341]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.28-20.25.27:118][341]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.28-20.25.27:122][341]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.28-20.25.27:138][341]LogExit: Exiting.
+[2015.10.28-20.25.27:153][341]Log file closed, 10/28/15 16:25:27
