@@ -1,0 +1,1529 @@
+﻿Log file open, 11/03/15 15:48:55
+LogInit:Display: Running engine for game: Minuit
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: E:/Program Files/Unreal Engine/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.11.03-20.48.55:031][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.11.03-20.48.55:099][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.11.03-20.48.55:197][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.03-20.48.55:371][  0]LogInit: Object subsystem initialized
+[2015.11.03-20.48.55:444][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.11.03-20.48.55:444][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.03-20.48.55:444][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.11.03-20.48.55:444][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.03-20.48.55:444][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.11.03-20.48.55:444][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.03-20.48.55:486][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.03-20.48.55:486][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.03-20.48.55:589][  0]LogInit: Computer: ETT_
+[2015.11.03-20.48.55:589][  0]LogInit: User: ETt
+[2015.11.03-20.48.55:589][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.03-20.48.55:589][  0]LogInit: High frequency timer resolution =3.318437 MHz
+[2015.11.03-20.48.55:589][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.11.03-20.48.55:589][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.03-20.48.55:589][  0]LogMemory: Process Physical Memory: 47.97 MB used, 47.97 MB peak
+[2015.11.03-20.48.55:589][  0]LogMemory: Process Virtual Memory: 25.80 MB used, 25.80 MB peak
+[2015.11.03-20.48.55:589][  0]LogMemory: Physical Memory: 4025.29 MB used, 8130.77 MB total
+[2015.11.03-20.48.55:589][  0]LogMemory: Virtual Memory: 279.06 MB used, 8388608.00 MB total
+[2015.11.03-20.48.55:661][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2015.11.03-20.48.55:661][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.11.03-20.48.55:661][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.03-20.48.55:667][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.03-20.48.55:676][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.03-20.48.56:868][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.11.03-20.48.57:009][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (E:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (E:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.11.03-20.48.57:027][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (E:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (E:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.11.03-20.48.57:116][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.03-20.49.01:339][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.03-20.49.02:219][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.03-20.49.02:315][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.03-20.49.02:466][  0]LogDerivedDataCache: Loaded boot cache 0.15s 39MB C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.11.03-20.49.02:466][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.11.03-20.49.02:466][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../documents/3d/minuit/MinuitGame/Minuit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.03-20.49.02:466][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.03-20.49.02:616][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.03-20.49.02:627][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ETt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.03-20.49.08:184][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.03-20.49.08:184][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.03-20.49.10:893][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.03-20.49.11:229][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.11.03-20.49.25:279][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.03-20.49.26:004][  0]SourceControl: Info Source control is disabled
+[2015.11.03-20.49.26:014][  0]SourceControl: Info Source control is disabled
+[2015.11.03-20.49.26:014][  0]SourceControl: Info Source control is disabled
+[2015.11.03-20.49.26:014][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.11.03-20.49.26:014][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.11.03-20.49.26:024][  0]SourceControl: Info Source control is disabled
+[2015.11.03-20.49.27:024][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.11.03-20.49.27:024][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.11.03-20.49.27:526][  0]LogEngine: Initializing Engine...
+[2015.11.03-20.49.30:025][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.03-20.49.30:050][  0]LogInit: FAudioDevice initialized.
+[2015.11.03-20.49.30:452][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.03-20.49.30:514][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.11.03-20.49.30:516][  0]LogInit: Texture streaming: Enabled
+[2015.11.03-20.49.31:112][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.03-20.49.31:112][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.11.03-20.49.31:112][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.11.03-20.49.31:126][  0]LogAnalytics: SetUserId 2d8f9b434cd97107b008209c3b4c51aa|e67cdf50177141fe8e020345bd104ee2|091128b7-7c0a-4bff-8890-6bc6add436c4
+[2015.11.03-20.49.31:156][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.11.03-20.49.31:309][  0]LogInit: Transaction tracking system initialized
+[2015.11.03-20.49.34:291][  0]BlueprintLog: New page: Editor Load
+[2015.11.03-20.49.34:713][  0]LogAssetRegistry: FAssetRegistry took 0.1269 seconds to start up
+[2015.11.03-20.49.34:713][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.11.03-20.49.38:473][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.03-20.49.38:891][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.03-20.49.41:807][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.11.03-20.49.41:808][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.11.03-20.49.41:945][  0]LogConsoleResponse:Display: 
+[2015.11.03-20.49.44:930][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.03-20.49.47:759][  0]SourceControl: Info Source control is disabled
+[2015.11.03-20.49.47:891][  0]Cmd: MAP LOAD FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.03-20.49.47:986][  0]LightingResults: New page: Lighting Build
+[2015.11.03-20.49.48:216][  0]MapCheck: New page: Map Check
+[2015.11.03-20.49.48:216][  0]LightingResults: New page: Lighting Build
+[2015.11.03-20.49.48:595][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003FE2980
+[2015.11.03-20.49.54:153][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions01/SpeedTree/SpeedTreeColorVariation.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.03-20.50.01:570][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Grass.M_Grass needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2015.11.03-20.50.01:572][  0]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2015.11.03-20.50.01:633][  0]LogMaterial: 0.000313 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.03-20.50.01:637][  0]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.11.03-20.50.01:637][  0]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.11.03-20.50.01:637][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Plante1.M_Plante1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2015.11.03-20.50.01:638][  0]LogMaterial: Missing cached shader map for material M_Plante1, compiling. 
+[2015.11.03-20.50.01:654][  0]LogMaterial: 0.000280 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.03-20.50.01:656][  0]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.11.03-20.50.01:834][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.03-20.50.02:830][  0]LogAIModule: Creating AISystem for world M_Master
+[2015.11.03-20.50.02:864][  0]Cmd: MAP CHECKDEP
+[2015.11.03-20.50.02:889][  0]MapCheck: New page: M_Master - Nov 3, 2015, 10:50:02 AM
+[2015.11.03-20.50.03:114][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 249.978ms to complete.
+[2015.11.03-20.50.03:114][  0]LogFileHelpers: Loading map 'M_Master' took 15.316
+[2015.11.03-20.50.04:931][  0]LogCollectionManager: Loaded 0 collections in 0.001606 seconds
+[2015.11.03-20.50.04:955][  0]LogContentBrowser: Native class hierarchy populated in 0.0233 seconds. Added 1696 classes and 261 folders.
+[2015.11.03-20.50.05:205][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2015.11.03-20.50.05:889][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.03-20.50.05:930][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.11.03-20.50.06:030][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.03-20.50.06:093][  0]LogLoad: Full Startup: 78.60 seconds (BP compile: 0.34 seconds)
+[2015.11.03-20.50.06:257][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.11.03-20.50.07:101][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.11.03-20.50.07:727][  0]LogRenderer:Warning: Reallocating scene render targets to support 1176x584 (Frame:3).
+[2015.11.03-20.50.07:790][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.11.03-20.50.07:891][  1]Cmd: UpdateLandscapeEditorData
+[2015.11.03-20.50.08:605][  4]LogAssetRegistry: Asset discovery search completed in 34.0182 seconds
+[2015.11.03-20.50.23:174][865]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Forest'
+[2015.11.03-20.50.40:879][ 98]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../documents/3d/2015/Minuit/3d/export/SM_Cliff1.FBX)
+[2015.11.03-20.50.40:985][ 98]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.03-20.50.40:985][ 98]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.03-20.50.40:985][ 98]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.03-20.50.40:985][ 98]LogFbx: ItemName: Model, ItemCount : 1
+[2015.11.03-20.50.40:985][ 98]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.03-20.50.40:985][ 98]LogFbx: ItemName: Material, ItemCount : 1
+[2015.11.03-20.50.40:985][ 98]LogFbx: ItemName: Texture, ItemCount : 3
+[2015.11.03-20.50.40:985][ 98]LogFbx: ItemName: Video, ItemCount : 3
+[2015.11.03-20.50.44:492][ 98]LogFbx: Loading FBX Scene from ../../../../../../documents/3d/2015/Minuit/3d/export/SM_Cliff1.FBX
+[2015.11.03-20.50.44:631][ 98]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.03-20.50.44:653][ 98]LogFbx:Warning: Triangulating static mesh SM_Cliff1w
+[2015.11.03-20.50.45:008][ 98]LogFbx: == Initial material list:
+[2015.11.03-20.50.45:008][ 98]LogFbx: 0: Rocks
+[2015.11.03-20.50.45:008][ 98]LogFbx: == After sorting:
+[2015.11.03-20.50.45:008][ 98]LogFbx: 0: Rocks
+[2015.11.03-20.50.45:008][ 98]LogFbx: == Mapping table:
+[2015.11.03-20.50.45:008][ 98]LogFbx:   sort 0 -> 0
+[2015.11.03-20.50.45:010][ 98]LogStaticMesh: Building static mesh SM_Cliff1...
+[2015.11.03-20.50.45:054][ 98]LogStaticMesh: Built static mesh [43.911636ms] /Game/FirstPersonBP/Meshes/Forest/SM_Cliff1.SM_Cliff1
+[2015.11.03-20.50.45:153][ 98]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../documents/3d/2015/Minuit/3d/export/SM_Cliff2.FBX)
+[2015.11.03-20.50.45:160][ 98]LogFbx: Loading FBX Scene from ../../../../../../documents/3d/2015/Minuit/3d/export/SM_Cliff2.FBX
+[2015.11.03-20.50.45:191][ 98]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.03-20.50.45:193][ 98]LogFbx:Warning: Triangulating static mesh rock_02
+[2015.11.03-20.50.45:513][ 98]LogFbx: == Initial material list:
+[2015.11.03-20.50.45:513][ 98]LogFbx: 0: Rocks
+[2015.11.03-20.50.45:513][ 98]LogFbx: == After sorting:
+[2015.11.03-20.50.45:513][ 98]LogFbx: 0: Rocks
+[2015.11.03-20.50.45:513][ 98]LogFbx: == Mapping table:
+[2015.11.03-20.50.45:513][ 98]LogFbx:   sort 0 -> 0
+[2015.11.03-20.50.45:515][ 98]LogStaticMesh: Building static mesh SM_Cliff2...
+[2015.11.03-20.50.45:535][ 98]LogStaticMesh: Built static mesh [19.799683ms] /Game/FirstPersonBP/Meshes/Forest/SM_Cliff2.SM_Cliff2
+[2015.11.03-20.50.45:562][ 98]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../documents/3d/2015/Minuit/3d/export/SM_Cliff3.FBX)
+[2015.11.03-20.50.45:568][ 98]LogFbx: Loading FBX Scene from ../../../../../../documents/3d/2015/Minuit/3d/export/SM_Cliff3.FBX
+[2015.11.03-20.50.45:598][ 98]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.03-20.50.45:600][ 98]LogFbx:Warning: Triangulating static mesh rock_05
+[2015.11.03-20.50.45:923][ 98]LogFbx: == Initial material list:
+[2015.11.03-20.50.45:923][ 98]LogFbx: 0: Rocks
+[2015.11.03-20.50.45:923][ 98]LogFbx: == After sorting:
+[2015.11.03-20.50.45:923][ 98]LogFbx: 0: Rocks
+[2015.11.03-20.50.45:923][ 98]LogFbx: == Mapping table:
+[2015.11.03-20.50.45:923][ 98]LogFbx:   sort 0 -> 0
+[2015.11.03-20.50.45:925][ 98]LogStaticMesh: Building static mesh SM_Cliff3...
+[2015.11.03-20.50.45:945][ 98]LogStaticMesh: Built static mesh [19.797272ms] /Game/FirstPersonBP/Meshes/Forest/SM_Cliff3.SM_Cliff3
+[2015.11.03-20.50.45:972][ 98]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../documents/3d/2015/Minuit/3d/export/SM_Cliff4.FBX)
+[2015.11.03-20.50.45:979][ 98]LogFbx: Loading FBX Scene from ../../../../../../documents/3d/2015/Minuit/3d/export/SM_Cliff4.FBX
+[2015.11.03-20.50.46:010][ 98]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.03-20.50.46:012][ 98]LogFbx:Warning: Triangulating static mesh rock_04
+[2015.11.03-20.50.46:358][ 98]LogFbx: == Initial material list:
+[2015.11.03-20.50.46:358][ 98]LogFbx: 0: Rocks
+[2015.11.03-20.50.46:358][ 98]LogFbx: == After sorting:
+[2015.11.03-20.50.46:358][ 98]LogFbx: 0: Rocks
+[2015.11.03-20.50.46:358][ 98]LogFbx: == Mapping table:
+[2015.11.03-20.50.46:358][ 98]LogFbx:   sort 0 -> 0
+[2015.11.03-20.50.46:360][ 98]LogStaticMesh: Building static mesh SM_Cliff4...
+[2015.11.03-20.50.46:388][ 98]LogStaticMesh: Built static mesh [28.648727ms] /Game/FirstPersonBP/Meshes/Forest/SM_Cliff4.SM_Cliff4
+[2015.11.03-20.50.46:558][ 98]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../documents/3d/2015/Minuit/3d/export/SM_Cliff5.FBX)
+[2015.11.03-20.50.46:565][ 98]LogFbx: Loading FBX Scene from ../../../../../../documents/3d/2015/Minuit/3d/export/SM_Cliff5.FBX
+[2015.11.03-20.50.46:601][ 98]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.03-20.50.46:603][ 98]LogFbx:Warning: Triangulating static mesh rock_03
+[2015.11.03-20.50.46:969][ 98]LogFbx: == Initial material list:
+[2015.11.03-20.50.46:969][ 98]LogFbx: 0: Rocks
+[2015.11.03-20.50.46:969][ 98]LogFbx: == After sorting:
+[2015.11.03-20.50.46:969][ 98]LogFbx: 0: Rocks
+[2015.11.03-20.50.46:969][ 98]LogFbx: == Mapping table:
+[2015.11.03-20.50.46:969][ 98]LogFbx:   sort 0 -> 0
+[2015.11.03-20.50.46:971][ 98]LogStaticMesh: Building static mesh SM_Cliff5...
+[2015.11.03-20.50.46:991][ 98]LogStaticMesh: Built static mesh [20.786894ms] /Game/FirstPersonBP/Meshes/Forest/SM_Cliff5.SM_Cliff5
+[2015.11.03-20.50.47:021][ 98]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.11.03-20.50.47:021][ 98]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Forest'
+[2015.11.03-20.50.47:022][ 98]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Forest'
+[2015.11.03-20.50.47:022][ 98]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Forest'
+[2015.11.03-20.50.47:022][ 98]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Forest'
+[2015.11.03-20.50.47:023][ 98]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Forest'
+[2015.11.03-20.50.56:043][374]LogRenderer:Warning: Reallocating scene render targets to support 1432x928 (Frame:2999).
+[2015.11.03-20.51.06:847][ 11]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.11.03-20.51.23:341][258]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../documents/3d/2015/Minuit/Textures/T_Cliff2_D.tga)
+[2015.11.03-20.51.23:990][258]0.000062 seconds to analyze Texture2D /Game/FirstPersonBP/Textures/T_Cliff2_D.T_Cliff2_D
+
+[2015.11.03-20.51.24:009][258]LogTexture:Display: Building textures: T_Cliff2_D (AutoDXT)
+[2015.11.03-20.51.27:362][258]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../documents/3d/2015/Minuit/Textures/T_Cliff2_N.tga)
+[2015.11.03-20.51.27:880][258]0.000028 seconds to analyze Texture2D /Game/FirstPersonBP/Textures/T_Cliff2_N.T_Cliff2_N
+
+[2015.11.03-20.51.27:893][258]LogTexture:Display: Building textures: T_Cliff2_N (BC5)
+[2015.11.03-20.51.28:414][258]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../documents/3d/2015/Minuit/Textures/T_Cliff2_R.tga)
+[2015.11.03-20.51.28:854][258]0.000030 seconds to analyze Texture2D /Game/FirstPersonBP/Textures/T_Cliff2_R.T_Cliff2_R
+
+[2015.11.03-20.51.28:858][258]LogTexture:Display: Building textures: T_Cliff2_R (AutoDXT)
+[2015.11.03-20.51.30:268][258]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.11.03-20.51.30:268][258]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.11.03-20.51.30:269][258]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.11.03-20.51.30:269][258]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.11.03-20.51.34:351][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/T_Cliff2_D" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Cliff2_D.uasset" SILENT=true
+[2015.11.03-20.51.37:913][528]LogSavePackage: Save=3560.400635ms
+[2015.11.03-20.51.37:913][528]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_Cliff2_DBE19C1534059019A621B96934F89CCD3.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Cliff2_D.uasset'
+[2015.11.03-20.51.37:940][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/T_Cliff2_N" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Cliff2_N.uasset" SILENT=true
+[2015.11.03-20.51.43:929][528]LogSavePackage: Save=5988.023438ms
+[2015.11.03-20.51.43:929][528]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_Cliff2_NB2BD7EE84C74D288D8849687E2D4EB34.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Cliff2_N.uasset'
+[2015.11.03-20.51.43:945][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/T_Cliff2_R" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Cliff2_R.uasset" SILENT=true
+[2015.11.03-20.51.49:905][528]LogSavePackage: Save=5958.173828ms
+[2015.11.03-20.51.49:905][528]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_Cliff2_R93EC9A5D4DC551BA9D3EA59C3EA285AF.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Cliff2_R.uasset'
+[2015.11.03-20.51.52:474][756]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.11.03-20.51.57:162][120]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.11.03-20.52.03:929][554]LogMaterial: Missing cached shader map for material M_Cliff2, compiling. 
+[2015.11.03-20.52.03:972][554]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.11.03-20.52.04:108][554]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.11.03-20.52.04:108][554]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.11.03-20.52.04:109][554]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.11.03-20.52.04:109][554]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.11.03-20.52.04:112][554]LogMaterial: Missing cached shader map for material M_Cliff2, compiling. 
+[2015.11.03-20.52.04:116][554]LogMaterial: 0.000228 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.03-20.52.05:325][594]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.11.03-20.52.05:325][594]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.03-20.52.05:325][594]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.03-20.52.06:613][667]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.11.03-20.52.10:670][940]LogMaterial: Missing cached shader map for material M_Cliff2, compiling. 
+[2015.11.03-20.52.10:674][940]LogMaterial: 0.000146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.03-20.52.10:675][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.03-20.52.10:700][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.03-20.52.10:710][940]LogMaterial: Missing cached shader map for material M_Cliff2, compiling. 
+[2015.11.03-20.52.10:714][940]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.03-20.52.10:715][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.03-20.52.10:794][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.03-20.52.10:796][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.03-20.52.10:805][940]LogMaterial: Missing cached shader map for material M_Cliff2, compiling. 
+[2015.11.03-20.52.10:810][940]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.03-20.52.10:810][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.03-20.52.10:957][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.03-20.52.10:959][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.03-20.52.10:961][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.03-20.52.11:965][980]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.11.03-20.52.11:965][980]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.03-20.52.11:965][980]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.03-20.52.14:519][137]LogMaterial: Missing cached shader map for material M_Cliff2, compiling. 
+[2015.11.03-20.52.14:523][137]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.03-20.52.14:544][137]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.03-20.52.15:999][216]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.11.03-20.52.15:999][216]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.03-20.52.15:999][216]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.03-20.52.17:802][342]LogMaterial: Missing cached shader map for material M_Cliff2, compiling. 
+[2015.11.03-20.52.17:806][342]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.03-20.52.17:899][342]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.03-20.52.18:967][399]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2015.11.03-20.52.18:967][399]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.03-20.52.18:967][399]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.11.03-20.52.19:003][400]LogMaterial: Missing cached shader map for material M_Cliff2, compiling. 
+[2015.11.03-20.52.19:007][400]LogMaterial: 0.000176 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.03-20.52.19:856][431]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2015.11.03-20.52.19:856][431]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.03-20.52.19:856][431]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.11.03-20.52.22:790][673]LogMaterial: Missing cached shader map for material M_Cliff2, compiling. 
+[2015.11.03-20.52.22:794][673]LogMaterial: 0.000134 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.03-20.52.23:387][700]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2015.11.03-20.52.23:387][700]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.03-20.52.23:387][700]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.11.03-20.52.25:103][829]LogMaterial: Missing cached shader map for material M_Cliff2, compiling. 
+[2015.11.03-20.52.25:107][829]LogMaterial: 0.000128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.03-20.52.25:157][829]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.03-20.52.25:869][870]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.11.03-20.52.25:869][870]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.03-20.52.25:869][870]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.11.03-20.52.42:033][956]LogMaterialEditor: Saving and Compiling material M_Cliff2
+[2015.11.03-20.52.43:240][956]LogMaterial: Missing cached shader map for material M_Cliff2, compiling. 
+[2015.11.03-20.52.43:254][956]LogMaterial: 0.000172 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.03-20.52.43:410][956]LogMaterial: Missing cached shader map for material M_Cliff2, compiling. 
+[2015.11.03-20.52.43:422][956]LogMaterial: Missing cached shader map for material M_Cliff2, compiling. 
+[2015.11.03-20.52.43:445][956]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.11.03-20.52.43:445][956]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.11.03-20.52.43:445][956]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.11.03-20.52.43:485][956]LogMaterial: 0.058645 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.03-20.52.44:788][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Cliff2" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Cliff2.uasset" SILENT=true
+[2015.11.03-20.52.44:906][956]LogSavePackage: Save=116.058853ms
+[2015.11.03-20.52.44:906][956]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Cliff281E5C12243F9EF2D33994BA45565FB57.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Cliff2.uasset'
+[2015.11.03-20.52.44:921][956]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2015.11.03-20.52.44:921][956]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.03-20.52.44:921][956]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.11.03-20.52.48:312][238]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.11.03-20.52.57:157][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Meshes/Forest/SM_Cliff5" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/SM_Cliff5.uasset" SILENT=true
+[2015.11.03-20.52.57:357][807]LogSavePackage: Save=198.837280ms
+[2015.11.03-20.52.57:357][807]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_Cliff5C3FD28CB417C6510F30C1D8F492E025B.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/SM_Cliff5.uasset'
+[2015.11.03-20.53.00:877][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Meshes/Forest/SM_Cliff4" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/SM_Cliff4.uasset" SILENT=true
+[2015.11.03-20.53.01:070][ 87]LogSavePackage: Save=191.323807ms
+[2015.11.03-20.53.01:070][ 87]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_Cliff4DA9AFBF545CED669172E5AA45DB8C68F.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/SM_Cliff4.uasset'
+[2015.11.03-20.53.05:750][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Meshes/Forest/SM_Cliff3" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/SM_Cliff3.uasset" SILENT=true
+[2015.11.03-20.53.05:936][469]LogSavePackage: Save=184.872574ms
+[2015.11.03-20.53.05:936][469]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_Cliff36ECBF5644546F4940DE65496F8A6758B.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/SM_Cliff3.uasset'
+[2015.11.03-20.53.09:832][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Meshes/Forest/SM_Cliff2" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/SM_Cliff2.uasset" SILENT=true
+[2015.11.03-20.53.10:057][784]LogSavePackage: Save=224.300781ms
+[2015.11.03-20.53.10:057][784]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_Cliff2F08130AA4F7EE7D38F48419B03B45B1A.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/SM_Cliff2.uasset'
+[2015.11.03-20.53.14:598][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Meshes/Forest/SM_Cliff1" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/SM_Cliff1.uasset" SILENT=true
+[2015.11.03-20.53.14:792][150]LogSavePackage: Save=193.107483ms
+[2015.11.03-20.53.14:792][150]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_Cliff101A00362427954240DC63CB1725F4948.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Forest/SM_Cliff1.uasset'
+[2015.11.03-20.53.17:677][369]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Forest'
+[2015.11.03-20.53.21:702][647]LogRenderer:Warning: Reallocating scene render targets to support 1488x928 (Frame:12469).
+[2015.11.03-20.53.21:780][648]LogRenderer:Warning: Reallocating scene render targets to support 1920x1040 (Frame:12472).
+[2015.11.03-20.53.31:792][238]LogActorFactory: Actor Factory created SM_Cliff1
+[2015.11.03-20.53.32:615][326]LogActorFactory: Actor Factory created SM_Cliff1
+[2015.11.03-20.53.40:782][207]Cmd: DELETE
+[2015.11.03-20.53.40:782][207]Cmd: ACTOR DELETE
+[2015.11.03-20.53.40:827][207]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.03-20.53.40:898][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000119D87C0
+[2015.11.03-20.53.40:898][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000216EDD00
+[2015.11.03-20.53.40:898][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002EE265C0
+[2015.11.03-20.53.40:899][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B37C860
+[2015.11.03-20.53.40:899][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002E777CE0
+[2015.11.03-20.53.40:899][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BCD7100
+[2015.11.03-20.53.40:903][207]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2015.11.03-20.53.41:863][276]LogActorFactory: Actor Factory created SM_Cliff2
+[2015.11.03-20.53.42:855][392]LogActorFactory: Actor Factory created SM_Cliff2
+[2015.11.03-20.53.54:210][624]Cmd: MODE ROTGRID=0
+[2015.11.03-20.54.20:940][598]LogActorFactory: Actor Factory created SM_Cliff3
+[2015.11.03-20.54.21:605][673]LogActorFactory: Actor Factory created SM_Cliff3
+[2015.11.03-20.54.25:391][115]Cmd: DELETE
+[2015.11.03-20.54.25:391][115]Cmd: ACTOR DELETE
+[2015.11.03-20.54.25:395][115]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.03-20.54.25:407][115]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2015.11.03-20.54.26:185][197]LogActorFactory: Actor Factory created SM_Cliff4
+[2015.11.03-20.54.26:710][258]LogActorFactory: Actor Factory created SM_Cliff4
+[2015.11.03-20.54.39:889][816]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.11.03-20.54.48:813][845]LogActorFactory: Actor Factory created SM_Cliff2
+[2015.11.03-20.54.50:033][979]LogActorFactory: Actor Factory created SM_Cliff2
+[2015.11.03-20.55.01:037][260]LogActorFactory: Actor Factory created SM_Cliff5
+[2015.11.03-20.55.01:682][331]LogActorFactory: Actor Factory created SM_Cliff5
+[2015.11.03-20.55.02:485][417]Cmd: DELETE
+[2015.11.03-20.55.02:485][417]Cmd: ACTOR DELETE
+[2015.11.03-20.55.02:489][417]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.03-20.55.02:502][417]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2015.11.03-20.55.03:037][470]LogActorFactory: Actor Factory created SM_Cliff4
+[2015.11.03-20.55.03:547][529]LogActorFactory: Actor Factory created SM_Cliff4
+[2015.11.03-20.55.11:247][438]Cmd: TRANSACTION UNDO
+[2015.11.03-20.55.11:247][438]LogEditorTransaction: Undo Scale Actors
+[2015.11.03-20.55.25:708][ 96]LogActorFactory: Actor Factory created SM_Cliff3
+[2015.11.03-20.55.27:384][292]LogActorFactory: Actor Factory created SM_Cliff3
+[2015.11.03-20.55.27:783][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cliff2)
+[2015.11.03-20.55.30:246][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cliff6)
+[2015.11.03-20.55.51:575][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cliff5)
+[2015.11.03-20.55.56:844][724]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.11.03-20.56.04:463][538]LogActorFactory: Actor Factory created SM_Cliff2
+[2015.11.03-20.56.05:242][619]LogActorFactory: Actor Factory created SM_Cliff2
+[2015.11.03-20.56.12:813][511]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.11.03-20.56.15:242][784]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.11.03-20.56.17:123][922]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.11.03-20.56.17:123][922]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.11.03-20.56.17:123][922]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.11.03-20.56.17:123][922]LogMaterial: 0.016068 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.11.03-20.56.17:192][922]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.11.03-20.56.17:192][922]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.11.03-20.56.17:192][922]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.11.03-20.56.17:192][922]LogMaterial: 0.016523 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.11.03-20.56.17:261][922]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.11.03-20.56.17:261][922]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.11.03-20.56.17:261][922]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.11.03-20.56.17:261][922]LogMaterial: 0.016607 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.11.03-20.56.17:330][922]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.11.03-20.56.17:330][922]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.11.03-20.56.17:330][922]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.11.03-20.56.17:330][922]LogMaterial: 0.016444 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.11.03-20.56.17:401][922]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.11.03-20.56.17:401][922]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.11.03-20.56.17:401][922]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.11.03-20.56.17:401][922]LogMaterial: 0.017196 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.11.03-20.56.17:402][922]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2015.11.03-20.56.21:615][358]Cmd: TRANSACTION UNDO
+[2015.11.03-20.56.21:615][358]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.11.03-20.56.21:631][358]LogTexture:Display: Building textures: Texture2D_77 (BGRA8)
+[2015.11.03-20.56.21:720][358]PIE:Warning: Warning AttachTo: '/Game/StarterContent/Maps/M_Master.M_Master:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/StarterContent/Maps/M_Master.M_Master:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.11.03-20.56.30:222][327]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.30:229][328]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.30:229][328]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.30:235][329]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.30:240][329]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.30:247][330]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.30:247][330]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.30:255][331]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.30:255][331]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.30:262][332]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.30:275][333]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.30:281][334]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.30:281][334]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.30:287][335]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.31:176][440]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.31:178][440]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.31:178][440]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.31:184][441]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.31:195][442]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.31:202][443]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.31:203][443]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.31:212][444]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.31:212][444]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.31:219][445]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.31:682][499]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.31:684][499]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.31:685][499]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.31:691][500]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.34:945][884]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.34:945][884]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.56.34:952][885]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.34:952][885]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.56.34:952][885]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.34:952][885]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.34:952][885]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.56.34:958][886]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.35:013][892]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.35:013][892]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.56.35:019][893]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.35:019][893]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.56.35:019][893]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.35:019][893]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.35:019][893]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.56.35:026][894]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.39:723][441]Cmd: TRANSACTION UNDO
+[2015.11.03-20.56.39:723][441]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2015.11.03-20.56.39:739][441]LogTexture:Display: Building textures: Texture2D_77 (BGRA8)
+[2015.11.03-20.56.39:757][441]PIE:Warning: Warning AttachTo: '/Game/StarterContent/Maps/M_Master.M_Master:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/StarterContent/Maps/M_Master.M_Master:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.11.03-20.56.44:949][ 24]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.56.44:949][ 24]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.44:951][ 24]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.44:951][ 24]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.56.44:951][ 24]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.44:951][ 24]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.44:951][ 24]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.56.44:958][ 25]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.45:453][ 83]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.45:455][ 83]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.45:455][ 83]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.45:461][ 84]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.45:878][134]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2015.11.03-20.56.46:680][225]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.56.46:682][225]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.46:682][225]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.56.46:690][226]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.56.47:044][267]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.56.47:046][267]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.47:046][267]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.56.47:054][268]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.56.57:514][482]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.57:516][482]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.57:517][482]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.57:525][483]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.57:971][535]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.57:973][535]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.57:973][535]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.57:981][536]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.58:577][606]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.58:579][606]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.58:579][606]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.58:587][607]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.58:606][609]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.58:614][610]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.58:615][610]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.58:622][611]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.59:094][666]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:096][666]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:096][666]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:104][667]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.59:341][695]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:349][696]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:349][696]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:356][697]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.59:410][703]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:418][704]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:418][704]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:428][705]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:428][705]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:439][706]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:439][706]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:450][707]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:450][707]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:458][708]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.59:486][711]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:494][712]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:495][712]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:505][713]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:506][713]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:517][714]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:517][714]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:527][715]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:528][715]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:539][716]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:539][716]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:549][717]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:550][717]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:558][718]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.59:603][723]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:611][724]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:611][724]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:622][725]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:622][725]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:632][726]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:632][726]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:643][727]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:643][727]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:654][728]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:654][728]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:662][729]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.59:898][757]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:907][758]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:907][758]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:917][759]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:917][759]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:928][760]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:928][760]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:936][761]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.59:940][761]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:949][762]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:949][762]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:959][763]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.56.59:959][763]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.56.59:967][764]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.56.59:996][767]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:004][768]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:004][768]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:015][769]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:015][769]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:026][770]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:026][770]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:037][771]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:037][771]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:048][772]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:048][772]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:057][773]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.00:061][773]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:069][774]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:069][774]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:079][775]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:079][775]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:090][776]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:091][776]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:102][777]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:102][777]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:113][778]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:113][778]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:121][779]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.00:125][779]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:133][780]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:134][780]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:144][781]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:144][781]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:152][782]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.00:157][782]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:165][783]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:166][783]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:176][784]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:176][784]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:184][785]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.00:188][785]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:197][786]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:197][786]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:208][787]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:208][787]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:218][788]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:218][788]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:229][789]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:229][789]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:240][790]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:240][790]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:250][791]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:250][791]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:261][792]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:262][792]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:272][793]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:273][793]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:284][794]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:284][794]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:295][795]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:295][795]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:306][796]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:306][796]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:317][797]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:317][797]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:328][798]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:328][798]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:339][799]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:339][799]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:347][800]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.00:351][800]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:359][801]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:359][801]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:370][802]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:370][802]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:381][803]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:381][803]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:392][804]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:392][804]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:402][805]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:402][805]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:413][806]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:414][806]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:425][807]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:425][807]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:435][808]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:435][808]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:447][809]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:447][809]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:451][809]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:459][810]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:459][810]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:459][810]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:459][810]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:460][810]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.00:462][810]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:470][811]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:470][811]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:470][811]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:470][811]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:472][811]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.00:474][811]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:482][812]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:482][812]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:482][812]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:482][812]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:483][812]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.00:486][812]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:494][813]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:495][813]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:495][813]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:495][813]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:495][813]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.00:503][814]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.00:506][814]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:506][814]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:515][815]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:515][815]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:515][815]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:515][815]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:516][815]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.00:524][816]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.00:568][821]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:568][821]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:577][822]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:577][822]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:577][822]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:577][822]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:578][822]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.00:580][822]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:588][823]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:588][823]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:588][823]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:588][823]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:589][823]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.00:592][823]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:600][824]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:600][824]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:600][824]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:600][824]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:601][824]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.00:603][824]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:611][825]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:612][825]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:612][825]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:612][825]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.00:612][825]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.00:623][826]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:623][826]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:635][827]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:635][827]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:646][828]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:646][828]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:657][829]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:657][829]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:667][830]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:667][830]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:679][831]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:679][831]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:690][832]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:690][832]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:701][833]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:702][833]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:710][834]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.00:823][847]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:831][848]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:831][848]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:842][849]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:842][849]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:853][850]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:853][850]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:864][851]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:864][851]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:876][852]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:876][852]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:887][853]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:887][853]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:898][854]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:898][854]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:910][855]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:910][855]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:921][856]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:921][856]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:929][857]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.00:933][857]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:941][858]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:942][858]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:953][859]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:953][859]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:964][860]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:964][860]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:976][861]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:976][861]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:987][862]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:987][862]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.00:998][863]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.00:998][863]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:009][864]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:009][864]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:021][865]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:021][865]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:032][866]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:032][866]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:043][867]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:043][867]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:054][868]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:054][868]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:066][869]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:066][869]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:077][870]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:077][870]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:089][871]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:089][871]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:100][872]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:100][872]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:111][873]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:111][873]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:122][874]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:122][874]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:133][875]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:133][875]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:144][876]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:144][876]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:156][877]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:156][877]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:167][878]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:167][878]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:175][879]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.01:180][879]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:188][880]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:188][880]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:199][881]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:199][881]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:210][882]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:210][882]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:221][883]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:221][883]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:229][884]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.01:233][884]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:241][885]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:242][885]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:253][886]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:253][886]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:264][887]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:264][887]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:275][888]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:275][888]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:286][889]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:287][889]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:298][890]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:298][890]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:309][891]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:309][891]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:320][892]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:320][892]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:328][893]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.01:332][893]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:341][894]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:341][894]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:349][895]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.01:360][896]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:368][897]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:368][897]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:377][898]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.01:413][902]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:421][903]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:421][903]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:429][904]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.01:433][904]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:442][905]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:442][905]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:454][906]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:454][906]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:465][907]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:465][907]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:476][908]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:476][908]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:487][909]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:487][909]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:499][910]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:499][910]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:509][911]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:510][911]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:521][912]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:521][912]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:533][913]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:533][913]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:535][913]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.01:535][913]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.01:543][914]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.02:105][980]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:107][980]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:107][980]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:115][981]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.02:127][982]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:135][983]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:135][983]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:143][984]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.02:213][992]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:221][993]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:221][993]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:229][994]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.02:232][994]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:241][995]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:241][995]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:249][996]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.02:260][997]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:268][998]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:268][998]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:276][999]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.02:280][999]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:288][  0]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:288][  0]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:296][  1]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.02:300][  1]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:308][  2]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:308][  2]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:316][  3]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.02:320][  3]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:328][  4]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:328][  4]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:339][  5]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:339][  5]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:350][  6]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:350][  6]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:358][  7]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.02:362][  7]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:370][  8]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:371][  8]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:381][  9]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:381][  9]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:392][ 10]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:392][ 10]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:403][ 11]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:403][ 11]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:414][ 12]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:414][ 12]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:426][ 13]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:426][ 13]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:437][ 14]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:437][ 14]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:448][ 15]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:448][ 15]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:459][ 16]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:459][ 16]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:470][ 17]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:470][ 17]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:482][ 18]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:482][ 18]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:493][ 19]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:493][ 19]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:504][ 20]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:504][ 20]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:515][ 21]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:515][ 21]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:526][ 22]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:526][ 22]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:534][ 23]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.02:770][ 51]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:778][ 52]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:779][ 52]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:789][ 53]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:789][ 53]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:800][ 54]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:800][ 54]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:810][ 55]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:810][ 55]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:821][ 56]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:821][ 56]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:833][ 57]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:833][ 57]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:844][ 58]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:844][ 58]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:855][ 59]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:855][ 59]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:866][ 60]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:866][ 60]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:878][ 61]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:878][ 61]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:889][ 62]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:889][ 62]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:900][ 63]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:900][ 63]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:912][ 64]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:912][ 64]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:923][ 65]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:923][ 65]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:934][ 66]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:934][ 66]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:945][ 67]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:945][ 67]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:956][ 68]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:957][ 68]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:967][ 69]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:968][ 69]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:976][ 70]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.02:979][ 70]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:988][ 71]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:988][ 71]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.02:999][ 72]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.02:999][ 72]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:010][ 73]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:010][ 73]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:021][ 74]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:021][ 74]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:032][ 75]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:032][ 75]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:043][ 76]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:043][ 76]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:054][ 77]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:054][ 77]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:066][ 78]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:066][ 78]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:077][ 79]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:077][ 79]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:085][ 80]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.03:089][ 80]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:097][ 81]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:098][ 81]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:108][ 82]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:108][ 82]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:116][ 83]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.03:153][ 87]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:161][ 88]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:161][ 88]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:169][ 89]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.03:173][ 89]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:181][ 90]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:181][ 90]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:192][ 91]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:192][ 91]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:203][ 92]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:203][ 92]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:214][ 93]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:214][ 93]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:225][ 94]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:225][ 94]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:236][ 95]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:237][ 95]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:248][ 96]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:248][ 96]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:259][ 97]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:259][ 97]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:270][ 98]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:270][ 98]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:281][ 99]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:281][ 99]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:292][100]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:292][100]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:303][101]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:303][101]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:314][102]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:315][102]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:326][103]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:326][103]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:337][104]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:337][104]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:348][105]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:348][105]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:359][106]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:360][106]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:368][107]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.03:372][107]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:380][108]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:380][108]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:391][109]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:391][109]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:402][110]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:402][110]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:413][111]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:413][111]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:426][112]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:426][112]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:437][113]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:437][113]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:448][114]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:448][114]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:459][115]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:459][115]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:470][116]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:470][116]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:481][117]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:481][117]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:492][118]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:492][118]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:503][119]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:503][119]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:514][120]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:514][120]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:525][121]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:525][121]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:536][122]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:536][122]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:547][123]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:547][123]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:558][124]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:558][124]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:568][125]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:568][125]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:579][126]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:580][126]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:590][127]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.03:623][130]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:631][131]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:631][131]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:641][132]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:641][132]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:652][133]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:652][133]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:663][134]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:663][134]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:666][134]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.03:666][134]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.03:674][135]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.08:325][671]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:327][671]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:327][671]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:343][672]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.08:346][672]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:362][673]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:362][673]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:380][674]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:380][674]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:398][675]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:398][675]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:409][676]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:409][676]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:420][677]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:420][677]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:431][678]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:431][678]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:442][679]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:442][679]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:450][680]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.08:453][680]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:462][681]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:462][681]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:470][682]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.08:474][682]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:482][683]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:482][683]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:493][684]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:493][684]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:505][685]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:505][685]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:516][686]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:516][686]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:527][687]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:527][687]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:538][688]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:538][688]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:549][689]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:549][689]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:560][690]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:560][690]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:572][691]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:572][691]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:583][692]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:583][692]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:591][693]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.08:595][693]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:603][694]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:604][694]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:612][695]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.08:657][700]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:665][701]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:665][701]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:673][702]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.08:677][702]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:686][703]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:686][703]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:697][704]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:697][704]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:709][705]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:709][705]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:720][706]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:720][706]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:730][707]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.08:741][708]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:749][709]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:749][709]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:761][710]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:761][710]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:772][711]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:772][711]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:783][712]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:784][712]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:795][713]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:795][713]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:806][714]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:806][714]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:817][715]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:817][715]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:828][716]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:828][716]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:839][717]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:839][717]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:850][718]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:850][718]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:861][719]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:861][719]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:871][720]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:872][720]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:882][721]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:883][721]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:886][721]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.08:894][722]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:894][722]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:894][722]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:894][722]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.08:895][722]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.08:897][722]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.08:905][723]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:905][723]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:905][723]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:905][723]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.08:906][723]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.08:916][724]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:916][724]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:927][725]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:928][725]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:939][726]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:939][726]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:949][727]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.08:950][727]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.08:960][728]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.09:766][815]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:773][816]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.09:773][816]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:774][816]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.09:776][816]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:784][817]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.09:784][817]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:785][817]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.09:787][817]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.09:787][817]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:796][818]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.09:796][818]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:796][818]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.09:796][818]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.09:799][818]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.09:799][818]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:808][819]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.09:808][819]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:808][819]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.09:809][819]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.09:812][819]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.09:812][819]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:820][820]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.09:820][820]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:820][820]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.09:821][820]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.09:824][820]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.09:824][820]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:832][821]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.09:832][821]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:832][821]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.09:833][821]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.09:844][822]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.09:845][822]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:853][823]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.09:853][823]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:853][823]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.09:853][823]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.09:873][825]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.09:873][825]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:881][826]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.09:881][826]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:881][826]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.09:882][826]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.09:884][826]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.09:884][826]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:893][827]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.09:893][827]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:893][827]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.09:894][827]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.09:896][827]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.09:897][827]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:905][828]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.09:905][828]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:905][828]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.09:906][828]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.09:909][828]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.09:909][828]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:917][829]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.09:918][829]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:918][829]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.09:919][829]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.09:921][829]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.09:921][829]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:930][830]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.09:930][830]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:930][830]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.09:931][830]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.09:934][830]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.09:934][830]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:943][831]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.09:943][831]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:943][831]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.09:944][831]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.09:946][831]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.09:947][831]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:955][832]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.09:955][832]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.09:955][832]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.09:956][832]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.09:959][832]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.09:967][833]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.09:971][833]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.09:979][834]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.09:983][834]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.09:991][835]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.09:995][835]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.10:003][836]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.10:007][836]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.10:015][837]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.11:269][972]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.11:277][973]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.11:277][973]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.11:285][974]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.11:815][ 31]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.11:823][ 32]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.11:823][ 32]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.11:833][ 33]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.11:833][ 33]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.11:844][ 34]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.11:844][ 34]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.11:854][ 35]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.11:854][ 35]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.11:865][ 36]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.11:865][ 36]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.11:875][ 37]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.11:875][ 37]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.11:885][ 38]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.11:885][ 38]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.11:894][ 39]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.11:913][ 41]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.11:921][ 42]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.11:921][ 42]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.11:931][ 43]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.11:931][ 43]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.11:941][ 44]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.12:236][ 77]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:244][ 78]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.12:244][ 78]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:254][ 79]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.12:255][ 79]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:265][ 80]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.12:265][ 80]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:276][ 81]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.12:276][ 81]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:287][ 82]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.12:287][ 82]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:298][ 83]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.12:298][ 83]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:308][ 84]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.12:812][135]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:820][136]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.12:821][136]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:831][137]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.12:831][137]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:842][138]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.12:843][138]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:854][139]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.12:854][139]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:865][140]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.12:865][140]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:876][141]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.12:877][141]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:888][142]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.12:888][142]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:897][143]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.12:976][152]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:984][153]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.12:984][153]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.12:995][154]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.12:995][154]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:006][155]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:006][155]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:016][156]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.13:030][157]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:030][157]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:038][158]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:038][158]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:038][158]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.13:039][158]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:042][158]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:042][158]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:051][159]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:051][159]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:051][159]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:051][159]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:052][159]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:054][159]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:063][160]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:063][160]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:063][160]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:063][160]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:064][160]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:067][160]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:076][161]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:076][161]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:076][161]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:076][161]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:077][161]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:080][161]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:090][162]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:090][162]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:090][162]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:090][162]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:092][162]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:094][162]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:103][163]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:103][163]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:103][163]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:103][163]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:104][163]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:112][164]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.13:115][164]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:116][164]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:124][165]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:124][165]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:124][165]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:125][165]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:125][165]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:127][165]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:136][166]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:136][166]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:136][166]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:136][166]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:137][166]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:145][167]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.13:184][171]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:185][171]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:194][172]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:194][172]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:194][172]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:194][172]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:195][172]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:197][172]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:205][173]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:205][173]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:205][173]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:205][173]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:206][173]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:209][173]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:217][174]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:217][174]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:217][174]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:217][174]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:217][174]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:220][174]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:228][175]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:228][175]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:228][175]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:228][175]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:229][175]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:231][175]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:239][176]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:239][176]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:239][176]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:239][176]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:240][176]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:243][176]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:251][177]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:251][177]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:251][177]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:251][177]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:252][177]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:254][177]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:262][178]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:262][178]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:262][178]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:262][178]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:263][178]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:265][178]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:274][179]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:274][179]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:274][179]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:274][179]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:275][179]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:277][179]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:286][180]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:286][180]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:286][180]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:286][180]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:287][180]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:289][180]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:297][181]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:297][181]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:298][181]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:298][181]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:298][181]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:301][181]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:309][182]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:309][182]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:309][182]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:309][182]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:310][182]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:312][182]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:320][183]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:320][183]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:320][183]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:321][183]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:321][183]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:324][183]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:332][184]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:332][184]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:332][184]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:332][184]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:333][184]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:335][184]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:344][185]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:344][185]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:344][185]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:344][185]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:345][185]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:347][185]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:355][186]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:355][186]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:355][186]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:355][186]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:356][186]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:358][186]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:366][187]LogStaticMesh:Display: Discarded foliage hierarchy of 4201 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:366][187]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:367][187]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:367][187]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:368][187]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:368][187]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.13:371][187]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:371][187]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:380][188]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:380][188]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:380][188]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.13:381][188]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:384][188]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:384][188]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:393][189]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:393][189]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:393][189]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.13:396][189]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:405][190]LogStaticMesh:Display: Discarded foliage hierarchy of 561 elements build due to concurrent removal (0.0s)
+[2015.11.03-20.57.13:405][190]LogStaticMesh:Display: Copied 561 transforms in 0.000s.
+[2015.11.03-20.57.13:405][190]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.13:405][190]LogStaticMesh:Display: Built a foliage hierarchy with 561 of 561 elements in 0.0s.
+[2015.11.03-20.57.13:409][190]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:417][191]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.13:421][191]LogStaticMesh:Display: Copied 4201 transforms in 0.000s.
+[2015.11.03-20.57.13:429][192]LogStaticMesh:Display: Built a foliage hierarchy with 4201 of 4201 elements in 0.0s.
+[2015.11.03-20.57.14:472][313]Cmd: TRANSACTION UNDO
+[2015.11.03-20.57.14:472][313]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.11.03-20.57.14:487][313]LogTexture:Display: Building textures: Texture2D_77 (BGRA8)
+[2015.11.03-20.57.37:743][313]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.11.03-20.57.37:840][313]LogCrashTracker: 
+
+
+[2015.11.03-20.58.02:013][313]LogCrashTracker: 
+
+
+[2015.11.03-20.58.02:013][313]LogWindows: === Critical error: ===
+Assertion failed: IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Runtime\Core\Public\Templates\SharedPointer.h] [Line: 647] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x000007fefc4eb3dd) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() (0x000007fed1858074) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformoutputdevices.cpp:95]
+UE4Editor-Core.dll!FOutputDevice::Logf__VA() (0x000007fed16d7878) + 159 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:144]
+UE4Editor-Core.dll!FDebug::AssertFailed() (0x000007fed16b8b17) + 62 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:224]
+UE4Editor-PropertyEditor.dll!FDetailCategoryImpl::GetParentLayoutImpl() (0x000007fec9d58b9f) + 95 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\detailcategorybuilderimpl.h:167]
+UE4Editor-PropertyEditor.dll!FDetailPropertyRow::MakeValueWidget() (0x000007fec9da48b3) + 92 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\detailpropertyrow.cpp:419]
+UE4Editor-PropertyEditor.dll!FDetailPropertyRow::GetWidgetRow() (0x000007fec9d7527b) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\detailpropertyrow.cpp:184]
+UE4Editor-PropertyEditor.dll!FDetailLayoutCustomization::GetWidgetRow() (0x000007fec9d750f5) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\detailcategorybuilderimpl.cpp:73]
+UE4Editor-PropertyEditor.dll!SDetailSingleItemRow::OnContextMenuOpening() (0x000007fec9dacf59) + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\sdetailsingleitemrow.cpp:219]
+UE4Editor-PropertyEditor.dll!SDetailTableRowBase::OnMouseButtonUp() (0x000007fec9dcb05b) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\propertyeditor\private\sdetailtablerowbase.h:33]
+UE4Editor-Slate.dll!<lambda_13af6b42409306e44b4e7065f2966a1b>::operator()() (0x000007fecd88cc55) + 207 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4025]
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FPointerEvent,<lambda_13af6b42409306e44b4e7065f2966a1b> >() (0x000007fecd84738d) + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:202]
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() (0x000007fecd8f5104) + 116 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4028]
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() (0x000007fecd8e4926) + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3949]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() (0x000007fed17b39a9) + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1385]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() (0x000007fed17a5d2e) + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1669]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() (0x000007fed17b4d50) + 41 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:742]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() (0x000007fed17a3192) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:604]
+USER32.dll!UnknownFunction (0x000000007763c3c1) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x000000007763c60a) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() (0x000007fed1853ec6) + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:774]
+UE4Editor.exe!FEngineLoop::Tick() (0x000000013f1500a9) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launchengineloop.cpp:2233]
+UE4Editor.exe!GuardedMain() (0x000000013f14267c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() (0x000000013f1426ea) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x000000013f152219) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x000000013f153159) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll!UnknownFunction (0x0000000077515a4d) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x000000007774b831) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x000000007774b831) + 0 bytes [UnknownFile:0]
+
+
+[2015.11.03-20.58.02:156][313]LogExit: Executing StaticShutdownAfterError
+[2015.11.03-20.58.02:474][313]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.11.03-20.58.02:474][313]Log file closed, 11/03/15 15:58:02
