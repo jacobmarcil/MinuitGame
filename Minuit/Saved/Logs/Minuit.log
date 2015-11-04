@@ -1,4 +1,4 @@
-﻿Log file open, 11/03/15 22:05:14
+﻿Log file open, 11/04/15 14:56:58
 LogInit:Display: Running engine for game: Minuit
 LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
@@ -9,1023 +9,659 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.7
 LogInit: Command line:  
 LogInit: Base directory: E:/Program Files/Unreal Engine/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.11.04-03.05.14:720][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.11.04-03.05.14:798][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.11.04-03.05.14:888][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.11.04-03.05.15:061][  0]LogInit: Object subsystem initialized
-[2015.11.04-03.05.15:135][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.11.04-03.05.15:135][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.11.04-03.05.15:135][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.11.04-03.05.15:135][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.11.04-03.05.15:135][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.11.04-03.05.15:135][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.11.04-03.05.15:176][  0]LogInit: Selected Device Profile: [Windows]
-[2015.11.04-03.05.15:177][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.11.04-03.05.15:279][  0]LogInit: Computer: ETT_
-[2015.11.04-03.05.15:279][  0]LogInit: User: ETt
-[2015.11.04-03.05.15:279][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.11.04-03.05.15:279][  0]LogInit: High frequency timer resolution =3.318437 MHz
-[2015.11.04-03.05.15:279][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
-[2015.11.04-03.05.15:280][  0]LogMemory: Platform Memory Stats for Windows
-[2015.11.04-03.05.15:280][  0]LogMemory: Process Physical Memory: 48.00 MB used, 48.00 MB peak
-[2015.11.04-03.05.15:280][  0]LogMemory: Process Virtual Memory: 27.74 MB used, 27.74 MB peak
-[2015.11.04-03.05.15:280][  0]LogMemory: Physical Memory: 2699.46 MB used, 8130.77 MB total
-[2015.11.04-03.05.15:280][  0]LogMemory: Virtual Memory: 281.00 MB used, 8388608.00 MB total
-[2015.11.04-03.05.15:359][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
-[2015.11.04-03.05.15:359][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
-[2015.11.04-03.05.15:359][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.11.04-03.05.15:364][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.11.04-03.05.15:373][  0]LogD3D11RHI: Async texture creation enabled
-[2015.11.04-03.05.16:341][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
-[2015.11.04-03.05.16:458][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+[2015.11.04-19.56.58:562][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.11.04-19.56.58:633][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.11.04-19.56.58:731][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.04-19.56.58:904][  0]LogInit: Object subsystem initialized
+[2015.11.04-19.56.58:982][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.11.04-19.56.58:982][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.04-19.56.58:982][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.11.04-19.56.58:982][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.04-19.56.58:982][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.11.04-19.56.58:982][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/documents/3d/minuit/MinuitGame/Minuit/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.04-19.56.59:052][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.04-19.56.59:053][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.04-19.56.59:156][  0]LogInit: Computer: ETT_
+[2015.11.04-19.56.59:156][  0]LogInit: User: ETt
+[2015.11.04-19.56.59:156][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.04-19.56.59:156][  0]LogInit: High frequency timer resolution =3.318408 MHz
+[2015.11.04-19.56.59:156][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.11.04-19.56.59:156][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.04-19.56.59:156][  0]LogMemory: Process Physical Memory: 48.95 MB used, 48.95 MB peak
+[2015.11.04-19.56.59:156][  0]LogMemory: Process Virtual Memory: 28.77 MB used, 28.77 MB peak
+[2015.11.04-19.56.59:156][  0]LogMemory: Physical Memory: 2267.33 MB used, 8130.77 MB total
+[2015.11.04-19.56.59:156][  0]LogMemory: Virtual Memory: 281.97 MB used, 8388608.00 MB total
+[2015.11.04-19.56.59:237][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2015.11.04-19.56.59:237][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.11.04-19.56.59:237][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.04-19.56.59:243][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.04-19.56.59:251][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.04-19.57.00:434][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.11.04-19.57.00:584][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
 Resource: (E:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
 Resource: (E:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
-[2015.11.04-03.05.16:458][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+[2015.11.04-19.57.00:585][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Resource: (E:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
 Resource: (E:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
-[2015.11.04-03.05.16:565][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.11.04-03.05.20:217][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.11.04-03.05.21:067][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.11.04-03.05.21:165][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.11.04-03.05.21:297][  0]LogDerivedDataCache: Loaded boot cache 0.13s 39MB C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.11.04-03.05.21:297][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.11.04-03.05.21:297][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../documents/3d/minuit/MinuitGame/Minuit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.11.04-03.05.21:297][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.11.04-03.05.21:431][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.11.04-03.05.21:442][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ETt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.11.04-03.05.26:793][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.11.04-03.05.26:793][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.11.04-03.05.28:935][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.11.04-03.05.29:229][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.11.04-03.05.37:652][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.11.04-03.05.38:336][  0]SourceControl: Info Source control is disabled
-[2015.11.04-03.05.38:346][  0]SourceControl: Info Source control is disabled
-[2015.11.04-03.05.38:346][  0]SourceControl: Info Source control is disabled
-[2015.11.04-03.05.38:346][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.11.04-03.05.38:346][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.11.04-03.05.38:356][  0]SourceControl: Info Source control is disabled
-[2015.11.04-03.05.39:170][  0]LogObj: 24232 objects as part of root set at end of initial load.
-[2015.11.04-03.05.39:170][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
-[2015.11.04-03.05.39:666][  0]LogEngine: Initializing Engine...
-[2015.11.04-03.05.42:073][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.11.04-03.05.42:098][  0]LogInit: FAudioDevice initialized.
-[2015.11.04-03.05.42:517][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.11.04-03.05.42:562][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.11.04-03.05.42:565][  0]LogInit: Texture streaming: Enabled
-[2015.11.04-03.05.43:127][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.11.04-03.05.43:127][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.11.04-03.05.43:127][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.11.04-03.05.43:128][  0]LogAnalytics: SetUserId 2d8f9b434cd97107b008209c3b4c51aa|e67cdf50177141fe8e020345bd104ee2|091128b7-7c0a-4bff-8890-6bc6add436c4
-[2015.11.04-03.05.43:146][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.11.04-03.05.43:299][  0]LogInit: Transaction tracking system initialized
-[2015.11.04-03.05.46:059][  0]BlueprintLog: New page: Editor Load
-[2015.11.04-03.05.46:368][  0]LogAssetRegistry: FAssetRegistry took 0.1395 seconds to start up
-[2015.11.04-03.05.46:368][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.11.04-03.05.50:247][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.11.04-03.05.50:645][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.11.04-03.05.53:441][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.11.04-03.05.53:442][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.11.04-03.05.53:685][  0]LogConsoleResponse:Display: 
-[2015.11.04-03.05.57:070][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.11.04-03.05.59:474][  0]SourceControl: Info Source control is disabled
-[2015.11.04-03.05.59:573][  0]Cmd: MAP LOAD FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.11.04-03.05.59:656][  0]LightingResults: New page: Lighting Build
-[2015.11.04-03.05.59:889][  0]MapCheck: New page: Map Check
-[2015.11.04-03.05.59:889][  0]LightingResults: New page: Lighting Build
-[2015.11.04-03.06.00:022][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013BCE980
-[2015.11.04-03.06.04:318][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions01/SpeedTree/SpeedTreeColorVariation.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.04-03.06.09:494][  0]LogMaterial: Missing cached shader map for material M_Terrain, compiling. 
-[2015.11.04-03.06.16:862][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Grass.M_Grass needed to have new flag set bUsedWithInstancedStaticMeshes !
-[2015.11.04-03.06.16:864][  0]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
-[2015.11.04-03.06.16:895][  0]LogMaterial: 0.000220 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.06.16:898][  0]LogRenderer: Adding SpeedTree wind for static mesh Test
-[2015.11.04-03.06.16:898][  0]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
-[2015.11.04-03.06.16:898][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Plante1.M_Plante1 needed to have new flag set bUsedWithInstancedStaticMeshes !
-[2015.11.04-03.06.16:900][  0]LogMaterial: Missing cached shader map for material M_Plante1, compiling. 
-[2015.11.04-03.06.16:916][  0]LogMaterial: 0.000210 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.06.16:917][  0]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
-[2015.11.04-03.06.17:066][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.11.04-03.06.17:446][  0]LogAIModule: Creating AISystem for world M_Master
-[2015.11.04-03.06.17:472][  0]Cmd: MAP CHECKDEP
-[2015.11.04-03.06.17:488][  0]MapCheck: New page: M_Master - Nov 3, 2015, 5:06:17 PM
-[2015.11.04-03.06.17:652][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 179.598ms to complete.
-[2015.11.04-03.06.17:652][  0]LogFileHelpers: Loading map 'M_Master' took 18.129
-[2015.11.04-03.06.20:405][  0]LogCollectionManager: Loaded 0 collections in 0.001804 seconds
-[2015.11.04-03.06.20:437][  0]LogContentBrowser: Native class hierarchy populated in 0.0318 seconds. Added 1696 classes and 261 folders.
-[2015.11.04-03.06.21:463][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
-[2015.11.04-03.06.22:644][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.11.04-03.06.23:062][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.11.04-03.06.23:296][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.11.04-03.06.23:483][  0]LogLoad: Full Startup: 75.41 seconds (BP compile: 0.89 seconds)
-[2015.11.04-03.06.23:803][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
-[2015.11.04-03.06.24:155][  0]LogShaderCompilers:Warning: Failed to compile Material /Game/StarterContent/Materials/M_Terrain.M_Terrain for platform PCD3D_SM5, Default Material will be used in game.
-[2015.11.04-03.06.24:408][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
-[2015.11.04-03.06.24:988][  0]LogRenderer:Warning: Reallocating scene render targets to support 1160x584 (Frame:3).
-[2015.11.04-03.06.25:098][  1]Cmd: UpdateLandscapeEditorData -warnings
-[2015.11.04-03.06.25:213][  1]Cmd: UpdateLandscapeEditorData
-[2015.11.04-03.06.28:610][  7]LogAssetRegistry: Asset discovery search completed in 42.3819 seconds
-[2015.11.04-03.06.29:902][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
-[2015.11.04-03.06.46:945][708]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
-[2015.11.04-03.07.07:103][307]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../documents/3d/2015/Minuit/Textures/T_LightEmissive_D.tga)
-[2015.11.04-03.07.07:130][307]0.000011 seconds to analyze Texture2D /Game/FirstPersonBP/Textures/T_LightEmissive_D.T_LightEmissive_D
+[2015.11.04-19.57.00:689][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.04-19.57.05:276][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.04-19.57.06:060][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.04-19.57.06:166][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.04-19.57.06:302][  0]LogDerivedDataCache: Loaded boot cache 0.13s 39MB C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.11.04-19.57.06:302][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.11.04-19.57.06:302][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../documents/3d/minuit/MinuitGame/Minuit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.04-19.57.06:302][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.04-19.57.06:458][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.04-19.57.06:470][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ETt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.04-19.57.12:634][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.04-19.57.12:634][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.04-19.57.15:458][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.04-19.57.15:824][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.11.04-19.57.27:503][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.04-19.57.28:178][  0]SourceControl: Info Source control is disabled
+[2015.11.04-19.57.28:189][  0]SourceControl: Info Source control is disabled
+[2015.11.04-19.57.28:189][  0]SourceControl: Info Source control is disabled
+[2015.11.04-19.57.28:189][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.11.04-19.57.28:189][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.11.04-19.57.28:199][  0]SourceControl: Info Source control is disabled
+[2015.11.04-19.57.29:139][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.11.04-19.57.29:139][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2015.11.04-19.57.29:702][  0]LogEngine: Initializing Engine...
+[2015.11.04-19.57.32:239][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.04-19.57.32:273][  0]LogInit: FAudioDevice initialized.
+[2015.11.04-19.57.32:634][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.04-19.57.32:706][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/ETt/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.11.04-19.57.32:708][  0]LogInit: Texture streaming: Enabled
+[2015.11.04-19.57.33:337][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.04-19.57.33:337][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.11.04-19.57.33:337][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.11.04-19.57.33:337][  0]LogAnalytics: SetUserId 2d8f9b434cd97107b008209c3b4c51aa|e67cdf50177141fe8e020345bd104ee2|091128b7-7c0a-4bff-8890-6bc6add436c4
+[2015.11.04-19.57.33:356][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.11.04-19.57.33:543][  0]LogInit: Transaction tracking system initialized
+[2015.11.04-19.57.36:469][  0]BlueprintLog: New page: Editor Load
+[2015.11.04-19.57.36:827][  0]LogAssetRegistry: FAssetRegistry took 0.0506 seconds to start up
+[2015.11.04-19.57.36:828][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.11.04-19.57.40:965][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.04-19.57.41:259][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.04-19.57.44:635][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.11.04-19.57.44:636][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.11.04-19.57.45:146][  0]LogConsoleResponse:Display: 
+[2015.11.04-19.57.50:806][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.04-19.57.53:267][  0]SourceControl: Info Source control is disabled
+[2015.11.04-19.57.53:466][  0]Cmd: MAP LOAD FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.04-19.57.53:478][  0]LightingResults: New page: Lighting Build
+[2015.11.04-19.57.53:733][  0]MapCheck: New page: Map Check
+[2015.11.04-19.57.53:733][  0]LightingResults: New page: Lighting Build
+[2015.11.04-19.57.54:024][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017906980
+[2015.11.04-19.58.03:812][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions01/SpeedTree/SpeedTreeColorVariation.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.04-19.58.12:690][  0]LogMaterial: Missing cached shader map for material M_Terrain, compiling. 
+[2015.11.04-19.58.20:772][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Grass.M_Grass needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2015.11.04-19.58.20:773][  0]LogMaterial: Missing cached shader map for material M_Grass, compiling. 
+[2015.11.04-19.58.20:832][  0]LogMaterial: 0.000225 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-19.58.20:835][  0]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.11.04-19.58.20:835][  0]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.11.04-19.58.20:835][  0]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Plante1.M_Plante1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2015.11.04-19.58.20:838][  0]LogMaterial: Missing cached shader map for material M_Plante1, compiling. 
+[2015.11.04-19.58.20:853][  0]LogMaterial: 0.000278 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-19.58.20:856][  0]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.11.04-19.58.21:425][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.04-19.58.24:524][  0]LogAIModule: Creating AISystem for world M_Master
+[2015.11.04-19.58.24:599][  0]Cmd: MAP CHECKDEP
+[2015.11.04-19.58.24:624][  0]MapCheck: New page: M_Master - Nov 4, 2015, 9:58:24 AM
+[2015.11.04-19.58.24:787][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 187.44ms to complete.
+[2015.11.04-19.58.24:787][  0]LogFileHelpers: Loading map 'M_Master' took 31.421
+[2015.11.04-19.58.24:831][  0]LogShaderCompilers:Warning: Failed to compile Material /Game/StarterContent/Materials/M_Terrain.M_Terrain for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.04-19.58.30:189][  0]LogCollectionManager: Loaded 0 collections in 0.001483 seconds
+[2015.11.04-19.58.30:308][  0]LogContentBrowser: Native class hierarchy populated in 0.0978 seconds. Added 1696 classes and 261 folders.
+[2015.11.04-19.58.30:927][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2015.11.04-19.58.33:831][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.04-19.58.34:463][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.11.04-19.58.34:682][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.04-19.58.34:928][  0]LogLoad: Full Startup: 103.96 seconds (BP compile: 0.81 seconds)
+[2015.11.04-19.58.35:235][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
+[2015.11.04-19.58.36:720][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.11.04-19.58.37:699][  0]LogRenderer:Warning: Reallocating scene render targets to support 1160x584 (Frame:3).
+[2015.11.04-19.58.37:767][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.11.04-19.58.38:035][  1]Cmd: UpdateLandscapeEditorData
+[2015.11.04-19.58.38:706][  4]LogAssetRegistry: Asset discovery search completed in 61.9297 seconds
+[2015.11.04-19.58.45:251][239]LogRenderer:Warning: Reallocating scene render targets to support 1552x824 (Frame:321).
+[2015.11.04-19.58.45:323][240]LogRenderer:Warning: Reallocating scene render targets to support 1920x1040 (Frame:323).
+[2015.11.04-20.08.32:769][  4]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.11.04-20.08.34:437][103]Cmd: DELETE
+[2015.11.04-20.08.34:437][103]Cmd: ACTOR DELETE
+[2015.11.04-20.08.34:461][103]LogEditorActor: Deleted Actor: PointLight
+[2015.11.04-20.08.34:544][103]LogEditorActor: Deleted 1 Actors (0.087 secs)
+[2015.11.04-20.08.35:414][166]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2015.11.04-20.08.35:708][184]Cmd: DELETE
+[2015.11.04-20.08.35:708][184]Cmd: ACTOR DELETE
+[2015.11.04-20.08.35:713][184]LogEditorActor: Deleted Actor: PointLight
+[2015.11.04-20.08.35:733][184]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2015.11.04-20.08.36:127][216]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight8)
+[2015.11.04-20.08.36:336][231]Cmd: DELETE
+[2015.11.04-20.08.36:336][231]Cmd: ACTOR DELETE
+[2015.11.04-20.08.36:340][231]LogEditorActor: Deleted Actor: PointLight
+[2015.11.04-20.08.36:359][231]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2015.11.04-20.08.37:066][292]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight9)
+[2015.11.04-20.08.37:263][307]Cmd: DELETE
+[2015.11.04-20.08.37:263][307]Cmd: ACTOR DELETE
+[2015.11.04-20.08.37:268][307]LogEditorActor: Deleted Actor: PointLight
+[2015.11.04-20.08.37:286][307]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2015.11.04-20.09.00:677][774]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../documents/3d/2015/Minuit/3d/export/SM_Light_Sol.FBX)
+[2015.11.04-20.09.00:783][774]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.04-20.09.00:783][774]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.04-20.09.00:783][774]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.04-20.09.00:783][774]LogFbx: ItemName: Model, ItemCount : 1
+[2015.11.04-20.09.00:783][774]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.04-20.09.00:783][774]LogFbx: ItemName: Material, ItemCount : 2
+[2015.11.04-20.09.00:783][774]LogFbx: ItemName: Texture, ItemCount : 2
+[2015.11.04-20.09.00:783][774]LogFbx: ItemName: Video, ItemCount : 2
+[2015.11.04-20.09.03:511][774]LogFbx: Loading FBX Scene from ../../../../../../documents/3d/2015/Minuit/3d/export/SM_Light_Sol.FBX
+[2015.11.04-20.09.03:552][774]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.04-20.09.03:577][774]LogFbx: == Initial material list:
+[2015.11.04-20.09.03:577][774]LogFbx: 0: Material #280
+[2015.11.04-20.09.03:577][774]LogFbx: 1: Material #305
+[2015.11.04-20.09.03:577][774]LogFbx: == After sorting:
+[2015.11.04-20.09.03:577][774]LogFbx: 0: Material #280
+[2015.11.04-20.09.03:577][774]LogFbx: 1: Material #305
+[2015.11.04-20.09.03:577][774]LogFbx: == Mapping table:
+[2015.11.04-20.09.03:577][774]LogFbx:   sort 0 -> 0
+[2015.11.04-20.09.03:577][774]LogFbx:   sort 1 -> 1
+[2015.11.04-20.09.03:578][774]LogStaticMesh: Building static mesh SM_Light_Sol...
+[2015.11.04-20.09.03:608][774]LogStaticMesh: Built static mesh [30.445925ms] /Game/FirstPersonBP/Meshes/Maison/SM_Light_Sol.SM_Light_Sol
+[2015.11.04-20.09.03:621][774]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.11.04-20.09.03:652][774]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.11.04-20.09.03:652][774]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
+[2015.11.04-20.09.47:263][798]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.11.04-20.10.02:246][706]LogSavePackage: Save=363.917267ms
+[2015.11.04-20.10.02:246][706]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_Light_Sol43A692C447B5C18504EC3FA8B84562F2.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_Light_Sol.uasset'
+[2015.11.04-20.10.04:572][853]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes'
+[2015.11.04-20.10.06:044][967]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
+[2015.11.04-20.10.09:610][201]LogSavePackage: Save=3.407658ms
+[2015.11.04-20.10.09:610][201]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_Light_Sol0F0629AD40761AA6B19B589E52C471D3.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_Light_Sol.uasset'
+[2015.11.04-20.10.13:706][507]LogActorFactory: Actor Factory created SM_Light_Sol
+[2015.11.04-20.10.15:169][626]LogActorFactory: Actor Factory created SM_Light_Sol
+[2015.11.04-20.10.20:018][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
+[2015.11.04-20.10.24:504][296]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_Sol)
+[2015.11.04-20.10.46:824][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
+[2015.11.04-20.11.12:976][125]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
+[2015.11.04-20.11.35:199][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BDBFA60
+[2015.11.04-20.11.38:245][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_Sol)
+[2015.11.04-20.11.49:305][663]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
+[2015.11.04-20.12.39:346][709]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/Maison/SM_LightSol'
+[2015.11.04-20.12.39:346][709]LogLinker: Can't find file '/Game/FirstPersonBP/Meshes/Maison/SM_LightSol'
+[2015.11.04-20.12.39:347][709]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/Maison/SM_LightSol'
+[2015.11.04-20.12.39:347][709]LogLinker: Can't find file '/Game/FirstPersonBP/Meshes/Maison/SM_LightSol'
+[2015.11.04-20.12.40:517][784]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/Maison/SM_LightSol'
+[2015.11.04-20.12.40:517][784]LogLinker: Can't find file '/Game/FirstPersonBP/Meshes/Maison/SM_LightSol'
+[2015.11.04-20.12.40:517][784]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/Maison/SM_LightSol'
+[2015.11.04-20.12.40:517][784]LogLinker: Can't find file '/Game/FirstPersonBP/Meshes/Maison/SM_LightSol'
+[2015.11.04-20.12.41:529][841]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Light_Sol)
+[2015.11.04-20.12.42:349][888]Cmd: DELETE
+[2015.11.04-20.12.42:349][888]Cmd: ACTOR DELETE
+[2015.11.04-20.12.42:353][888]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.04-20.12.42:548][888]LogEditorActor: Deleted 1 Actors (0.199 secs)
+[2015.11.04-20.12.43:414][941]LogEditorViewport: Clicking on Actor (LMB): SM_LightSol_C (SM_LightSol)
+[2015.11.04-20.12.47:166][161]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/M_Master.M_Master:PersistentLevel.SM_LightSol_75.StaticMesh)
+[2015.11.04-20.12.54:682][605]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/M_Master.M_Master:PersistentLevel.SM_LightSol_75.StaticMesh)
+[2015.11.04-20.12.54:797][612]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/M_Master.M_Master:PersistentLevel.SM_LightSol_75.StaticMesh)
+[2015.11.04-20.12.55:230][638]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/M_Master.M_Master:PersistentLevel.SM_LightSol_75.StaticMesh)
+[2015.11.04-20.12.56:180][695]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/M_Master.M_Master:PersistentLevel.SM_LightSol_75.StaticMesh)
+[2015.11.04-20.12.56:331][704]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/M_Master.M_Master:PersistentLevel.SM_LightSol_75.StaticMesh)
+[2015.11.04-20.12.56:414][709]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/M_Master.M_Master:PersistentLevel.SM_LightSol_75.StaticMesh)
+[2015.11.04-20.12.56:464][712]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/M_Master.M_Master:PersistentLevel.SM_LightSol_75.StaticMesh)
+[2015.11.04-20.12.56:663][724]LogPrimitiveComponent: Zero scaling not supported (/Game/StarterContent/Maps/M_Master.M_Master:PersistentLevel.SM_LightSol_75.StaticMesh)
+[2015.11.04-20.13.01:535][993]Cmd: DELETE
+[2015.11.04-20.13.01:535][993]Cmd: ACTOR DELETE
+[2015.11.04-20.13.01:539][993]LogEditorActor: Deleted Actor: SM_LightSol_C
+[2015.11.04-20.13.01:560][993]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2015.11.04-20.13.02:426][ 34]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/Maison/SM_LightSol'
+[2015.11.04-20.13.02:426][ 34]LogLinker: Can't find file '/Game/FirstPersonBP/Meshes/Maison/SM_LightSol'
+[2015.11.04-20.13.02:426][ 34]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/Maison/SM_LightSol'
+[2015.11.04-20.13.02:426][ 34]LogLinker: Can't find file '/Game/FirstPersonBP/Meshes/Maison/SM_LightSol'
+[2015.11.04-20.13.02:951][ 67]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/Maison/SM_LightSol'
+[2015.11.04-20.13.02:951][ 67]LogLinker: Can't find file '/Game/FirstPersonBP/Meshes/Maison/SM_LightSol'
+[2015.11.04-20.13.02:951][ 67]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/Maison/SM_LightSol'
+[2015.11.04-20.13.02:952][ 67]LogLinker: Can't find file '/Game/FirstPersonBP/Meshes/Maison/SM_LightSol'
+[2015.11.04-20.13.16:791][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
+[2015.11.04-20.13.18:476][962]LogEditorViewport: Clicking on Actor (LMB): SM_LightSol_C (SM_LightSol)
+[2015.11.04-20.13.26:069][419]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.11.04-20.13.40:716][144]LogEditorTransaction: Undo Modify Component(s)
+[2015.11.04-20.15.11:454][959]BlueprintLog: New page: Compile SM_LightSol
+[2015.11.04-20.15.11:620][959]BlueprintEditorCompileResults: Info [1100.64] Compile of SM_LightSol successful! [in 166 ms]
+[2015.11.04-20.15.13:227][ 26]LogSavePackage: Save=322.389832ms
+[2015.11.04-20.15.13:227][ 26]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_LightSolB0059A524E09EB91720BAF9A81732E7E.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_LightSol.uasset'
+[2015.11.04-20.15.21:873][508]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
+[2015.11.04-20.15.25:525][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
+[2015.11.04-20.15.25:998][770]LogEditorViewport: Clicking on Actor (LMB): SM_LightSol_C (SM_LightSol)
+[2015.11.04-20.15.35:876][389]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_LightSol_C (SM_LightSol)
+[2015.11.04-20.15.40:727][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
+[2015.11.04-20.15.41:393][738]LogEditorViewport: Clicking on Actor (LMB): SM_LightSol_C (SM_LightSol2)
+[2015.11.04-20.15.55:445][629]LogEditorViewport: Clicking on Actor (double click): SM_LightSol_C (SM_LightSol3)
+[2015.11.04-20.15.56:948][726]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_LightSol_C (SM_LightSol4)
+[2015.11.04-20.15.59:798][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
+[2015.11.04-20.16.00:530][955]LogEditorViewport: Clicking on Actor (LMB): SM_LightSol_C (SM_LightSol3)
+[2015.11.04-20.16.02:064][ 52]LogEditorViewport: Clicking on Actor (LMB): SM_LightSol_C (SM_LightSol4)
+[2015.11.04-20.16.25:965][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
+[2015.11.04-20.16.28:985][581]LogEditorViewport: Clicking on Actor (LMB): SM_LightSol_C (SM_LightSol6)
+[2015.11.04-20.16.33:381][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
+[2015.11.04-20.16.47:551][583]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.04-20.17.22:269][280]LogSavePackage: Save=330.307190ms
+[2015.11.04-20.17.22:269][280]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_LightSol4A00D09544515AA21D78AAA23C89E407.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_LightSol.uasset'
+[2015.11.04-20.17.22:728][304]BlueprintLog: New page: Compile SM_LightSol
+[2015.11.04-20.17.22:804][304]BlueprintEditorCompileResults: Info [1231.83] Compile of SM_LightSol successful! [in 75 ms]
+[2015.11.04-20.17.31:256][736]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.11.04-20.17.31:265][736]PIE: New page: PIE session: M_Master (Nov 4, 2015, 10:17:31 AM)
+[2015.11.04-20.17.31:330][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064362s)
+[2015.11.04-20.17.31:331][736]LogPlayLevel: PIE: World Init took: (0.000445s)
+[2015.11.04-20.17.31:331][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/M_Master.M_Master to /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master (0.064995s)
+[2015.11.04-20.17.31:533][736]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.11.04-20.17.31:535][736]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.11.04-20.17.31:545][736]LogBlueprint:Warning: [compiler] Warning [1240.57] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 37 ms]
+[2015.11.04-20.17.31:545][736]LogBlueprint:Warning: [compiler] Warning [1240.57] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.04-20.17.31:545][736]LogBlueprint:Warning: [compiler] Warning [1240.57] Compile of FirstPersonCharacter successful, but with 4 Warning(s) [in 0 ms]
+[2015.11.04-20.17.31:545][736]LogBlueprint:Warning: [compiler] Warning [1240.57] Compile of FirstPersonCharacter successful, but with 5 Warning(s) [in 0 ms]
+[2015.11.04-20.17.31:571][736]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.11.04-20.17.31:573][736]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.11.04-20.17.31:582][736]LogBlueprint:Warning: [compiler] Warning [1240.60] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 36 ms]
+[2015.11.04-20.17.31:582][736]LogBlueprint:Warning: [compiler] Warning [1240.60] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.04-20.17.31:596][736]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.04-20.17.31:625][736]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Forest_Bas.M_Forest_Bas to /Game/StarterContent/Maps/UEDPIE_0_M_Forest_Bas.M_Forest_Bas. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.11.04-20.17.31:628][736]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Greybox.M_Greybox to /Game/StarterContent/Maps/UEDPIE_0_M_Greybox.M_Greybox. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.11.04-20.17.31:629][736]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Maison.M_Maison to /Game/StarterContent/Maps/UEDPIE_0_M_Maison.M_Maison. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.11.04-20.17.31:630][736]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Lighting.M_Lighting to /Game/StarterContent/Maps/UEDPIE_0_M_Lighting.M_Lighting. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.11.04-20.17.31:631][736]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Forest_Haut.M_Forest_Haut to /Game/StarterContent/Maps/UEDPIE_0_M_Forest_Haut.M_Forest_Haut. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
+[2015.11.04-20.17.31:738][736]LogAIModule: Creating AISystem for world M_Master
+[2015.11.04-20.17.31:942][736]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.11.04-20.17.31:942][736]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.11.04-20.17.31:942][736]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.11.04-20.17.31:942][736]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master up for play (max tick rate 0) at 2015.11.04-15.17.31
+[2015.11.04-20.17.31:962][736]LogWorld: Bringing up level for play took: 0.223544
+[2015.11.04-20.17.32:065][736]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_M_Master 1.558
+[2015.11.04-20.17.35:659][956]Cmd: LevelEditor.ToggleImmersive
+[2015.11.04-20.22.00:420][240]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AE98540
+[2015.11.04-20.22.00:421][240]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AFCE0C0
+[2015.11.04-20.22.00:422][240]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016781120
+[2015.11.04-20.22.16:999][310]LogSavePackage: Save=1248.229248ms
+[2015.11.04-20.22.16:999][310]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_MasterE00654D8403E9E4C9251D9A8E5C35DED.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap'
+[2015.11.04-20.22.17:136][310]LogFileHelpers: Saving map 'M_Master' took 1.576
+[2015.11.04-20.22.24:268][862]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.11.04-21.00.51:458][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
+[2015.11.04-21.04.28:225][488]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.11.04-21.04.48:502][701]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../documents/3d/2015/Minuit/Textures/T_Beton2_D.tga)
+[2015.11.04-21.04.48:980][701]0.000039 seconds to analyze Texture2D /Game/FirstPersonBP/Textures/T_Beton2_D.T_Beton2_D
 
-[2015.11.04-03.07.07:137][307]LogTexture:Display: Building textures: T_LightEmissive_D (AutoDXT)
-[2015.11.04-03.07.07:168][307]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.11.04-03.07.07:169][307]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
-[2015.11.04-03.07.10:036][497]LogSavePackage: Save=23.330864ms
-[2015.11.04-03.07.10:036][497]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_LightEmissive_D3D52DFFA4BF54E774D1754958671D691.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_LightEmissive_D.uasset'
-[2015.11.04-03.07.12:847][669]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
-[2015.11.04-03.07.17:067][961]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
-[2015.11.04-03.07.27:949][490]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.07.28:001][490]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.11.04-03.07.28:184][490]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.11.04-03.07.28:184][490]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2015.11.04-03.07.28:184][490]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.11.04-03.07.28:184][490]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2015.11.04-03.07.28:187][490]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.07.28:191][490]LogMaterial: 0.000208 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.07.29:294][569]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.11.04-03.07.29:294][569]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.11.04-03.07.29:294][569]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.11.04-03.07.31:241][700]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
-[2015.11.04-03.07.33:650][846]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.07.33:654][846]LogMaterial: 0.000319 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.07.33:655][846]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.11.04-03.07.33:714][846]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.11.04-03.07.34:357][876]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.11.04-03.07.34:357][876]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.11.04-03.07.34:357][876]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.11.04-03.07.46:206][542]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.07.46:211][542]LogMaterial: 0.000360 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.07.46:937][580]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.11.04-03.07.46:937][580]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.11.04-03.07.46:937][580]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.11.04-03.07.48:448][673]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.07.48:452][673]LogMaterial: 0.000157 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.07.48:476][673]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.11.04-03.07.49:561][729]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.07.49:567][729]LogMaterial: 0.000907 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.07.49:611][730]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.11.04-03.07.49:611][730]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.11.04-03.07.49:611][730]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.11.04-03.07.50:898][800]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.07.50:903][800]LogMaterial: 0.000201 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.07.51:939][852]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.11.04-03.07.51:939][852]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.11.04-03.07.51:939][852]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.11.04-03.07.53:081][931]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.07.53:085][931]LogMaterial: 0.000165 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.07.54:103][983]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
-[2015.11.04-03.07.54:103][983]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.11.04-03.07.54:103][983]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.11.04-03.07.54:744][ 32]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.07.54:748][ 32]LogMaterial: 0.000203 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.07.55:671][ 71]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
-[2015.11.04-03.07.55:671][ 71]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.11.04-03.07.55:671][ 71]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.11.04-03.07.57:562][181]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.07.57:566][181]LogMaterial: 0.000170 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.07.58:587][226]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.11.04-03.07.58:587][226]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.11.04-03.07.58:587][226]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.11.04-03.08.02:240][423]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.08.02:245][423]LogMaterial: 0.000192 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.08.03:187][479]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.11.04-03.08.03:187][479]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.11.04-03.08.03:187][479]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.11.04-03.08.08:417][777]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.08.08:421][777]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.08.09:491][843]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.11.04-03.08.09:491][843]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.11.04-03.08.09:491][843]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.11.04-03.08.12:284][998]LogMaterialEditor: Applying material M_Light
-[2015.11.04-03.08.13:526][998]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.08.13:540][998]LogMaterial: 0.000186 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.08.13:712][998]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.08.13:724][998]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.08.13:803][998]LogRenderer: Adding SpeedTree wind for static mesh Test
-[2015.11.04-03.08.13:803][998]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
-[2015.11.04-03.08.13:803][998]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
-[2015.11.04-03.08.13:860][998]LogMaterial: 0.129931 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.08.16:120][105]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
-[2015.11.04-03.08.16:120][105]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.11.04-03.08.16:120][105]MaterialEditorStats: Info Texture samplers: 4/16
-[2015.11.04-03.08.16:188][109]LogMaterialEditor: Saving and Compiling material M_Light
-[2015.11.04-03.08.17:407][109]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.08.17:421][109]LogMaterial: 0.000194 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.08.17:512][109]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.08.17:524][109]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.08.17:544][109]LogRenderer: Adding SpeedTree wind for static mesh Test
-[2015.11.04-03.08.17:545][109]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
-[2015.11.04-03.08.17:545][109]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
-[2015.11.04-03.08.17:570][109]LogMaterial: 0.038477 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.08.19:025][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Light" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Light.uasset" SILENT=true
-[2015.11.04-03.08.19:257][109]LogSavePackage: Save=231.037079ms
-[2015.11.04-03.08.19:257][109]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_LightF8DD20BD49F35DF4D6CABFAC30D4DB06.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Light.uasset'
-[2015.11.04-03.08.22:833][305]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes'
-[2015.11.04-03.08.24:934][418]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
-[2015.11.04-03.08.36:125][599]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../documents/3d/2015/Minuit/3d/export/SM_LightExt.FBX)
-[2015.11.04-03.08.36:244][599]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.11.04-03.08.36:244][599]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.11.04-03.08.36:244][599]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.11.04-03.08.36:244][599]LogFbx: ItemName: Model, ItemCount : 1
-[2015.11.04-03.08.36:244][599]LogFbx: ItemName: Geometry, ItemCount : 1
-[2015.11.04-03.08.36:244][599]LogFbx: ItemName: Material, ItemCount : 3
-[2015.11.04-03.08.36:244][599]LogFbx: ItemName: Texture, ItemCount : 3
-[2015.11.04-03.08.36:244][599]LogFbx: ItemName: Video, ItemCount : 3
-[2015.11.04-03.08.39:197][599]LogFbx: Loading FBX Scene from ../../../../../../documents/3d/2015/Minuit/3d/export/SM_LightExt.FBX
-[2015.11.04-03.08.39:231][599]LogFbx: FBX Scene Loaded Succesfully
-[2015.11.04-03.08.39:255][599]LogFbx: == Initial material list:
-[2015.11.04-03.08.39:255][599]LogFbx: 0: Material #304
-[2015.11.04-03.08.39:255][599]LogFbx: 1: Material #280
-[2015.11.04-03.08.39:255][599]LogFbx: 2: Material #201
-[2015.11.04-03.08.39:255][599]LogFbx: == After sorting:
-[2015.11.04-03.08.39:255][599]LogFbx: 0: Material #304
-[2015.11.04-03.08.39:255][599]LogFbx: 1: Material #280
-[2015.11.04-03.08.39:255][599]LogFbx: 2: Material #201
-[2015.11.04-03.08.39:255][599]LogFbx: == Mapping table:
-[2015.11.04-03.08.39:255][599]LogFbx:   sort 0 -> 0
-[2015.11.04-03.08.39:255][599]LogFbx:   sort 1 -> 1
-[2015.11.04-03.08.39:255][599]LogFbx:   sort 2 -> 2
-[2015.11.04-03.08.39:256][599]LogStaticMesh: Building static mesh SM_LightExt...
-[2015.11.04-03.08.39:278][599]LogStaticMesh: Built static mesh [22.146269ms] /Game/FirstPersonBP/Meshes/Maison/SM_LightExt.SM_LightExt
-[2015.11.04-03.08.39:286][599]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.11.04-03.08.39:286][599]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
-[2015.11.04-03.08.40:896][657]LogRenderer:Warning: Reallocating scene render targets to support 1432x968 (Frame:5105).
-[2015.11.04-03.08.55:359][371]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Audio'
-[2015.11.04-03.08.56:443][418]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
-[2015.11.04-03.09.04:808][766]LogMaterial: Missing cached shader map for material M_Metal_Chrome, compiling. 
-[2015.11.04-03.10.07:647][496]LogSavePackage: Save=302.948639ms
-[2015.11.04-03.10.07:647][496]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_LightExt6349A4C544727D8AC6C9EC8342A0D395.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_LightExt.uasset'
-[2015.11.04-03.10.14:411][837]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
-[2015.11.04-03.10.16:654][936]LogActorFactory: Actor Factory created SM_LightExt
-[2015.11.04-03.10.17:668][993]LogActorFactory: Actor Factory created SM_LightExt
-[2015.11.04-03.10.33:047][946]Cmd: TRANSACTION UNDO
-[2015.11.04-03.10.33:047][946]LogEditorTransaction: Undo Rotate Actors
-[2015.11.04-03.10.33:924][985]Cmd: MODE ROTGRID=1
-[2015.11.04-03.11.06:913][ 81]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
-[2015.11.04-03.11.07:620][129]Cmd: DELETE
-[2015.11.04-03.11.07:620][129]Cmd: ACTOR DELETE
-[2015.11.04-03.11.07:675][129]LogEditorActor: Deleted Actor: PointLight
-[2015.11.04-03.11.07:739][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A619620
-[2015.11.04-03.11.07:739][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003AA1F1A0
-[2015.11.04-03.11.07:744][129]LogEditorActor: Deleted 1 Actors (0.073 secs)
-[2015.11.04-03.11.11:805][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_LightExt)
-[2015.11.04-03.11.32:078][ 27]Cmd: DELETE
-[2015.11.04-03.11.32:078][ 27]Cmd: ACTOR DELETE
-[2015.11.04-03.11.32:083][ 27]LogEditorActor: Deleted Actor: DirectionalLight
-[2015.11.04-03.11.32:104][ 27]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2015.11.04-03.13.16:116][410]Cmd: MODE ROTGRID=0
-[2015.11.04-03.13.38:175][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
-[2015.11.04-03.13.40:547][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_LightExt)
-[2015.11.04-03.13.41:161][404]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight)
-[2015.11.04-03.13.59:749][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
-[2015.11.04-03.14.06:867][240]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2015.11.04-03.14.08:276][369]Cmd: DELETE
-[2015.11.04-03.14.08:276][369]Cmd: ACTOR DELETE
-[2015.11.04-03.14.08:281][369]LogEditorActor: Deleted Actor: SpotLight
-[2015.11.04-03.14.08:300][369]LogEditorActor: Deleted 1 Actors (0.024 secs)
-[2015.11.04-03.14.48:936][163]Cmd: DELETE
-[2015.11.04-03.14.48:936][163]Cmd: ACTOR DELETE
-[2015.11.04-03.14.48:941][163]LogEditorActor: Deleted Actor: PointLight
-[2015.11.04-03.14.48:961][163]LogEditorActor: Deleted 1 Actors (0.025 secs)
-[2015.11.04-03.16.06:666][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.16.29:401][504]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2015.11.04-03.16.37:169][987]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.16.39:803][177]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.16.52:445][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.16.56:830][548]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.17.07:841][626]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.17.08:420][677]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2015.11.04-03.17.17:190][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.17.24:470][977]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.18.01:544][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.18.04:678][323]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2015.11.04-03.18.06:870][486]Cmd: DELETE
-[2015.11.04-03.18.06:870][486]Cmd: ACTOR DELETE
-[2015.11.04-03.18.06:875][486]LogEditorActor: Deleted Actor: SpotLight
-[2015.11.04-03.18.06:896][486]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2015.11.04-03.18.07:565][539]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.18.10:665][776]Cmd: TRANSACTION UNDO
-[2015.11.04-03.18.10:665][776]LogEditorTransaction: Undo Move Actors
-[2015.11.04-03.18.27:999][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
-[2015.11.04-03.18.32:235][360]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.18.32:838][408]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight3)
-[2015.11.04-03.18.33:789][481]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight3)
-[2015.11.04-03.18.34:836][567]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_LightExt)
-[2015.11.04-03.18.38:382][855]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Maison)
-[2015.11.04-03.18.39:327][949]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.18.40:092][ 11]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight3)
-[2015.11.04-03.18.41:249][102]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_LightExt)
-[2015.11.04-03.18.41:972][161]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight3)
-[2015.11.04-03.18.43:110][255]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_LightExt)
-[2015.11.04-03.19.52:870][874]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
-[2015.11.04-03.20.01:446][462]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/Maison/Lights'
-[2015.11.04-03.20.01:446][462]LogLinker: Can't find file '/Game/FirstPersonBP/Meshes/Maison/Lights'
-[2015.11.04-03.20.01:446][462]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/Maison/Lights'
-[2015.11.04-03.20.01:447][462]LogLinker: Can't find file '/Game/FirstPersonBP/Meshes/Maison/Lights'
-[2015.11.04-03.20.01:854][493]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/Maison/Lights'
-[2015.11.04-03.20.01:854][493]LogLinker: Can't find file '/Game/FirstPersonBP/Meshes/Maison/Lights'
-[2015.11.04-03.20.01:854][493]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/Maison/Lights'
-[2015.11.04-03.20.01:854][493]LogLinker: Can't find file '/Game/FirstPersonBP/Meshes/Maison/Lights'
-[2015.11.04-03.20.05:135][763]Cmd: DELETE
-[2015.11.04-03.20.05:135][763]Cmd: ACTOR DELETE
-[2015.11.04-03.20.05:139][763]LogEditorActor: Deleted Actor: Lights_C
-[2015.11.04-03.20.05:154][763]LogEditorActor: Deleted 1 Actors (0.019 secs)
-[2015.11.04-03.20.37:269][137]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.20.38:902][271]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_LightExt)
-[2015.11.04-03.20.39:334][305]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight3)
-[2015.11.04-03.20.40:377][392]LogEditorViewport: Clicking on Actor (context menu): SpotLight (SpotLight2)
-[2015.11.04-03.20.40:389][392]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/Maison/Lights'
-[2015.11.04-03.20.40:389][392]LogLinker: Can't find file '/Game/FirstPersonBP/Meshes/Maison/Lights'
-[2015.11.04-03.20.40:390][392]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/Maison/Lights'
-[2015.11.04-03.20.40:390][392]LogLinker: Can't find file '/Game/FirstPersonBP/Meshes/Maison/Lights'
-[2015.11.04-03.20.47:876][238]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/Maison/Lights'
-[2015.11.04-03.20.47:877][238]LogLinker: Can't find file '/Game/FirstPersonBP/Meshes/Maison/Lights'
-[2015.11.04-03.20.47:878][238]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Meshes/Maison/Lights'
-[2015.11.04-03.20.47:878][238]LogLinker: Can't find file '/Game/FirstPersonBP/Meshes/Maison/Lights'
-[2015.11.04-03.20.59:199][516]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B448540
-[2015.11.04-03.21.15:909][341]LogEditorViewport: Clicking on Actor (context menu): SpotLight (SpotLight2)
-[2015.11.04-03.25.25:986][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.25.30:341][497]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.25.30:872][526]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_LightExt)
-[2015.11.04-03.25.31:479][560]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight3)
-[2015.11.04-03.25.35:234][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.25.49:996][774]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
-[2015.11.04-03.25.50:393][796]Cmd: DELETE
-[2015.11.04-03.25.50:394][796]Cmd: ACTOR DELETE
-[2015.11.04-03.25.50:398][796]LogEditorActor: Deleted Actor: PointLight
-[2015.11.04-03.25.50:425][796]LogEditorActor: Deleted 1 Actors (0.031 secs)
-[2015.11.04-03.26.01:100][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_LightExt)
-[2015.11.04-03.26.05:133][917]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight2)
-[2015.11.04-03.26.05:841][971]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight3)
-[2015.11.04-03.26.15:718][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.26.31:357][ 33]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
-[2015.11.04-03.26.33:836][180]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.26.33:859][180]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2015.11.04-03.26.33:920][180]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2015.11.04-03.26.33:920][180]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
-[2015.11.04-03.26.33:920][180]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2015.11.04-03.26.33:920][180]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
-[2015.11.04-03.26.33:923][180]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.26.33:927][180]LogMaterial: 0.000336 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.26.33:954][180]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2015.11.04-03.26.35:530][258]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.11.04-03.26.35:530][258]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.11.04-03.26.35:530][258]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.11.04-03.26.39:077][518]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.26.39:081][518]LogMaterial: 0.000251 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.26.39:186][524]LogMaterialEditor: Saving and Compiling material M_Light
-[2015.11.04-03.26.40:472][524]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.26.40:486][524]LogMaterial: 0.000218 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.26.40:672][524]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.26.40:685][524]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.26.40:703][524]LogMaterial: 0.013355 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.26.40:739][524]LogRenderer: Adding SpeedTree wind for static mesh Test
-[2015.11.04-03.26.40:739][524]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
-[2015.11.04-03.26.40:739][524]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
-[2015.11.04-03.26.42:012][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Light" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Light.uasset" SILENT=true
-[2015.11.04-03.26.42:319][524]LogSavePackage: Save=285.491638ms
-[2015.11.04-03.26.42:319][524]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_LightC400B9DD4966CD0E7391859405D6C96F.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Light.uasset'
-[2015.11.04-03.26.42:334][524]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
-[2015.11.04-03.26.42:334][524]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.11.04-03.26.42:334][524]MaterialEditorStats: Info Texture samplers: 4/16
-[2015.11.04-03.26.45:984][796]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
-[2015.11.04-03.26.49:685][ 67]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.26.49:690][ 67]LogMaterial: 0.000302 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.26.49:716][ 67]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
-[2015.11.04-03.26.49:819][ 72]LogMaterialEditor: Applying material M_Light
-[2015.11.04-03.26.51:079][ 72]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.26.51:094][ 72]LogMaterial: 0.000182 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.26.51:249][ 72]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.26.51:261][ 72]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.26.51:280][ 72]LogRenderer: Adding SpeedTree wind for static mesh Test
-[2015.11.04-03.26.51:280][ 72]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
-[2015.11.04-03.26.51:280][ 72]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
-[2015.11.04-03.26.51:280][ 72]LogMaterial: 0.013728 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.26.53:046][177]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
-[2015.11.04-03.26.53:046][177]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.11.04-03.26.53:046][177]MaterialEditorStats: Info Texture samplers: 4/16
-[2015.11.04-03.26.54:355][273]LogMaterialEditor: Saving and Compiling material M_Light
-[2015.11.04-03.26.55:605][273]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.26.55:620][273]LogMaterial: 0.000190 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.26.55:812][273]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.26.55:824][273]LogMaterial: Missing cached shader map for material M_Light, compiling. 
-[2015.11.04-03.26.55:844][273]LogRenderer: Adding SpeedTree wind for static mesh Test
-[2015.11.04-03.26.55:844][273]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
-[2015.11.04-03.26.55:844][273]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
-[2015.11.04-03.26.55:844][273]LogMaterial: 0.014143 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.04-03.26.57:079][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Light" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Light.uasset" SILENT=true
-[2015.11.04-03.26.57:385][273]LogSavePackage: Save=287.588104ms
-[2015.11.04-03.26.57:385][273]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_LightECD3E67E4C1DA84F6E946593B0BEA65C.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Light.uasset'
-[2015.11.04-03.27.10:053][415]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.27.13:711][746]Cmd: TRANSACTION UNDO
-[2015.11.04-03.27.13:711][746]LogEditorTransaction: Undo Move Actors
-[2015.11.04-03.27.32:505][544]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
-[2015.11.04-03.27.40:106][210]Cmd: TRANSACTION UNDO
-[2015.11.04-03.27.40:106][210]LogEditorTransaction: Undo Move Actors
-[2015.11.04-03.27.40:470][221]Cmd: TRANSACTION UNDO
-[2015.11.04-03.27.40:470][221]LogEditorTransaction: Undo Rotate Actors
-[2015.11.04-03.27.41:480][300]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.27.45:046][550]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.04-03.27.57:510][536]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.04-03.28.04:893][145]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.29.08:960][980]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.29.09:261][  5]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.29.13:736][277]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.29.14:217][324]Cmd: DELETE
-[2015.11.04-03.29.14:217][324]Cmd: ACTOR DELETE
-[2015.11.04-03.29.14:221][324]LogEditorActor: Deleted Actor: SpotLight
-[2015.11.04-03.29.14:240][324]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F3FB6A0
-[2015.11.04-03.29.14:240][324]LogEditorActor: Deleted 1 Actors (0.023 secs)
-[2015.11.04-03.29.15:655][480]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
-[2015.11.04-03.29.16:067][520]Cmd: DELETE
-[2015.11.04-03.29.16:067][520]Cmd: ACTOR DELETE
-[2015.11.04-03.29.16:071][520]LogEditorActor: Deleted Actor: SpotLight
-[2015.11.04-03.29.16:093][520]LogEditorActor: Deleted 1 Actors (0.025 secs)
-[2015.11.04-03.29.39:330][655]Cmd: TRANSACTION UNDO
-[2015.11.04-03.29.39:330][655]LogEditorTransaction: Undo Move Actors
-[2015.11.04-03.30.34:201][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.30.35:151][886]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
-[2015.11.04-03.31.19:355][140]Cmd: DELETE
-[2015.11.04-03.31.19:355][140]Cmd: ACTOR DELETE
-[2015.11.04-03.31.19:359][140]LogEditorActor: Deleted Actor: PointLight
-[2015.11.04-03.31.19:386][140]LogEditorActor: Deleted 1 Actors (0.031 secs)
-[2015.11.04-03.31.33:195][297]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
-[2015.11.04-03.32.27:503][408]Cmd: DELETE
-[2015.11.04-03.32.27:503][408]Cmd: ACTOR DELETE
-[2015.11.04-03.32.27:507][408]LogEditorActor: Deleted Actor: PointLight
-[2015.11.04-03.32.27:532][408]LogEditorActor: Deleted 1 Actors (0.030 secs)
-[2015.11.04-03.32.27:945][439]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
-[2015.11.04-03.32.28:443][473]Cmd: DELETE
-[2015.11.04-03.32.28:443][473]Cmd: ACTOR DELETE
-[2015.11.04-03.32.28:448][473]LogEditorActor: Deleted Actor: PointLight
-[2015.11.04-03.32.28:473][473]LogEditorActor: Deleted 1 Actors (0.030 secs)
-[2015.11.04-03.32.40:934][473]Cmd: DELETE
-[2015.11.04-03.32.40:934][473]Cmd: ACTOR DELETE
-[2015.11.04-03.32.40:938][473]LogEditorActor: Deleted Actor: DirectionalLight
-[2015.11.04-03.32.40:959][473]LogEditorActor: Deleted 1 Actors (0.025 secs)
-[2015.11.04-03.33.47:206][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.33.59:775][302]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2015.11.04-03.34.05:874][798]Cmd: TRANSACTION UNDO
-[2015.11.04-03.34.05:874][798]LogEditorTransaction: Undo Move Actors
-[2015.11.04-03.36.01:322][760]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.04-03.36.11:842][725]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.04-03.36.23:320][685]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.36.27:355][  0]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.04-03.36.34:489][564]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2015.11.04-03.36.55:737][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.36.57:274][704]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2015.11.04-03.37.04:959][416]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.04-03.37.25:310][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.37.36:327][961]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.04-03.37.42:310][467]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.38.01:187][365]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.38.04:213][677]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.38.50:047][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.39.15:662][698]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.39.35:922][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.39.38:096][936]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.39.41:918][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.43.36:088][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.43.36:419][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.43.40:252][544]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2015.11.04-03.44.00:494][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.44.03:259][602]LogEditorViewport: Clicking on Actor (context menu): SpotLight (SpotLight)
-[2015.11.04-03.44.04:444][718]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.44.07:527][975]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.44.13:195][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.45.33:748][158]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.45.34:593][235]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_LightExt)
-[2015.11.04-03.45.35:234][303]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight)
-[2015.11.04-03.45.44:204][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_LightExt)
-[2015.11.04-03.45.54:600][147]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.45.56:342][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_LightExt)
-[2015.11.04-03.45.57:072][410]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2015.11.04-03.45.58:568][569]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_LightExt)
-[2015.11.04-03.46.42:224][165]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.11.04-03.46.42:224][165]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
-[2015.11.04-03.47.04:217][387]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.47.05:290][504]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight)
-[2015.11.04-03.47.05:769][553]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint)
-[2015.11.04-03.47.17:068][783]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint)
-[2015.11.04-03.47.31:507][193]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.47.32:510][302]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint)
-[2015.11.04-03.48.03:150][249]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.48.05:402][440]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2015.11.04-03.48.20:540][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.48.21:417][777]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint)
-[2015.11.04-03.48.22:216][838]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2015.11.04-03.48.22:735][876]Cmd: DELETE
-[2015.11.04-03.48.22:735][876]Cmd: ACTOR DELETE
-[2015.11.04-03.48.22:739][876]LogEditorActor: Deleted Actor: SpotLight
-[2015.11.04-03.48.22:757][876]LogEditorActor: Deleted 1 Actors (0.022 secs)
-[2015.11.04-03.48.23:161][911]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2015.11.04-03.48.23:314][920]Cmd: DELETE
-[2015.11.04-03.48.23:314][920]Cmd: ACTOR DELETE
-[2015.11.04-03.48.23:318][920]LogEditorActor: Deleted Actor: SpotLight
-[2015.11.04-03.48.23:336][920]LogEditorActor: Deleted 1 Actors (0.022 secs)
-[2015.11.04-03.49.10:597][414]LogEditorTransaction: Undo Modify Component(s)
-[2015.11.04-03.50.31:339][374]LogEditorTransaction: Undo Modify Component(s)
-[2015.11.04-03.50.39:894][998]LogEditorTransaction: Undo Edit Inner Cone Angle
-[2015.11.04-03.51.31:045][731]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:078][732]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:093][733]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:105][734]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:115][735]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:125][736]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:135][737]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:144][738]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:153][739]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:163][740]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:173][741]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:182][742]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:192][743]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:202][744]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:211][745]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:221][746]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:245][747]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:280][748]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:293][749]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:303][750]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:313][751]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:325][752]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:336][753]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:346][754]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:356][755]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:366][756]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:376][757]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:386][758]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:396][759]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:406][760]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:417][761]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:427][762]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:437][763]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:448][764]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:458][765]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:468][766]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:478][767]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:488][768]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:498][769]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:508][770]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:523][771]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:533][772]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:544][773]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:554][774]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:565][775]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:575][776]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:585][777]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:595][778]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:605][779]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:616][780]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:626][781]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:628][782]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:630][782]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:630][782]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:631][782]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:631][782]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:632][782]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:639][782]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:641][783]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:642][783]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:643][783]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:650][783]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:652][784]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:653][784]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:654][784]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:661][784]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:664][785]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:665][785]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:672][785]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:675][786]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:682][786]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:685][787]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:693][787]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:695][788]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:703][788]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:705][789]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:713][789]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:715][790]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:717][790]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:717][790]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:724][790]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:727][791]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:728][791]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:735][791]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:737][792]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:745][792]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:748][793]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:749][793]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:749][793]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:757][793]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:759][794]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:760][794]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:767][794]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:770][795]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:778][795]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:780][796]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:788][796]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:791][797]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:792][797]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:799][797]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:802][798]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:803][798]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:810][798]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:813][799]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:814][799]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:821][799]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:824][800]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:825][800]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:833][800]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:835][801]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:836][801]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:844][801]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:846][802]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:848][802]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:855][802]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:857][803]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:858][803]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:866][803]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:868][804]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:869][804]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:876][804]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:879][805]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:880][805]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:881][805]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:881][805]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:888][805]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:890][806]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:898][806]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:901][807]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:909][807]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:911][808]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:919][808]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:921][809]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:929][809]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:932][810]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:940][810]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:942][811]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:950][811]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:953][812]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:961][812]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:963][813]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:971][813]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:977][814]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.31:977][814]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.11.04-03.51.40:029][258]LogEditorTransaction: Undo Modify Component(s)
-[2015.11.04-03.51.45:155][563]LogEditorTransaction: Undo Modify Component(s)
-[2015.11.04-03.51.45:915][592]Cmd: MODE ROTGRID=1
-[2015.11.04-03.51.57:955][423]Cmd: MODE ROTGRID=0
-[2015.11.04-03.52.43:786][932]BlueprintLog: New page: Compile SM_LightExt_Blueprint
-[2015.11.04-03.52.43:892][932]BlueprintEditorCompileResults: Info [2855.78] Compile of SM_LightExt_Blueprint successful! [in 105 ms]
-[2015.11.04-03.52.45:353][ 17]LogSavePackage: Save=288.863403ms
-[2015.11.04-03.52.45:353][ 17]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_LightExt_BlueprintC23B3EE748A771DCDC00A8833181C30D.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_LightExt_Blueprint.uasset'
-[2015.11.04-03.53.04:120][358]Cmd: TRANSACTION UNDO
-[2015.11.04-03.53.04:120][358]LogEditorTransaction: Undo Rotate Actors
-[2015.11.04-03.53.06:054][481]Cmd: MODE ROTGRID=1
-[2015.11.04-03.53.23:877][772]Cmd: DELETE
-[2015.11.04-03.53.23:877][772]Cmd: ACTOR DELETE
-[2015.11.04-03.53.23:881][772]LogEditorActor: Deleted Actor: SM_LightExt_Blueprint_C
-[2015.11.04-03.53.23:906][772]LogEditorActor: Deleted 1 Actors (0.029 secs)
-[2015.11.04-03.53.44:368][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.53.45:096][137]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint2)
-[2015.11.04-03.54.19:637][277]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.54.28:601][891]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint2)
-[2015.11.04-03.54.37:726][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-03.54.39:064][563]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2015.11.04-03.54.42:657][773]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2015.11.04-03.54.43:912][849]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Roche_4)
-[2015.11.04-03.54.55:881][617]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
-[2015.11.04-03.54.56:379][642]Cmd: DELETE
-[2015.11.04-03.54.56:379][642]Cmd: ACTOR DELETE
-[2015.11.04-03.54.56:380][642]LogEditorActor: Deleted Actor: PointLight
-[2015.11.04-03.54.56:421][642]LogEditorActor: Deleted 1 Actors (0.042 secs)
-[2015.11.04-03.55.00:676][881]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint)
-[2015.11.04-03.55.14:468][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
-[2015.11.04-03.55.16:744][774]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint3)
-[2015.11.04-03.55.32:669][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
-[2015.11.04-03.55.35:015][ 19]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2015.11.04-03.55.35:966][ 62]LogRenderer:Warning: Reallocating scene render targets to support 1600x968 (Frame:189997).
-[2015.11.04-03.55.36:087][ 63]LogRenderer:Warning: Reallocating scene render targets to support 1920x1040 (Frame:190000).
-[2015.11.04-03.55.45:232][444]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.11.04-03.55.45:232][444]PIE: New page: PIE session: M_Master (Nov 3, 2015, 5:55:45 PM)
-[2015.11.04-03.55.45:300][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067405s)
-[2015.11.04-03.55.45:300][444]LogPlayLevel: PIE: World Init took: (0.000600s)
-[2015.11.04-03.55.45:301][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/M_Master.M_Master to /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master (0.068235s)
-[2015.11.04-03.55.45:518][444]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
-[2015.11.04-03.55.45:520][444]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
-[2015.11.04-03.55.45:529][444]LogBlueprint:Warning: [compiler] Warning [3037.41] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 37 ms]
-[2015.11.04-03.55.45:529][444]LogBlueprint:Warning: [compiler] Warning [3037.41] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
-[2015.11.04-03.55.45:529][444]LogBlueprint:Warning: [compiler] Warning [3037.41] Compile of FirstPersonCharacter successful, but with 4 Warning(s) [in 0 ms]
-[2015.11.04-03.55.45:529][444]LogBlueprint:Warning: [compiler] Warning [3037.41] Compile of FirstPersonCharacter successful, but with 5 Warning(s) [in 0 ms]
-[2015.11.04-03.55.45:556][444]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
-[2015.11.04-03.55.45:558][444]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
-[2015.11.04-03.55.45:567][444]LogBlueprint:Warning: [compiler] Warning [3037.45] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 37 ms]
-[2015.11.04-03.55.45:567][444]LogBlueprint:Warning: [compiler] Warning [3037.45] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
-[2015.11.04-03.55.45:584][444]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.11.04-03.55.45:618][444]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Forest_Bas.M_Forest_Bas to /Game/StarterContent/Maps/UEDPIE_0_M_Forest_Bas.M_Forest_Bas. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
-[2015.11.04-03.55.45:621][444]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Greybox.M_Greybox to /Game/StarterContent/Maps/UEDPIE_0_M_Greybox.M_Greybox. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
-[2015.11.04-03.55.45:622][444]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Maison.M_Maison to /Game/StarterContent/Maps/UEDPIE_0_M_Maison.M_Maison. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
-[2015.11.04-03.55.45:623][444]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Lighting.M_Lighting to /Game/StarterContent/Maps/UEDPIE_0_M_Lighting.M_Lighting. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
-[2015.11.04-03.55.45:624][444]LogWorld: PIE: Copying PIE streaming level from /Game/StarterContent/Maps/M_Forest_Haut.M_Forest_Haut to /Game/StarterContent/Maps/UEDPIE_0_M_Forest_Haut.M_Forest_Haut. OwningWorld: /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master
-[2015.11.04-03.55.45:713][444]LogAIModule: Creating AISystem for world M_Master
-[2015.11.04-03.55.45:922][444]LogRenderer: Adding SpeedTree wind for static mesh Test
-[2015.11.04-03.55.45:922][444]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
-[2015.11.04-03.55.45:922][444]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
-[2015.11.04-03.55.45:922][444]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_M_Master.M_Master up for play (max tick rate 0) at 2015.11.03-22.55.45
-[2015.11.04-03.55.45:938][444]LogWorld: Bringing up level for play took: 0.223659
-[2015.11.04-03.55.46:023][444]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_M_Master 0.071
-[2015.11.04-03.55.48:715][601]Cmd: LevelEditor.ToggleImmersive
-[2015.11.04-03.56.44:185][744]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C806FC0
-[2015.11.04-03.56.44:186][744]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033030D60
-[2015.11.04-03.56.45:578][804]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint2)
-[2015.11.04-03.57.06:476][724]Cmd: DELETE
-[2015.11.04-03.57.06:476][724]Cmd: ACTOR DELETE
-[2015.11.04-03.57.06:480][724]LogEditorActor: Deleted Actor: SM_LightExt_Blueprint_C
-[2015.11.04-03.57.06:503][724]LogEditorActor: Deleted 1 Actors (0.027 secs)
-[2015.11.04-03.57.09:610][865]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
-[2015.11.04-03.57.10:514][910]Cmd: DELETE
-[2015.11.04-03.57.10:515][910]Cmd: ACTOR DELETE
-[2015.11.04-03.57.10:515][910]LogEditorActor: Deleted Actor: PointLight
-[2015.11.04-03.57.10:550][910]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2015.11.04-03.57.11:465][973]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight5)
-[2015.11.04-03.57.12:525][ 30]Cmd: DELETE
-[2015.11.04-03.57.12:525][ 30]Cmd: ACTOR DELETE
-[2015.11.04-03.57.12:526][ 30]LogEditorActor: Deleted Actor: SpotLight
-[2015.11.04-03.57.12:562][ 30]LogEditorActor: Deleted 1 Actors (0.037 secs)
-[2015.11.04-03.57.13:032][ 55]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight4)
-[2015.11.04-03.57.13:369][ 71]Cmd: DELETE
-[2015.11.04-03.57.13:369][ 71]Cmd: ACTOR DELETE
-[2015.11.04-03.57.13:369][ 71]LogEditorActor: Deleted Actor: SpotLight
-[2015.11.04-03.57.13:404][ 71]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2015.11.04-03.57.44:353][898]LogSavePackage:Warning: 
-Referencers of SpotLightComponent /Game/FirstPersonBP/Meshes/Maison/SM_LightExt_Blueprint.SM_LightExt_Blueprint_C:SpotLightComponent_282:
-[2015.11.04-03.57.44:447][898]EditorErrors: New page: Save Output
-[2015.11.04-03.57.44:447][898]EditorErrors:Warning: Warning Can't save ../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap: Graph is linked to external private object (unknown culprit) (unknown property ref)
-[2015.11.04-03.57.44:457][898]LogFileHelpers: Saving map 'M_Master' took 15.583
-[2015.11.04-03.57.52:378][898]LogSavePackage:Warning: 
-Referencers of SpotLightComponent /Game/FirstPersonBP/Meshes/Maison/SM_LightExt_Blueprint.SM_LightExt_Blueprint_C:SpotLightComponent_282:
-[2015.11.04-03.57.52:424][898]EditorErrors: New page: Save Output
-[2015.11.04-03.57.52:424][898]EditorErrors:Warning: Warning Can't save ../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap: Graph is linked to external private object (unknown culprit) (unknown property ref)
-[2015.11.04-03.57.52:428][898]LogFileHelpers: Saving map 'M_Master' took 2.521
-[2015.11.04-03.58.32:261][298]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0018 seconds. Added 1 classes and 3 folders.
-[2015.11.04-03.58.35:203][489]LogSavePackage: Save=7.608703ms
-[2015.11.04-03.58.35:203][489]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Maison0EFC27BB40092CE06F5D99A031B9627C.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Maison.umap'
-[2015.11.04-03.58.46:859][606]LogSavePackage:Warning: 
-Referencers of SpotLightComponent /Game/FirstPersonBP/Meshes/Maison/SM_LightExt_Blueprint.SM_LightExt_Blueprint_C:SpotLightComponent_282:
-[2015.11.04-03.58.46:955][606]EditorErrors: New page: Save Output
-[2015.11.04-03.58.46:955][606]EditorErrors:Warning: Warning Can't save ../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap: Graph is linked to external private object (unknown culprit) (unknown property ref)
-[2015.11.04-04.00.19:378][791]LogSavePackage:Warning: 
-Referencers of SpotLightComponent /Game/FirstPersonBP/Meshes/Maison/SM_LightExt_Blueprint.SM_LightExt_Blueprint_C:SpotLightComponent_282:
-[2015.11.04-04.00.19:473][791]EditorErrors: New page: Save Output
-[2015.11.04-04.00.19:473][791]EditorErrors:Warning: Warning Can't save ../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap: Graph is linked to external private object (unknown culprit) (unknown property ref)
-[2015.11.04-04.00.45:939][270]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint2)
-[2015.11.04-04.00.47:543][395]Cmd: DELETE
-[2015.11.04-04.00.47:543][395]Cmd: ACTOR DELETE
-[2015.11.04-04.00.47:547][395]LogEditorActor: Deleted Actor: SM_LightExt_Blueprint_C
-[2015.11.04-04.00.47:566][395]LogEditorActor: Deleted 1 Actors (0.023 secs)
-[2015.11.04-04.00.51:017][659]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint3)
-[2015.11.04-04.00.51:321][675]Cmd: DELETE
-[2015.11.04-04.00.51:321][675]Cmd: ACTOR DELETE
-[2015.11.04-04.00.51:325][675]LogEditorActor: Deleted Actor: SM_LightExt_Blueprint_C
-[2015.11.04-04.00.51:344][675]LogEditorActor: Deleted 1 Actors (0.023 secs)
-[2015.11.04-04.00.52:632][787]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint4)
-[2015.11.04-04.00.53:329][843]Cmd: DELETE
-[2015.11.04-04.00.53:329][843]Cmd: ACTOR DELETE
-[2015.11.04-04.00.53:333][843]LogEditorActor: Deleted Actor: SM_LightExt_Blueprint_C
-[2015.11.04-04.00.53:350][843]LogEditorActor: Deleted 1 Actors (0.021 secs)
-[2015.11.04-04.00.57:729][ 40]LogSavePackage:Warning: 
-Referencers of SpotLightComponent /Game/FirstPersonBP/Meshes/Maison/SM_LightExt_Blueprint.SM_LightExt_Blueprint_C:SpotLightComponent_282:
-[2015.11.04-04.00.57:796][ 40]EditorErrors: New page: Save Output
-[2015.11.04-04.00.57:797][ 40]EditorErrors:Warning: Warning Can't save ../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap: Graph is linked to external private object (unknown culprit) (unknown property ref)
-[2015.11.04-04.01.01:704][334]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint)
-[2015.11.04-04.01.03:023][471]Cmd: DELETE
-[2015.11.04-04.01.03:023][471]Cmd: ACTOR DELETE
-[2015.11.04-04.01.03:028][471]LogEditorActor: Deleted Actor: SM_LightExt_Blueprint_C
-[2015.11.04-04.01.03:046][471]LogEditorActor: Deleted 1 Actors (0.023 secs)
-[2015.11.04-04.01.07:062][757]LogSavePackage: Save=1267.938232ms
-[2015.11.04-04.01.07:062][757]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Master0E27CC9D45A9E5523387D896B1F82E64.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap'
-[2015.11.04-04.02.17:418][558]LogSCSEditor: Calling UpdateTree() from Tick().
-[2015.11.04-04.02.22:254][926]Cmd: TRANSACTION UNDO
-[2015.11.04-04.02.22:254][926]LogEditorTransaction: Undo Move Actors
-[2015.11.04-04.03.21:290][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
-[2015.11.04-04.04.41:601][970]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
-[2015.11.04-04.04.44:648][148]LogSavePackage: Save=295.104279ms
-[2015.11.04-04.04.44:648][148]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_LightExt_Blueprint79530EC841025D616F5EEDACEE7EFBAB.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_LightExt_Blueprint.uasset'
-[2015.11.04-04.04.45:413][212]BlueprintLog: New page: Compile SM_LightExt_Blueprint
-[2015.11.04-04.04.45:488][212]BlueprintEditorCompileResults: Info [3577.36] Compile of SM_LightExt_Blueprint successful! [in 74 ms]
-[2015.11.04-04.04.52:043][724]LogSavePackage: Save=1264.832764ms
-[2015.11.04-04.04.52:043][724]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Master9E16ECB941C84C0C4C3B6E859AA54B73.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap'
-[2015.11.04-04.04.52:076][724]LogFileHelpers: Saving map 'M_Master' took 1.538
-[2015.11.04-04.04.54:026][954]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint)
-[2015.11.04-04.04.57:515][311]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003EC3BEC0
-[2015.11.04-04.04.58:793][311]LogSavePackage: Save=1256.276367ms
-[2015.11.04-04.04.58:793][311]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Master80A4E2AF4CE05FD0D37269B85F95D860.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap'
-[2015.11.04-04.05.00:415][480]Cmd: DELETE
-[2015.11.04-04.05.00:415][480]Cmd: ACTOR DELETE
-[2015.11.04-04.05.00:419][480]LogEditorActor: Deleted Actor: SM_LightExt_Blueprint_C
-[2015.11.04-04.05.00:442][480]LogEditorActor: Deleted 1 Actors (0.027 secs)
-[2015.11.04-04.05.05:182][978]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint)
-[2015.11.04-04.05.27:720][475]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint)
-[2015.11.04-04.05.28:813][541]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint2)
-[2015.11.04-04.05.32:731][781]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint3)
-[2015.11.04-04.05.42:565][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
-[2015.11.04-04.05.45:069][486]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2015.11.04-04.05.51:475][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
-[2015.11.04-04.05.52:089][922]LogEditorViewport: Clicking on Actor (LMB): SM_LightExt_Blueprint_C (SM_LightExt_Blueprint2)
-[2015.11.04-04.06.08:073][  5]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-04.06.15:779][359]LogSavePackage: Save=1250.994385ms
-[2015.11.04-04.06.15:780][359]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_MasterE6E26B4845B386DC34B54FACE81222B2.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap'
-[2015.11.04-04.06.15:824][359]LogFileHelpers: Saving map 'M_Master' took 1.489
-[2015.11.04-04.06.16:531][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
-[2015.11.04-04.06.45:321][119]Cmd: QUIT_EDITOR
-[2015.11.04-04.06.45:586][119]LogExit: Preparing to exit.
-[2015.11.04-04.06.46:148][119]LogExit: Editor shut down
-[2015.11.04-04.06.46:149][119]LogExit: Transaction tracking system shut down
-[2015.11.04-04.06.46:150][119]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AE49C60
-[2015.11.04-04.06.46:154][119]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022E4A840
-[2015.11.04-04.06.46:155][119]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000274CE160
-[2015.11.04-04.06.46:155][119]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002588D4E0
-[2015.11.04-04.06.46:155][119]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AC40400
-[2015.11.04-04.06.46:394][119]LogExit: Object subsystem successfully closed.
-[2015.11.04-04.06.46:518][119]LogModuleManager: Shutting down and abandoning module WorldBrowser (180)
-[2015.11.04-04.06.46:518][119]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (179)
-[2015.11.04-04.06.46:518][119]LogModuleManager: Shutting down and abandoning module MaterialEditor (178)
-[2015.11.04-04.06.46:518][119]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
-[2015.11.04-04.06.46:518][119]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
-[2015.11.04-04.06.46:518][119]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
-[2015.11.04-04.06.46:518][119]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
-[2015.11.04-04.06.46:518][119]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
-[2015.11.04-04.06.46:535][119]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
-[2015.11.04-04.06.46:535][119]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
-[2015.11.04-04.06.46:535][119]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
-[2015.11.04-04.06.46:643][119]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
-[2015.11.04-04.06.46:643][119]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
-[2015.11.04-04.06.46:643][119]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
-[2015.11.04-04.06.46:643][119]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
-[2015.11.04-04.06.46:643][119]LogModuleManager: Shutting down and abandoning module BspMode (165)
-[2015.11.04-04.06.46:643][119]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
-[2015.11.04-04.06.46:643][119]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
-[2015.11.04-04.06.46:643][119]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
-[2015.11.04-04.06.46:644][119]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
-[2015.11.04-04.06.46:644][119]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
-[2015.11.04-04.06.46:644][119]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
-[2015.11.04-04.06.46:644][119]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
-[2015.11.04-04.06.46:683][119]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
-[2015.11.04-04.06.46:690][119]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
-[2015.11.04-04.06.46:690][119]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
-[2015.11.04-04.06.46:690][119]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
-[2015.11.04-04.06.46:690][119]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
-[2015.11.04-04.06.46:690][119]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
-[2015.11.04-04.06.46:690][119]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
-[2015.11.04-04.06.46:690][119]LogModuleManager: Shutting down and abandoning module XmlParser (150)
-[2015.11.04-04.06.46:690][119]LogModuleManager: Shutting down and abandoning module Blutility (149)
-[2015.11.04-04.06.46:690][119]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
-[2015.11.04-04.06.46:690][119]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
-[2015.11.04-04.06.46:690][119]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
-[2015.11.04-04.06.47:509][119]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
-[2015.11.04-04.06.47:509][119]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
-[2015.11.04-04.06.47:509][119]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
-[2015.11.04-04.06.47:509][119]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
-[2015.11.04-04.06.47:509][119]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
-[2015.11.04-04.06.47:509][119]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
-[2015.11.04-04.06.47:509][119]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
-[2015.11.04-04.06.47:534][119]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
-[2015.11.04-04.06.47:534][119]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
-[2015.11.04-04.06.47:534][119]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
-[2015.11.04-04.06.47:546][119]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
-[2015.11.04-04.06.47:546][119]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
-[2015.11.04-04.06.47:546][119]LogModuleManager: Shutting down and abandoning module AutomationController (133)
-[2015.11.04-04.06.47:546][119]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
-[2015.11.04-04.06.47:558][119]LogModuleManager: Shutting down and abandoning module Layers (131)
-[2015.11.04-04.06.47:579][119]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
-[2015.11.04-04.06.47:580][119]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
-[2015.11.04-04.06.47:580][119]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
-[2015.11.04-04.06.47:580][119]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
-[2015.11.04-04.06.47:599][119]LogModuleManager: Shutting down and abandoning module Persona (126)
-[2015.11.04-04.06.47:614][119]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
-[2015.11.04-04.06.47:626][119]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
-[2015.11.04-04.06.47:627][119]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.11.04-04.06.47:627][119]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.11.04-04.06.47:627][119]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.11.04-04.06.47:627][119]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.11.04-04.06.47:627][119]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.11.04-04.06.47:643][119]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.11.04-04.06.47:651][119]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.11.04-04.06.47:651][119]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.11.04-04.06.47:662][119]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.11.04-04.06.47:662][119]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.11.04-04.06.47:662][119]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.11.04-04.06.47:662][119]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.11.04-04.06.47:662][119]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.11.04-04.06.47:662][119]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.11.04-04.06.47:662][119]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.11.04-04.06.47:662][119]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
-[2015.11.04-04.06.47:662][119]LogModuleManager: Shutting down and abandoning module AIModule (107)
-[2015.11.04-04.06.47:662][119]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
-[2015.11.04-04.06.47:850][119]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
-[2015.11.04-04.06.47:894][119]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.11.04-04.06.47:894][119]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.11.04-04.06.47:894][119]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.11.04-04.06.47:894][119]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.11.04-04.06.47:894][119]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.11.04-04.06.47:913][119]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.11.04-04.06.47:924][119]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.11.04-04.06.47:924][119]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.11.04-04.06.47:924][119]LogModuleManager: Shutting down and abandoning module MainFrame (96)
-[2015.11.04-04.06.47:924][119]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
-[2015.11.04-04.06.47:924][119]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
-[2015.11.04-04.06.47:924][119]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
-[2015.11.04-04.06.47:924][119]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.11.04-04.06.47:925][119]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
-[2015.11.04-04.06.47:925][119]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
-[2015.11.04-04.06.47:925][119]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
-[2015.11.04-04.06.47:925][119]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
-[2015.11.04-04.06.47:935][119]LogModuleManager: Shutting down and abandoning module SourceControl (87)
-[2015.11.04-04.06.47:935][119]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
-[2015.11.04-04.06.47:935][119]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
-[2015.11.04-04.06.47:935][119]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
-[2015.11.04-04.06.47:935][119]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
-[2015.11.04-04.06.47:935][119]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.11.04-04.06.47:936][119]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.11.04-04.06.47:936][119]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
-[2015.11.04-04.06.47:941][119]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
-[2015.11.04-04.06.48:041][119]LogModuleManager: Shutting down and abandoning module Paper2D (78)
-[2015.11.04-04.06.48:041][119]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
-[2015.11.04-04.06.48:044][119]LogModuleManager: Shutting down and abandoning module Media (76)
-[2015.11.04-04.06.48:044][119]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
-[2015.11.04-04.06.48:044][119]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2015.11.04-04.06.48:044][119]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
-[2015.11.04-04.06.48:044][119]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
-[2015.11.04-04.06.48:065][119]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
-[2015.11.04-04.06.48:065][119]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
-[2015.11.04-04.06.48:083][119]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
-[2015.11.04-04.06.48:083][119]LogModuleManager: Shutting down and abandoning module MessageLog (68)
-[2015.11.04-04.06.48:083][119]LogModuleManager: Shutting down and abandoning module Sequencer (67)
-[2015.11.04-04.06.48:101][119]LogModuleManager: Shutting down and abandoning module AssetTools (66)
-[2015.11.04-04.06.48:118][119]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
-[2015.11.04-04.06.48:133][119]LogModuleManager: Shutting down and abandoning module UMG (64)
-[2015.11.04-04.06.48:147][119]LogModuleManager: Shutting down and abandoning module Slate (63)
-[2015.11.04-04.06.48:147][119]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
-[2015.11.04-04.06.48:150][119]LogModuleManager: Shutting down and abandoning module SessionServices (61)
-[2015.11.04-04.06.48:150][119]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
-[2015.11.04-04.06.48:150][119]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
-[2015.11.04-04.06.48:150][119]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
-[2015.11.04-04.06.48:150][119]LogModuleManager: Shutting down and abandoning module Networking (56)
-[2015.11.04-04.06.48:150][119]LogModuleManager: Shutting down and abandoning module Core (55)
-[2015.11.04-04.06.48:150][119]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
-[2015.11.04-04.06.48:150][119]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
-[2015.11.04-04.06.48:150][119]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
-[2015.11.04-04.06.48:150][119]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
-[2015.11.04-04.06.48:157][119]LogDerivedDataCache: Shutdown
-[2015.11.04-04.06.48:157][119]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
-[2015.11.04-04.06.48:169][119]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
-[2015.11.04-04.06.48:169][119]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module Messaging (34)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.11.04-04.06.48:177][119]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.11.04-04.06.48:179][119]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.11.04-04.06.48:179][119]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.11.04-04.06.48:179][119]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.11.04-04.06.48:179][119]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.11.04-04.06.48:179][119]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.11.04-04.06.48:179][119]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.11.04-04.06.48:179][119]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.11.04-04.06.48:179][119]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.11.04-04.06.48:179][119]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.11.04-04.06.48:193][119]LogExit: Exiting.
-[2015.11.04-04.06.48:209][119]Log file closed, 11/03/15 23:06:48
+[2015.11.04-21.04.48:996][701]LogTexture:Display: Building textures: T_Beton2_D (AutoDXT)
+[2015.11.04-21.04.52:452][701]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../documents/3d/2015/Minuit/Textures/T_Beton2_N.tga)
+[2015.11.04-21.04.52:502][701]0.000038 seconds to analyze Texture2D /Game/FirstPersonBP/Textures/T_Beton2_N.T_Beton2_N
+
+[2015.11.04-21.04.52:562][701]LogTexture:Display: Building textures: T_Beton2_N (BC5)
+[2015.11.04-21.04.53:061][701]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../documents/3d/2015/Minuit/Textures/T_Beton2_R.tga)
+[2015.11.04-21.04.53:268][701]0.000036 seconds to analyze Texture2D /Game/FirstPersonBP/Textures/T_Beton2_R.T_Beton2_R
+
+[2015.11.04-21.04.53:275][701]LogTexture:Display: Building textures: T_Beton2_R (AutoDXT)
+[2015.11.04-21.04.55:530][701]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.11.04-21.04.55:531][701]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.11.04-21.04.55:543][701]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.11.04-21.04.55:544][701]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.11.04-21.05.01:050][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/T_Beton2_D" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Beton2_D.uasset" SILENT=true
+[2015.11.04-21.05.04:256][968]LogSavePackage: Save=3204.340820ms
+[2015.11.04-21.05.04:256][968]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_Beton2_DED72A4E04ADE83DAFEC46CBABF64C5E4.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Beton2_D.uasset'
+[2015.11.04-21.05.04:283][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/T_Beton2_N" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Beton2_N.uasset" SILENT=true
+[2015.11.04-21.05.21:965][968]LogSavePackage: Save=17680.992188ms
+[2015.11.04-21.05.21:965][968]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_Beton2_NE8BCA6104344A8D62FFD8D8FAAA0535F.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Beton2_N.uasset'
+[2015.11.04-21.05.22:042][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Textures/T_Beton2_R" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Beton2_R.uasset" SILENT=true
+[2015.11.04-21.05.28:642][968]LogSavePackage: Save=6598.300293ms
+[2015.11.04-21.05.28:642][968]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/T_Beton2_R350515F344E78E6B0090DDA132F3336A.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Textures/T_Beton2_R.uasset'
+[2015.11.04-21.05.33:770][289]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Maps'
+[2015.11.04-21.05.35:538][397]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.11.04-21.05.43:103][736]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.11.04-21.05.50:151][ 42]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.05.50:394][ 42]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.11.04-21.05.50:487][ 42]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.11.04-21.05.50:502][ 42]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.11.04-21.05.50:502][ 42]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.11.04-21.05.50:502][ 42]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.11.04-21.05.50:543][ 42]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.05.50:547][ 42]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-21.05.53:484][232]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.11.04-21.05.53:484][232]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.04-21.05.53:484][232]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.04-21.06.03:692][652]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Textures'
+[2015.11.04-21.06.09:546][982]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.06.09:550][982]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-21.06.09:551][982]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.04-21.06.09:582][982]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.04-21.06.09:623][982]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.06.09:627][982]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-21.06.09:628][982]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.04-21.06.09:666][982]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.04-21.06.09:668][982]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.04-21.06.09:677][982]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.06.09:681][982]LogMaterial: 0.000138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-21.06.09:681][982]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.04-21.06.09:706][982]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.04-21.06.09:708][982]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.04-21.06.09:710][982]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.04-21.06.10:605][ 15]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.11.04-21.06.10:605][ 15]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.04-21.06.10:605][ 15]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.04-21.06.13:056][148]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.06.13:060][148]LogMaterial: 0.000143 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-21.06.13:104][148]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.04-21.06.13:727][177]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.11.04-21.06.13:728][177]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.04-21.06.13:728][177]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.04-21.06.14:963][248]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.06.14:967][248]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-21.06.15:594][277]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.11.04-21.06.15:594][277]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.04-21.06.15:594][277]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.04-21.06.17:095][359]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.06.17:099][359]LogMaterial: 0.000130 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-21.06.17:700][388]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.11.04-21.06.17:700][388]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.04-21.06.17:700][388]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.04-21.06.21:714][622]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.06.21:718][622]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-21.06.22:334][652]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2015.11.04-21.06.22:334][652]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.04-21.06.22:334][652]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.04-21.06.29:279][ 51]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.06.29:283][ 51]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-21.06.29:964][ 76]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2015.11.04-21.06.29:964][ 76]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.04-21.06.29:964][ 76]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.04-21.06.35:384][379]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.06.35:389][379]LogMaterial: 0.000166 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-21.06.36:036][411]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.11.04-21.06.36:036][411]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.04-21.06.36:036][411]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.04-21.06.39:285][597]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.06.39:289][597]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-21.06.39:352][597]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.04-21.06.40:148][632]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2015.11.04-21.06.40:148][632]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.04-21.06.40:148][632]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.11.04-21.06.44:730][896]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.06.44:734][896]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-21.06.44:841][896]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.04-21.06.45:385][914]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.11.04-21.06.45:385][914]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.04-21.06.45:385][914]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.11.04-21.07.27:704][306]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.07.27:708][306]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-21.07.28:908][369]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.11.04-21.07.28:908][369]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.04-21.07.28:908][369]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.11.04-21.07.35:120][734]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.07.35:125][734]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-21.07.36:309][802]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.11.04-21.07.36:309][802]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.04-21.07.36:309][802]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.11.04-21.07.39:504][992]LogMaterialEditor: Saving and Compiling material M_Beton2
+[2015.11.04-21.07.40:987][992]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.07.41:001][992]LogMaterial: 0.000156 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-21.07.41:109][992]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.07.41:132][992]LogMaterial: Missing cached shader map for material M_Beton2, compiling. 
+[2015.11.04-21.07.41:151][992]LogRenderer: Adding SpeedTree wind for static mesh Test
+[2015.11.04-21.07.41:151][992]LogRenderer: Adding SpeedTree wind for static mesh White_Birch2
+[2015.11.04-21.07.41:151][992]LogRenderer: Adding SpeedTree wind for static mesh White_Birch
+[2015.11.04-21.07.41:151][992]LogMaterial: 0.014183 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.04-21.07.42:713][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Beton2" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Beton2.uasset" SILENT=true
+[2015.11.04-21.07.42:819][992]LogSavePackage: Save=103.993240ms
+[2015.11.04-21.07.42:819][992]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_Beton2744728E048358ED10DFEB382C817B0AC.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Materials/M_Beton2.uasset'
+[2015.11.04-21.07.42:836][992]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2015.11.04-21.07.42:836][992]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.04-21.07.42:836][992]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.11.04-21.07.46:299][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
+[2015.11.04-21.07.48:661][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Balcon)
+[2015.11.04-21.14.50:362][197]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.11.04-21.15.17:218][114]Cmd: TRANSACTION UNDO
+[2015.11.04-21.15.17:218][114]LogEditorTransaction: Undo Replace component used material
+[2015.11.04-21.15.21:325][365]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.11.04-21.49.21:363][296]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
+[2015.11.04-21.49.26:275][508]LogEditorFactories: Performing atomic reimport of [E:/documents/3d/2015/Minuit/3d/export/SM_Maison.FBX]
+[2015.11.04-21.49.26:282][508]LogFbx: Loading FBX Scene from E:/documents/3d/2015/Minuit/3d/export/SM_Maison.FBX
+[2015.11.04-21.49.26:300][508]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.04-21.49.26:370][508]LogFbx:Warning: Triangulating mesh UCX_SM_Maison for collision model
+[2015.11.04-21.49.26:419][508]LogFbx:Warning: Triangulating mesh UCX_SM_Maison for collision model
+[2015.11.04-21.49.26:421][508]LogFbx:Warning: Triangulating mesh UCX_SM_Maison for collision model
+[2015.11.04-21.49.26:422][508]LogFbx:Warning: Triangulating mesh UCX_SM_Maison for collision model
+[2015.11.04-21.49.26:424][508]LogFbx:Warning: Triangulating mesh UCX_SM_Maison for collision model
+[2015.11.04-21.49.26:425][508]LogFbx:Warning: Triangulating mesh UCX_SM_Maison for collision model
+[2015.11.04-21.49.26:467][508]LogFbx: == Initial material list:
+[2015.11.04-21.49.26:467][508]LogFbx: 0: Material #28
+[2015.11.04-21.49.26:467][508]LogFbx: 1: Material #145
+[2015.11.04-21.49.26:467][508]LogFbx: 2: Material #157
+[2015.11.04-21.49.26:467][508]LogFbx: 3: Material #201
+[2015.11.04-21.49.26:467][508]LogFbx: 4: Material #280
+[2015.11.04-21.49.26:467][508]LogFbx: 5: Material #373
+[2015.11.04-21.49.26:467][508]LogFbx: == After sorting:
+[2015.11.04-21.49.26:467][508]LogFbx: 0: Material #28
+[2015.11.04-21.49.26:467][508]LogFbx: 1: Material #145
+[2015.11.04-21.49.26:467][508]LogFbx: 2: Material #157
+[2015.11.04-21.49.26:467][508]LogFbx: 3: Material #201
+[2015.11.04-21.49.26:467][508]LogFbx: 4: Material #280
+[2015.11.04-21.49.26:467][508]LogFbx: 5: Material #373
+[2015.11.04-21.49.26:467][508]LogFbx: == Mapping table:
+[2015.11.04-21.49.26:467][508]LogFbx:   sort 0 -> 0
+[2015.11.04-21.49.26:467][508]LogFbx:   sort 1 -> 1
+[2015.11.04-21.49.26:467][508]LogFbx:   sort 2 -> 2
+[2015.11.04-21.49.26:467][508]LogFbx:   sort 3 -> 3
+[2015.11.04-21.49.26:467][508]LogFbx:   sort 4 -> 4
+[2015.11.04-21.49.26:467][508]LogFbx:   sort 5 -> 5
+[2015.11.04-21.49.26:527][508]LogStaticMesh: Building static mesh SM_Maison...
+[2015.11.04-21.49.26:612][508]LogStaticMesh: Built static mesh [86.260338ms] /Game/FirstPersonBP/Meshes/Maison/SM_Maison.SM_Maison
+[2015.11.04-21.49.26:654][508]LogStaticMesh:Warning: SM_Maison has degenerate tangent bases which will result in incorrect shading. 
+[2015.11.04-21.49.27:739][508]LogEditorFactories: -- imported successfully
+[2015.11.04-21.49.35:889][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Meshes/Maison/SM_Maison" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_Maison.uasset" SILENT=true
+[2015.11.04-21.49.36:065][ 29]LogSavePackage: Save=155.026443ms
+[2015.11.04-21.49.36:065][ 29]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_Maison69D8924F46711F9D437D599FB6E6536C.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_Maison.uasset'
+[2015.11.04-21.50.01:628][539]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2015.11.04-21.50.03:068][585]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Shapes'
+[2015.11.04-21.50.04:716][683]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.11.04-21.50.11:254][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Meshes/Maison/SM_Maison" FILE="../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_Maison.uasset" SILENT=true
+[2015.11.04-21.50.11:411][ 10]LogSavePackage: Save=139.076019ms
+[2015.11.04-21.50.11:411][ 10]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/SM_MaisonDEA051DA4F371F2F9EBF768459E33807.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/FirstPersonBP/Meshes/Maison/SM_Maison.uasset'
+[2015.11.04-21.50.39:737][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Roche_4)
+[2015.11.04-21.51.46:709][744]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes'
+[2015.11.04-21.51.48:270][838]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes/Maison'
+[2015.11.04-21.52.08:767][336]Cmd: TRANSACTION UNDO
+[2015.11.04-21.52.08:767][336]LogEditorTransaction: Undo Move Actors
+[2015.11.04-21.52.16:495][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Maison)
+[2015.11.04-21.52.28:302][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Roche_3)
+[2015.11.04-21.53.30:231][611]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000041783D80
+[2015.11.04-21.53.30:231][611]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B57D6C0
+[2015.11.04-21.53.32:092][611]LogSavePackage: Save=1284.050415ms
+[2015.11.04-21.53.32:092][611]LogSavePackage: Moving '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Saved/M_MasterEC26B1F743F8BD1FE43C71B7D6773648.tmp' to '../../../../../../documents/3d/minuit/MinuitGame/Minuit/Content/StarterContent/Maps/M_Master.umap'
+[2015.11.04-21.53.32:124][611]LogFileHelpers: Saving map 'M_Master' took 1.800
+[2015.11.04-21.53.37:368][967]Cmd: QUIT_EDITOR
+[2015.11.04-21.53.37:775][967]LogExit: Preparing to exit.
+[2015.11.04-21.53.38:329][967]LogExit: Editor shut down
+[2015.11.04-21.53.38:329][967]LogExit: Transaction tracking system shut down
+[2015.11.04-21.53.38:330][967]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B59C7C0
+[2015.11.04-21.53.38:335][967]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024E451C0
+[2015.11.04-21.53.38:335][967]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024EA3BA0
+[2015.11.04-21.53.38:335][967]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024F65440
+[2015.11.04-21.53.38:335][967]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028A834C0
+[2015.11.04-21.53.39:835][967]LogExit: Object subsystem successfully closed.
+[2015.11.04-21.53.40:542][967]LogModuleManager: Shutting down and abandoning module MaterialEditor (179)
+[2015.11.04-21.53.40:550][967]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (178)
+[2015.11.04-21.53.40:550][967]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.11.04-21.53.40:550][967]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.11.04-21.53.40:550][967]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.11.04-21.53.40:550][967]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.11.04-21.53.40:550][967]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.11.04-21.53.40:565][967]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.11.04-21.53.40:584][967]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.11.04-21.53.40:584][967]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.11.04-21.53.40:607][967]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.11.04-21.53.40:617][967]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.11.04-21.53.40:617][967]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.11.04-21.53.40:617][967]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.11.04-21.53.40:617][967]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.11.04-21.53.40:617][967]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.11.04-21.53.40:617][967]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.11.04-21.53.40:617][967]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.11.04-21.53.40:617][967]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.11.04-21.53.40:617][967]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.11.04-21.53.40:617][967]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.11.04-21.53.40:659][967]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.11.04-21.53.40:672][967]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.11.04-21.53.40:716][967]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.11.04-21.53.40:732][967]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.11.04-21.53.40:732][967]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.11.04-21.53.40:746][967]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.11.04-21.53.40:757][967]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.11.04-21.53.40:757][967]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.11.04-21.53.40:757][967]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.11.04-21.53.40:773][967]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.11.04-21.53.40:773][967]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.11.04-21.53.40:773][967]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.11.04-21.53.40:773][967]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.11.04-21.53.41:354][967]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.11.04-21.53.41:354][967]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.11.04-21.53.41:354][967]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.11.04-21.53.41:362][967]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.11.04-21.53.41:362][967]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.11.04-21.53.41:399][967]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.11.04-21.53.41:399][967]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.11.04-21.53.41:406][967]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.11.04-21.53.41:418][967]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.11.04-21.53.41:422][967]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.11.04-21.53.41:435][967]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.11.04-21.53.41:435][967]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.11.04-21.53.41:447][967]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.11.04-21.53.41:458][967]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.11.04-21.53.41:472][967]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.11.04-21.53.41:502][967]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.11.04-21.53.41:502][967]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.11.04-21.53.41:502][967]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.11.04-21.53.41:520][967]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.11.04-21.53.41:628][967]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.11.04-21.53.41:661][967]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.11.04-21.53.41:682][967]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.11.04-21.53.41:690][967]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.11.04-21.53.41:691][967]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.11.04-21.53.41:691][967]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.11.04-21.53.41:691][967]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.11.04-21.53.41:691][967]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.11.04-21.53.41:707][967]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.11.04-21.53.41:731][967]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.11.04-21.53.41:731][967]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.11.04-21.53.41:751][967]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.11.04-21.53.41:751][967]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.11.04-21.53.41:762][967]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.11.04-21.53.41:770][967]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.11.04-21.53.41:770][967]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.11.04-21.53.41:770][967]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.11.04-21.53.41:770][967]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.11.04-21.53.41:781][967]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.11.04-21.53.41:781][967]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.11.04-21.53.41:797][967]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.11.04-21.53.41:991][967]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.11.04-21.53.42:016][967]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.11.04-21.53.42:016][967]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.11.04-21.53.42:016][967]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.11.04-21.53.42:016][967]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.11.04-21.53.42:027][967]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.11.04-21.53.42:077][967]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.11.04-21.53.42:088][967]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.11.04-21.53.42:088][967]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.11.04-21.53.42:096][967]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.11.04-21.53.42:097][967]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.11.04-21.53.42:111][967]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.11.04-21.53.42:134][967]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.11.04-21.53.42:134][967]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.04-21.53.42:134][967]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.11.04-21.53.42:144][967]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.11.04-21.53.42:144][967]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.11.04-21.53.42:155][967]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.11.04-21.53.42:257][967]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.11.04-21.53.42:267][967]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.11.04-21.53.42:276][967]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.11.04-21.53.42:276][967]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.11.04-21.53.42:276][967]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.11.04-21.53.42:281][967]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.11.04-21.53.42:281][967]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.11.04-21.53.42:337][967]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.11.04-21.53.42:346][967]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.11.04-21.53.42:446][967]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.11.04-21.53.42:481][967]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.11.04-21.53.42:496][967]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.11.04-21.53.42:496][967]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.11.04-21.53.42:497][967]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.11.04-21.53.42:497][967]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.11.04-21.53.42:497][967]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.11.04-21.53.42:513][967]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.11.04-21.53.42:524][967]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.11.04-21.53.42:548][967]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.11.04-21.53.42:548][967]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.11.04-21.53.42:548][967]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.11.04-21.53.42:561][967]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.11.04-21.53.42:582][967]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.11.04-21.53.42:598][967]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.11.04-21.53.42:610][967]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.11.04-21.53.42:610][967]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.11.04-21.53.42:614][967]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.11.04-21.53.42:614][967]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.11.04-21.53.42:614][967]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.11.04-21.53.42:614][967]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.11.04-21.53.42:614][967]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.11.04-21.53.42:614][967]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.11.04-21.53.42:614][967]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.11.04-21.53.42:614][967]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.11.04-21.53.42:614][967]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.11.04-21.53.42:633][967]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.11.04-21.53.42:685][967]LogDerivedDataCache: Shutdown
+[2015.11.04-21.53.42:685][967]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.11.04-21.53.42:699][967]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.11.04-21.53.42:710][967]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.11.04-21.53.42:724][967]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.11.04-21.53.42:724][967]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.11.04-21.53.42:732][967]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.11.04-21.53.42:745][967]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.11.04-21.53.42:745][967]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.11.04-21.53.42:745][967]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.11.04-21.53.42:759][967]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.11.04-21.53.42:759][967]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.11.04-21.53.42:771][967]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.11.04-21.53.42:771][967]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.11.04-21.53.42:771][967]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.11.04-21.53.42:771][967]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.11.04-21.53.42:782][967]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.11.04-21.53.42:792][967]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.11.04-21.53.42:792][967]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.11.04-21.53.42:792][967]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.11.04-21.53.42:792][967]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.11.04-21.53.42:792][967]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.11.04-21.53.42:792][967]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.11.04-21.53.42:792][967]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.11.04-21.53.42:792][967]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.11.04-21.53.42:792][967]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.11.04-21.53.42:792][967]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.11.04-21.53.42:792][967]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.11.04-21.53.42:792][967]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.11.04-21.53.42:793][967]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.11.04-21.53.42:793][967]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.11.04-21.53.42:793][967]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.11.04-21.53.42:793][967]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.11.04-21.53.42:793][967]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.11.04-21.53.42:793][967]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.11.04-21.53.42:793][967]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.11.04-21.53.42:793][967]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.11.04-21.53.42:793][967]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.11.04-21.53.42:793][967]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.11.04-21.53.42:793][967]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.11.04-21.53.42:793][967]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.11.04-21.53.42:813][967]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.11.04-21.53.42:813][967]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.11.04-21.53.42:813][967]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.04-21.53.42:813][967]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.04-21.53.42:813][967]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.04-21.53.42:813][967]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.04-21.53.42:818][967]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.04-21.53.42:824][967]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.04-21.53.42:828][967]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.04-21.53.42:835][967]LogExit: Exiting.
+[2015.11.04-21.53.42:851][967]Log file closed, 11/04/15 16:53:42
